@@ -3,7 +3,7 @@ from os.path import basename, dirname, isfile
 
 
 def __list_all_modules():
-    mod_paths = glob.glob(dirname(__file__) + "/*.py")
+    mod_paths = glob.glob(dirname(__file__) + "/*/*.py")
 
     all_modules = [
         basename(f)[:-3]
