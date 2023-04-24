@@ -7,7 +7,7 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
 from Bikash.config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from strings import get_command
+from Bikash.Bgt import get_command
 from Bikash import Carbon, YouTube, app
 from Bikash.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
