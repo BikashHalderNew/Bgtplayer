@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 
 from Bikash import app
-from Bikash.utils
+from Bikash.utils.bgtmusic.bk import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
