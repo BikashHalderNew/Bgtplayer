@@ -5,9 +5,9 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.raw import types
 
-import config
-from config import adminlist, chatstats, clean, userstats
-from strings import get_command
+from Bikash import config
+from Bikash.config import adminlist, chatstats, clean, userstats
+from Bikash.Bgt import get_command
 from Bikash import app, userbot
 from Bikash.misc import SUDOERS
 from Bikash.utils.database import (get_active_chats,
