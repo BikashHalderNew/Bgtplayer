@@ -13,7 +13,6 @@ from Bikash import app
 from Bikash.core.call import Bikashh
 from Bikash.utils.database import is_music_playing, music_off
 from Bikash.utils.decorators import AdminRightsCheck
-from Bikash.utils.events.filters import command
 from Bikash.utils.inline.play import close_keyboard
 
 # Commands
