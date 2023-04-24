@@ -5,11 +5,11 @@ from os import system, execle, environ
 from git.exc import InvalidGitRepositoryError
 from pyrogram.types import Message
 from pyrogram import filters, client
-from config import UPSTREAM_REPO, UPSTREAM_BRANCH, GIT_TOKEN, OWNER_ID
+from Bikash.config import UPSTREAM_REPO, UPSTREAM_BRANCH, GIT_TOKEN, OWNER_ID
 from Bikash import app
 
 if GIT_TOKEN:
-     UPSTREAM_REPO = 'https://Kaal-xD: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@github.com/Kaal-xD/ShizuMusic'
+     UPSTREAM_REPO = 'https://github.com/BikashHalderNew/Bgtplayer'
 else:
      UPSTREAM_REPO = UPSTREAM_REPO
 
