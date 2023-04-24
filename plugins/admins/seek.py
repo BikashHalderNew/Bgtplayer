@@ -12,6 +12,7 @@ from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.core.call import Bikashh
 from Bikash.misc import db
+from Bikash.utils.bgtmusic.bk import command
 from Bikash.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
