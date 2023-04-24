@@ -1,12 +1,12 @@
 from pyrogram import Client, filters
 
 from Bikash import app
-
+from Bikash.utils
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @app.on_message(
-    command("bikash")
+    filters.command("bikash")
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def bikash(client: Client, message: Message):
