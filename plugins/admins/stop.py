@@ -21,7 +21,7 @@ STOP_COMMAND = get_command("STOP_COMMAND")
 
 
 @app.on_message(
-    command(STOP_COMMAND)
+    filters.command(STOP_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
