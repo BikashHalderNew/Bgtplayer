@@ -1,0 +1,16 @@
+UPSTREAM_REPO=
+UPSTREAM_BRANCH=
+AUTO_DOWNLOADS_CLEAR=True
+API_ID=
+API_HASH=
+BOT_TOKEN=
+MONGO_DB_URI=mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority
+OWNER_ID=1439222689
+DURATION_LIMIT=1200
+LOG_GROUP_ID=
+MUSIC_BOT_NAME=ADITYA BIKASH
+STRING_SESSION=
+SUPPORT_CHANNEL=https://t.me/bikashgadgetstech
+SUPPORT_GROUP=https://t.me/bgt_chat
+
+
