@@ -8,8 +8,8 @@ from pyrogram.types import Message
 
 from Bikash.config import BANNED_USERS
 from Bikash import app
-from Bikash.core.call import Bikash
-from Bikash.utils.helpers.filters import command
+from Bikash.core.call import Bikashh
+from Bikash.utils.bgtmusic.bk import command
 from Bikash.utils.database import is_muted, mute_on
 from Bikash.utils.decorators import AdminRightsCheck
 
