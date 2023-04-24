@@ -15,7 +15,7 @@ from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.core.userbot import assistants
 from Bikash.misc import SUDOERS, pymongodb
-from Bikash.plugins import ALL_MODULES
+from plugins import ALL_MODULES
 from Bikash.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
                                        get_served_chats,
