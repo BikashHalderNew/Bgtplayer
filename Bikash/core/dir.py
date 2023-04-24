@@ -6,7 +6,7 @@ from ..logging import LOGGER
 
 
 def dirr():
-    if "resources" not in listdir("Bikash"):
+    if "resources" not in listdir():
         LOGGER(__name__).warning(
             f"resources Folder not Found. Please clone repository again."
         )
