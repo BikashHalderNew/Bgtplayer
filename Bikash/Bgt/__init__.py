@@ -1,8 +1,3 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
-
 import os
 from typing import List
 
@@ -24,7 +19,7 @@ for filename in os.listdir(r"./Bikash/Bgt"):
     if filename.endswith(".yml"):
         language_name = filename[:-4]
         commands[language_name] = yaml.safe_load(
-            open(r"./bikash/Bgt/" + filename, encoding="utf8")
+            open(r"./Bikash/Bgt/" + filename, encoding="utf8")
         )
 
 
@@ -43,9 +38,3 @@ for filename in os.listdir(r"./Bikash/Bgt/langs/"):
         for item in languages["en"]:
             if item not in languages[language_name]:
                 languages[language_name][item] = languages["en"][item]
-
-
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
