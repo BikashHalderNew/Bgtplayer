@@ -10,7 +10,6 @@ from Bikash.config import BANNED_USERS
 from Bikash.Bgt import get_command
 from Bikash import app
 from Bikash.core.call import Bikashh
-from Bikash.utils.events.filters import command
 from Bikash.utils.database import is_music_playing, music_on
 from Bikash.utils.decorators import AdminRightsCheck
 from Bikash.utils.inline.play import close_keyboard
