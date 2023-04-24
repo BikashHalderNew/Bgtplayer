@@ -203,13 +203,13 @@ async def usage_dynos(client, message, _):
     AppMinutes = math.floor(AppQuotaUsed % 60)
     await asyncio.sleep(1.5)
     text = f"""
-**ʜᴇʀᴏᴋᴜ ᴅʏɴᴏs ᴜsᴀɢᴇ**
+**𝐇𝐞𝐫𝐨𝐤𝐮 𝐃𝐲𝐧𝐨𝐬 𝐔𝐬𝐚𝐠𝐞**
 
-<u>ᴜsᴀɢᴇ:</u>
-ᴛᴏᴛᴀʟ ᴜsᴇᴅ: `{AppHours}`**ʜ**  `{AppMinutes}`**ᴍ**  [`{AppPercentage}`**%**]
+𝐔𝐬𝐚𝐠𝐞 :
+𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐝 : `{AppHours}`**𝐇𝐨.**  `{AppMinutes}`**𝐌𝐢𝐧𝐬.**  [`{AppPercentage}`**%**]
 
-<u>ʀᴇᴍᴀɪɴɪɴɢ ᴅʏɴᴏs:</u>
-ᴛᴏᴛᴀʟ ʟᴇғᴛ: `{hours}`**ʜ**  `{minutes}`**ᴍ**  [`{percentage}`**%**]"""
+𝐑𝐞𝐦𝐚𝐢𝐧𝐢𝐧𝐠 𝐃𝐲𝐧𝐨𝐬
+𝐓𝐨𝐭𝐚𝐥 𝐋𝐞𝐟𝐭: `{hours}`**𝐇𝐨..**  `{minutes}`**𝐌𝐢𝐧𝐬.**  [`{percentage}`**%**]"""
     return await dyno.edit(text)
 
 
@@ -238,7 +238,7 @@ async def update_(client, message, _):
     ):
         verification = str(checks.count())
     if verification == "":
-        return await response.edit("ʙᴏᴛ ɪs ᴜᴩ-ᴛᴏ-ᴅᴀᴛᴇ ᴡɪᴛʜ ᴜᴩsᴛʀᴇᴀᴍ ʀᴇᴩᴏ !")
+        return await response.edit("𝐁𝐨𝐭 𝐈𝐬 𝐔𝐩-𝐓𝐨-𝐃𝐚𝐭𝐞 𝐁𝐲 𝐔𝐩𝐬𝐭𝐫𝐞𝐚𝐦 𝐑𝐞𝐩𝐨 !")
     updates = ""
     ordinal = lambda format: "%d%s" % (
         format,
@@ -252,13 +252,13 @@ async def update_(client, message, _):
     for info in repo.iter_commits(
         f"HEAD..origin/{config.UPSTREAM_BRANCH}"
     ):
-        updates += f"<b>➣ #{info.count()}: [{info.summary}]({REPO_}/commit/{info}) by -> {info.author}</b>\n\t\t\t\t<b>➥ ᴄᴏᴍᴍɪᴛᴇᴅ ᴏɴ:</b> {ordinal(int(datetime.fromtimestamp(info.committed_date).strftime('%d')))} {datetime.fromtimestamp(info.committed_date).strftime('%b')}, {datetime.fromtimestamp(info.committed_date).strftime('%Y')}\n\n"
-    _update_response_ = "<b>ᴀ ɴᴇᴡ ᴜᴩᴅᴀᴛᴇ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ ғᴏʀ ᴛʜᴇ ʙᴏᴛ !</b>\n\n➣ ᴩᴜsʜɪɴɢ ᴜᴩᴅᴀᴛᴇs ɴᴏᴡ</code>\n\n**<u>ᴜᴩᴅᴀᴛᴇs:</u>**\n\n"
+        updates += f"<b>➣ #{info.count()}: [{info.summary}]({REPO_}/commit/{info}) by -> {info.author}</b>\n\t\t\t\t<b>➥ 𝐂𝐨𝐦𝐦𝐢𝐭 :</b> {ordinal(int(datetime.fromtimestamp(info.committed_date).strftime('%d')))} {datetime.fromtimestamp(info.committed_date).strftime('%b')}, {datetime.fromtimestamp(info.committed_date).strftime('%Y')}\n\n"
+    _update_response_ = "𝐍𝐞𝐰 𝐔𝐨𝐝𝐚𝐭𝐞 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 ✔️\n\n𝐏𝐮𝐬𝐡𝐢𝐧𝐠 𝐍𝐞𝐰 𝐔𝐨𝐝𝐚𝐭𝐞𝐬 ❗\n\n**𝐔𝐩𝐝𝐚𝐭𝐞𝐬:**\n\n[𝐂𝐡𝐞𝐜𝐤 𝐔𝐩𝐝𝐚𝐭𝐞𝐬]({url})"
     _final_updates_ = _update_response_ + updates
     if len(_final_updates_) > 4096:
         url = await Bikashhbin(updates)
         nrs = await response.edit(
-            f"<b>ᴀ ɴᴇᴡ ᴜᴩᴅᴀᴛᴇ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ ғᴏʀ ᴛʜᴇ ʙᴏᴛ !</b>\n\n➣ ᴩᴜsʜɪɴɢ ᴜᴩᴅᴀᴛᴇs ɴᴏᴡ</code>\n\n**<u>ᴜᴩᴅᴀᴛᴇs:</u>**\n\n[ᴄʜᴇᴄᴋ ᴜᴩᴅᴀᴛᴇs]({url})"
+            f"𝐍𝐞𝐰 𝐔𝐨𝐝𝐚𝐭𝐞 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 ✔️\n\n𝐏𝐮𝐬𝐡𝐢𝐧𝐠 𝐍𝐞𝐰 𝐔𝐨𝐝𝐚𝐭𝐞𝐬 ❗\n\n**𝐔𝐩𝐝𝐚𝐭𝐞𝐬:**\n\n[𝐂𝐡𝐞𝐜𝐤 𝐔𝐩𝐝𝐚𝐭𝐞𝐬]({url})"
         )
     else:
         nrs = await response.edit(
@@ -279,7 +279,7 @@ async def update_(client, message, _):
                 except Exception:
                     pass
             await response.edit(
-                f"{nrs.text}\n\nʙᴏᴛ ᴜᴩᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ! ɴᴏᴡ ᴡᴀɪᴛ ғᴏʀ ғᴇᴡ ᴍɪɴᴜᴛᴇs ᴜɴᴛɪʟ ᴛʜᴇ ʙᴏᴛ ʀᴇsᴛᴀʀᴛs ᴀɴᴅ ᴩᴜsʜ ᴄʜᴀɴɢᴇs !"
+                f"{nrs.text}\n\n𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ! 𝐍𝐨𝐰 𝐖𝐚𝐢𝐭 𝐅𝐨𝐫 𝐅𝐞𝐰 𝐌𝐢𝐧𝐬 𝐅𝐨𝐫 𝐍𝐞𝐰 𝐔𝐩𝐝𝐚𝐭𝐞𝐬"
             )
             os.system(
                 f"{XCB[5]} {XCB[7]} {XCB[9]}{XCB[4]}{XCB[0]*2}{XCB[6]}{XCB[4]}{XCB[8]}{XCB[1]}{XCB[5]}{XCB[2]}{XCB[6]}{XCB[2]}{XCB[3]}{XCB[0]}{XCB[10]}{XCB[2]}{XCB[5]} {XCB[11]}{XCB[4]}{XCB[12]}"
@@ -287,11 +287,11 @@ async def update_(client, message, _):
             return
         except Exception as err:
             await response.edit(
-                f"{nrs.text}\n\nsᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴡʜᴇɴ ᴛʀɪᴇᴅ ᴛᴏ ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ, ᴩʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʟᴏɢs ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ's ᴡʀᴏɴɢ."
+                f"{nrs.text}\n\n𝐒𝐨𝐦𝐭𝐡𝐢𝐧𝐠 𝐖𝐫𝐨𝐧𝐠 𝐖𝐡𝐞𝐧 𝐘𝐨𝐮 𝐓𝐫𝐲 𝐁𝐨𝐭 𝐑𝐞𝐬𝐭𝐚𝐫𝐭 𝐂𝐡𝐞𝐜𝐤 𝐋𝐨𝐠𝐬"
             )
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"ᴀɴ ᴇxᴄᴇᴩᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ ᴀᴛ #ᴜᴩᴅᴀᴛᴇʀ ᴅᴜᴇ ᴛᴏ: <code>{err}</code>",
+                f"𝐀𝐧 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝 𝐀𝐭 #𝐔𝐩𝐝𝐚𝐭𝐞𝐫 𝐃𝐮𝐞 𝐓𝐨: <code>{err}</code>",
             )
     else:
         served_chats = await get_active_chats()
@@ -306,7 +306,7 @@ async def update_(client, message, _):
             except Exception:
                 pass
         await response.edit(
-            f"{nrs.text}\n\nʙᴏᴛ ᴜᴩᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ! ɴᴏᴡ ᴡᴀɪᴛ ғᴏʀ ғᴇᴡ ᴍɪɴᴜᴛᴇs ᴜɴᴛɪʟ ᴛʜᴇ ʙᴏᴛ ʀᴇsᴛᴀʀᴛs ᴀɴᴅ ᴩᴜsʜ ᴄʜᴀɴɢᴇs !"
+            f"{nrs.text}\n\n𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ! 𝐍𝐨𝐰 𝐖𝐚𝐢𝐭 𝐅𝐨𝐫 𝐅𝐞𝐰 𝐌𝐢𝐧𝐬 𝐅𝐨𝐫 𝐍𝐞𝐰 𝐔𝐩𝐝𝐚𝐭𝐞𝐬"
         )
         os.system("pip3 install -r Installer")
         os.system(f"kill -9 {os.getpid()} && python3 -m Bikash")
