@@ -9,7 +9,7 @@ from Bikash import config
 from Bikash.config import BANNED_USERS
 from Bikash import LOGGER, app, userbot
 from Bikash.core.call import Bikashh
-from Bikash.plugins import ALL_MODULES
+from plugins import ALL_MODULES
 from Bikash.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
