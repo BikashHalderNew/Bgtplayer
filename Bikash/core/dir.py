@@ -8,7 +8,7 @@ from ..logging import LOGGER
 def dirr():
     if "resources" not in listdir("Bikash"):
         LOGGER(__name__).warning(
-            f"Assets Folder not Found. Please clone repository again."
+            f"resources Folder not Found. Please clone repository again."
         )
         sys.exit()
     for file in os.listdir():
