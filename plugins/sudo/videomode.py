@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bilash import config
+from Bikash import config
 from Bikash.Bgt import get_command
 from Bikash import app
 from Bikash.misc import SUDOERS
