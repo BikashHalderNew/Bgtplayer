@@ -1,12 +1,13 @@
 from pyrogram import Client, filters
 
 from Bikash import app
+from Bikash.utils.bgtmusic.bk import command
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @app.on_message(
-    command("owner")
+    filters.command("owner")
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def owner(client: Client, message: Message):
