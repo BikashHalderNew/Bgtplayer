@@ -43,13 +43,13 @@
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "Input Your Support Group Username without @.",
-        "value": "BGT_CHAT",
+        "description": "Input Your Support Group with Full Link like https://.",
+        "value": "https://t.me/BGT_CHAT",
         "required": true
       },
       "SUPPORT_CHANNEL": {
-        "description": "Input Your Support Channel Username without @",
-        "value": "BIKASHGADGETSTECH",
+        "description": "Input Your Support Channel full link ",
+        "value": "https://t.me/BIKASHGADGETSTECH",
         "required": true
       },
       "STRING_SESSION": {
