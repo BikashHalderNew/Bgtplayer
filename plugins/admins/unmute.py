@@ -27,7 +27,7 @@ async def unmute_admin(Client, message: Message, _, chat_id):
     if not await is_muted(chat_id):
         return await message.reply_text("**🔊 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 ✨ ...**")
     await mute_off(chat_id)
-    await Aditya.unmute_stream(chat_id)
+    await Bikashh.unmute_stream(chat_id)
     await message.reply_text(
         "**🔊 𝐔𝐧𝐦𝐮𝐭𝐞𝐝 🌷 ...**".format(message.from_user.mention)
     )
