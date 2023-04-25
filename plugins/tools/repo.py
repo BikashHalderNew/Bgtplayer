@@ -23,7 +23,7 @@ async def repo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🥀 𝐑𝐞𝐩𝐨 🥀", url=f"https://github.com/BikashHalderNew/BgtMusic")
+                        "🥀 𝐑𝐞𝐩𝐨 🥀", url=f"https://github.com/BikashHalderNew")
             ],          
             [
                     InlineKeyboardButton(
