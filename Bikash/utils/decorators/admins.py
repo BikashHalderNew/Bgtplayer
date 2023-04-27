@@ -35,7 +35,7 @@ def AdminRightsCheck(mystic):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ʜᴏᴡ ᴛᴏ ғɪx ᴛʜɪs ?",
+                            text="How To Fix It ?",
                             callback_data="AnonymousAdmin",
                         ),
                     ]
