@@ -1,3 +1,5 @@
+## Powered by Aditya & Bikash Halder 
+
 import random
 from Bikash import Bgt
 from ast import ExceptHandler
