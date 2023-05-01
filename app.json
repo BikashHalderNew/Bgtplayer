@@ -23,7 +23,7 @@
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "Put Your Bot token from Botfather",
         "value": "",
         "required": true
       },
@@ -43,7 +43,7 @@
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "Input Your Support Group with Full Link like https://.",
+        "description": "Input Your Support Group with Full Link like https://t.me/Bgt_Chat",
         "value": "https://t.me/BGT_CHAT",
         "required": true
       },
