@@ -18,7 +18,7 @@ from Bikash.utils.inline.play import (stream_markup, queue_markup,
 from Bikash.utils.inline.playlist import close_markup
 from Bikash.utils.pastebin import Bikashhbin
 from Bikash.utils.stream.queue import put_queue, put_queue_index
-from Bikash.utils.thumbnails import gen_thumb
+from Bikash.utils.thumbnails import gen_thumb, gen_qthumb
 
 
 async def stream(
