@@ -131,7 +131,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else _["general_3"].format(e)
+                    else _["general_3"].format(ex_type)
                 )
                 return await mystic.edit_text(err)
             return await mystic.delete()
@@ -181,7 +181,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else _["general_3"].format(e)
+                    else _["general_3"].format(ex_type)
                 )
                 return await mystic.edit_text(err)
             return await mystic.delete()
@@ -337,7 +337,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else _["general_3"].format(e)
+                    else _["general_3"].format(ex_type)
                 )
                 return await mystic.edit_text(err)
             return await mystic.delete()
@@ -375,7 +375,7 @@ async def play_commnd(
                 err = (
                     e
                     if ex_type == "AssistantErr"
-                    else _["general_3"].format(e)
+                    else _["general_3"].format(ex_type)
                 )
                 return await mystic.edit_text(err)
             return await play_logs(
@@ -442,7 +442,7 @@ async def play_commnd(
             err = (
                 e
                 if ex_type == "AssistantErr"
-                else _["general_3"].format(e)
+                else _["general_3"].format(ex_type)
             )
             return await mystic.edit_text(err)
         await mystic.delete()
@@ -587,7 +587,7 @@ async def play_music(client, CallbackQuery, _):
         err = (
             e
             if ex_type == "AssistantErr"
-            else _["general_3"].format(e)
+            else _["general_3"].format(ex_type)
         )
         return await mystic.edit_text(err)
     return await mystic.delete()
@@ -697,7 +697,7 @@ async def play_playlists_command(client, CallbackQuery, _):
         err = (
             e
             if ex_type == "AssistantErr"
-            else _["general_3"].format(e)
+            else _["general_3"].format(ex_type)
         )
         return await mystic.edit_text(err)
     return await mystic.delete()
