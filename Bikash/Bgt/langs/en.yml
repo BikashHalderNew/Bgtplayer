@@ -14,7 +14,7 @@ tg_2 : "❌ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐃𝐨𝐞𝐧𝐥𝐨𝐚𝐝 �
 
 # Core - Call.py
 call_1 : "**🥀 𝐈 𝐍𝐞𝐞𝐝 𝐀𝐝𝐦𝐢𝐧 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐓𝐨 𝐈𝐧𝐯𝐢𝐭𝐞 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✨ ...**"
-call_2 : "Bgt Assistant is banned in your group or channel, please unban.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}"
+call_2 : "Bgt Assistant is banned in your group or channel, please unban.\n\n**Name :** {2}\n\n**Assistant Username:** @{3}\n**Assistant ID:** {1}"
 call_3 : "Exception Occured While Inviting bgt Assistant Account to your chat.\n\n**Reason**: {0}"
 call_4 : "Bot requires **Invite Users Via Link** Permission to invite bgt assistant account to your chat group."
 call_5 : "Bgt Assistant Account will be joining in 5 Seconds..Please Wait!"
