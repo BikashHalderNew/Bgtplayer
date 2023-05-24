@@ -16,10 +16,10 @@ pyrogram==1.4.16
 python-dotenv
 pyyaml
 requests
-speedtest-cli
 spotipy
 tgcrypto
 numpy
-https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
-youtube-search
-youtube-search-python
+git+https://github.com/adityaxserver/downloader
+git+https://github.com/Kaal-xD/kaal-search
+git+https://github.com/Kaal-xD/kaal-speed-test
+git+https://github.com/Kaal-xD/kaal-search-python
