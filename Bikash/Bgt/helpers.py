@@ -82,6 +82,7 @@ HELP_5 = """✅<u>**Extra  Commands:**</u>
 /owner - check who is creator of this repo
 
 /donate - donate for bot owner 🙂
+/id - This cmd For Generating user info
 
 /lyrics [Music Name] - Searches Lyrics for the particular Music on web.."""
 
