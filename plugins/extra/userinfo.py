@@ -4,7 +4,7 @@ from Bikash import app
 from pyrogram import filters
 
 
-@app.on_message(filters.command("id", "info"))
+@app.on_message(filters.command("id"))
 def ids(_, message):
     reply = message.reply_to_message
     if reply:
