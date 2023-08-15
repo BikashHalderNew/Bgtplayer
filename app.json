@@ -29,7 +29,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
-        "value": "mongodb+srv://musiclehar17:musiclehar17@cluster0.d2ae7h6.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://musiclehar17@musiclehar17.d2ae7h6.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
