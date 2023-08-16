@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "bgt════════"
+        bar = "▁▄▂▇▄▅▄▅▃"
     elif 10 < bikash < 20:
-        bar = "═bgt═══════"
+        bar = "▁▃▇▂▅▇▄▅▃"
     elif 20 <= bikash < 30:
-        bar = "══bgt══════"
+        bar = "▃▁▇▂▅▃▄▃▅"
     elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
+        bar = "▃▄▂▄▇▅▃▅▁"
     elif 40 <= bikash < 50:
-        bar = "════bgt════"
+        bar = "▁▃▄▂▇▃▄▅▃"
     elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
+        bar = "▃▁▄▂▅▃▇▃▅"
     elif 60 <= bikash < 70:
-        bar = "══════bgt══"
+        bar = "▁▇▄▂▅▄▅▃▄"
     elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
+        bar = "▁▃▅▇▂▅▄▃▇"
     elif 80 <= bikash < 95:
-        bar = "════════bgt"
+        bar = "▃▅▂▅▇▁▄▃▁"
     else:
-        bar = "════════BGT"
+        bar = "▇▅▂▅▃▄▃▁▃"
 
     buttons = [
         [
@@ -65,20 +65,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
+                text="❣️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ❣️", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
+                text="❣️ 𝐆𝐫𝐨𝐮𝐩 ❣️", url=config.SUPPORT_GROUP
             )
         ],
-        [           
+        [                                                        
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="💔 𝐂𝐥𝐨𝐬𝐞 💔", callback_data="close"
             )
         ],
     ]
@@ -91,25 +86,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "bgt════════"
+        bar = "▁▄▂▇▄▅▄▅▃"
     elif 10 < bikash < 20:
-        bar = "═bgt═══════"
+        bar = "▁▃▇▂▅▇▄▅▃"
     elif 20 <= bikash < 30:
-        bar = "══bgt══════"
+        bar = "▃▁▇▂▅▃▄▃▅"
     elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
+        bar = "▃▄▂▄▇▅▃▅▁"
     elif 40 <= bikash < 50:
-        bar = "════bgt════"
+        bar = "▁▃▄▂▇▃▄▅▃"
     elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
+        bar = "▃▁▄▂▅▃▇▃▅"
     elif 60 <= bikash < 70:
-        bar = "══════bgt══"
+        bar = "▁▇▄▂▅▄▅▃▄"
     elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
+        bar = "▁▃▅▇▂▅▄▃▇"
     elif 80 <= bikash < 95:
-        bar = "════════bgt"
+        bar = "▃▅▂▅▇▁▄▃▁"
     else:
-        bar = "════════BGT"
+        bar = "▇▅▂▅▃▄▃▁▃"
 
     buttons = [
         [
@@ -145,17 +140,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❣️ 𝐆𝐫𝐨𝐮𝐩 ❣️", url=config.SUPPORT_GROUP
             )
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="💔 𝐂𝐥𝐨𝐬𝐞 💔", callback_data="close"
             )
         ],
     ]
@@ -172,11 +162,6 @@ def stream_markup(_, videoid, chat_id):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
         [
             InlineKeyboardButton(
                 text="▶️",
@@ -201,7 +186,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="💔 𝐂𝐥𝐨𝐬𝐞 💔", callback_data="close"
             )
         ],
     ]
@@ -215,12 +200,7 @@ def telegram_markup(_, chat_id):
                 text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❣️ 𝐆𝐫𝐨𝐮𝐩 ❣️", url=config.SUPPORT_GROUP
             )
         ],
         [
@@ -247,7 +227,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="💔 𝐂𝐥𝐨𝐬𝐞 💔", callback_data="close"
             )
         ],
     ]
@@ -371,7 +351,7 @@ close_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                        text="💔 𝐂𝐥𝐨𝐬𝐞 💔", callback_data="close"
                     )
                 ]    
             ]
@@ -387,15 +367,10 @@ def queue_markup(_, videoid, chat_id):
                 text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
+                text="❣️ 𝐆𝐫𝐨𝐮𝐩 ❣️", url=config.SUPPORT_GROUP
             )
         ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
+     [
             InlineKeyboardButton(
                 text="▶️",
                 callback_data=f"ADMIN Pause|{chat_id}",
@@ -419,7 +394,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="💔 𝐂𝐥𝐨𝐬𝐞 💔", callback_data="close"
             )
         ],
     ]
@@ -433,12 +408,7 @@ def telegram_markup(_, chat_id):
                 text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❣️ 𝐆𝐫𝐨𝐮𝐩 ❣️", url=config.SUPPORT_GROUP
             )
         ],
         [
@@ -465,7 +435,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="❣️ 𝐂𝐥𝐨𝐬𝐞 ❣️", callback_data="close"
             )
         ],
     ]
