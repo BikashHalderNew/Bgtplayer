@@ -1,12 +1,12 @@
 {
-    "name": "Bgt Music Bot",
+    "name": "⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg",
+    "logo": "https://telegra.ph//file/88b024a7f1f3ce753d203.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Bikash",
+    "Lehar",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -29,12 +29,12 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
-        "value": "mongodb+srv://musiclehar17@musiclehar17.d2ae7h6.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://navi:navi @cluster0.ckp6ijn.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters",
-        "value": "🌟⃝🌸𓆩🎸🇲𝗨𝗦𝗜𝗖🎸🇧𝗢𝗧𓆪💫⃟👑 ",
+        "value": "⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘",
         "required": true
       },
       "OWNER_ID": {
