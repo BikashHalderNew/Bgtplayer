@@ -1,4 +1,4 @@
-### Powered By @BikashHalder & @AdityaHalder 
+### Powered By @BikashHalder &
 
 ### Join @BikashGadgetsTech For More Update
 
