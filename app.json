@@ -29,7 +29,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
-        "value": "mongodb+srv://navi:navi @cluster0.ckp6ijn.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://kakashi:kakashi@cluster0.jgr06lm.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
@@ -39,7 +39,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6185243945",
+        "value": "6027918860",
         "required": true
       },
       "SUPPORT_GROUP": {
