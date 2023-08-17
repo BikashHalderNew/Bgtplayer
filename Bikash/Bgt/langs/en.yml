@@ -14,11 +14,11 @@ tg_2 : "❌ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐃𝐨𝐞𝐧𝐥𝐨𝐚𝐝 �
 
 # Core - Call.py
 call_1 : "**🥀 𝐈 𝐍𝐞𝐞𝐝 𝐀𝐝𝐦𝐢𝐧 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐓𝐨 𝐈𝐧𝐯𝐢𝐭𝐞 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✨ ...**"
-call_2 : "Bgt Assistant is banned in your group or channel, please unban.\n\n**Name :** {2}\n\n**Assistant Username:** @{3}\n**Assistant ID:** {1}"
+call_2 : "𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘 Assistant is banned in your group or channel, please unban.\n\n**Name :** {2}\n\n**Assistant Username:** @{3}\n**Assistant ID:** {1}"
 call_3 : "Exception Occured While Inviting bgt Assistant Account to your chat.\n\n**Reason**: {0}"
 call_4 : "Bot requires **Invite Users Via Link** Permission to invite bgt assistant account to your chat group."
-call_5 : "Bgt Assistant Account will be joining in 5 Seconds..Please Wait!"
-call_6 : "Bgt Assistant Account[{0}] Joined Successfully.\n\nStarting Music Now"
+call_5 : "𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘 Assistant Account will be joining in 5 Seconds..Please Wait!"
+call_6 : "𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘 Assistant Account[{0}] Joined Successfully.\n\nStarting Music Now"
 call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
 call_8 : "**Harmful Admin Right Given **\n\nPlease remove **ADD NEW ADMINS** rights from the bot."
 call_9 : "**🥀 𝐒𝐤𝐢𝐩𝐩𝐢𝐧𝐠 𝐄𝐫𝐫𝐨𝐫, 𝐒𝐨 𝐏𝐥𝐞𝐚𝐬𝐞\n𝐒𝐤𝐢𝐩 𝐀𝐠𝐚𝐢𝐧 ✨ ...**"
@@ -230,10 +230,10 @@ queue_4 : "**❰⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘❱💥 💿 𝐍�
 queue_5 : "🥀 𝐎𝐧𝐥𝐲 𝐎𝐧𝐞 𝐓𝐫𝐚𝐜𝐤 𝐈𝐧𝐬𝐢𝐝𝐞 𝐐𝐮𝐞𝐮𝐞, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐒𝐨𝐦𝐞 𝐌𝐨𝐫𝐞 𝐓𝐫𝐚𝐜𝐤 𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐋𝐢𝐬𝐭 🌷 ...**"
 
 # All Streaming Lines
-stream_1 : "**💥 ❰⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {3}"
-stream_2 : "**💥 ❰⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {0}\n\n➥ 𝐓𝐲𝐩𝐞 : 𝐋𝐢𝐯𝐞 𝐒𝐭𝐫𝐞𝐚𝐦 [𝐔𝐫𝐥]"
-stream_3 : "**💥 ❰⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {2}"
-stream_4 : "**💥 ❰⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {3}"
+stream_1 : "**💥 ⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {3}"
+stream_2 : "**💥 ⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {0}\n\n➥ 𝐓𝐲𝐩𝐞 : 𝐋𝐢𝐯𝐞 𝐒𝐭𝐫𝐞𝐚𝐦 [𝐔𝐫𝐥]"
+stream_3 : "**💥 ⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {2}"
+stream_4 : "**💥 ⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**\n\n**ツ 𝐑𝐞𝐪𝐮𝐬𝐭𝐞𝐝 𝐁𝐲 :** {3}"
 
 # Inline Buttons
 
