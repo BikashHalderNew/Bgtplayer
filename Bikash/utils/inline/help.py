@@ -13,11 +13,11 @@ def help_pannel(_, START: Union[bool, int] = None):
         InlineKeyboardButton(
             # text=_["BACK_BUTTON"],
             text="🏠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🏠",
-            url=f"https://t.me/BikashGadgetsTech",
+            url=f"https://t.me/hindi_chattings_zone",
         ),
         InlineKeyboardButton(
             text="𝐂𝐫𝐞𝐚𝐭𝐨𝐫",
-            url=f"t.me/BikashHalder",
+            url=f"t.me/Mr_pr0feSser",
         ),
         InlineKeyboardButton(
             text="𝐂𝐥𝐨𝐬𝐞", callback_data=f"close"
