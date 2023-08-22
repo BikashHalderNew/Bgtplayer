@@ -83,7 +83,7 @@ async def unban_assistant_(_, CallbackQuery):
             await app.unban_chat_member(int(chat_id), int(user_id))
         except:
             return await CallbackQuery.answer(
-                " 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐔𝐧𝐛𝐚𝐧 𝐁𝐠𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭.",
+                " 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐔𝐧𝐛𝐚𝐧 𝐊𝚰𝐓𝐓𝐔 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭.",
                 show_alert=True,
             )
         return await CallbackQuery.edit_message_text(
