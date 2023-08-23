@@ -484,6 +484,10 @@ asyncio.create_task(markup_timer())
 
 
 # Powered By @BikashHalder & @AdityaHalder 
+
 # Join @BikashGadgetsTech For More Updates
+
 # Join @AdityaCheats For Hacks
+
 # Join Our Chats @Bgt_Chat & @Adityadiscus 
+
