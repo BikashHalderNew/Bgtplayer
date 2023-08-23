@@ -1,7 +1,7 @@
 {
-    "name": "⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘",
+    "name": "⚡𝙺𝙸𝚃𝚃𝚄⚡𝙼𝚄𝚂𝙸𝙲",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph//file/88b024a7f1f3ce753d203.jpg",
+    "logo": "https://graph.org/file/3d08fb7b9c3d352f8ff60.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters",
-        "value": "⚡𝐋𝐄𝐇𝐀𝐑⚡𝙈𝙪𝙨𝙞𝙘",
+        "value": "⚡𝙺𝙸𝚃𝚃𝚄⚡𝙼𝚄𝚂𝙸𝙲",
         "required": true
       },
       "OWNER_ID": {
@@ -49,7 +49,7 @@
       },
       "SUPPORT_CHANNEL": {
         "description": "Input Your Support Channel full link ",
-        "value": "https://t.me/hindi_chattings_zone",
+        "value": "https://t.me/Mr_pr0feSser",
         "required": true
       },
       "STRING_SESSION": {
