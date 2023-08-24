@@ -138,11 +138,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="🔥 𝐆𝐫𝐨𝐮𝐩 🔥", url=config.SUPPORT_GROUP
             )
         ],
-        [           
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
-        ],
     ]
     return buttons
 
@@ -179,11 +174,6 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
         ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
-        ],
     ]
     return buttons
 
@@ -219,11 +209,6 @@ def telegram_markup(_, chat_id):
                 text="⏹️",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
         ],
     ]
     return buttons
@@ -387,11 +372,6 @@ def queue_markup(_, videoid, chat_id):
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
         ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
-        ],
     ]
     return buttons
 
@@ -427,11 +407,6 @@ def telegram_markup(_, chat_id):
                 text="⏹️",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
         ],
     ]
     return buttons
