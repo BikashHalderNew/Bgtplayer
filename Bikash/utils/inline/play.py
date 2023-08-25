@@ -62,21 +62,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="⏹️",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
-        ],
+        ],          
         [
-            InlineKeyboardButton(
-                text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
-            ),
-            InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
+            InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/Dm0Ds_kAkaShI"),
+            InlineKeyboardButton(text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+ZRhHTR-_xu1kNjE5"),
+        ], 
+    ]
             InlineKeyboardButton(
                 text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
             )
