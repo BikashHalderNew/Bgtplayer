@@ -46,12 +46,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -96,12 +96,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -115,12 +115,12 @@ def stream_markup(_, videoid, chat_id):
                 text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -131,10 +131,15 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -271,10 +276,15 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -285,10 +295,15 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
