@@ -54,11 +54,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
-        ],
     ]
     return buttons
 
@@ -107,11 +102,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [           
             InlineKeyboardButton(
                 text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
             )
         ],
     ]
