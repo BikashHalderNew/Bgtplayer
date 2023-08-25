@@ -111,7 +111,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
     else:
         bar = "—————————◉"
 
-
     buttons = [
         [
             InlineKeyboardButton(
