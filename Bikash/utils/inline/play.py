@@ -43,10 +43,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
+                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
@@ -93,10 +93,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
          [           
             InlineKeyboardButton(
-                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
+                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
@@ -112,10 +112,10 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
+                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
@@ -131,10 +131,10 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
+                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
@@ -276,10 +276,10 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
+                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
@@ -295,10 +295,10 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
+                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
