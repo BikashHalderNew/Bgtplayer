@@ -135,28 +135,6 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="▶️",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏸️",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏏️",
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="⏩",
-                callback_data=f"ADMIN Skip|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏹️",
-                callback_data=f"ADMIN Stop|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
                 text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
             )
         ],
@@ -175,33 +153,6 @@ def telegram_markup(_, chat_id):
             )
         ],
         [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▶️",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏸️",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏏️",
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="⏩",
-                callback_data=f"ADMIN Skip|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏹️",
-                callback_data=f"ADMIN Stop|{chat_id}",
-            ),
-        ],
-        [
             InlineKeyboardButton(
                 text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
             )
@@ -346,33 +297,6 @@ def queue_markup(_, videoid, chat_id):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▶️",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏸️",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏏️",
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="⏩",
-                callback_data=f"ADMIN Skip|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏹️",
-                callback_data=f"ADMIN Stop|{chat_id}",
-            ),
-        ],
         [
             InlineKeyboardButton(
                 text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
@@ -391,33 +315,6 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▶️",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏸️",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏏️",
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="⏩",
-                callback_data=f"ADMIN Skip|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏹️",
-                callback_data=f"ADMIN Stop|{chat_id}",
-            ),
         ],
         [
             InlineKeyboardButton(
