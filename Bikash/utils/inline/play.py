@@ -93,15 +93,15 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
          [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -112,15 +112,15 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -274,7 +274,7 @@ def queue_markup(_, videoid, chat_id):
                 text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
     ]
@@ -288,8 +288,8 @@ def telegram_markup(_, chat_id):
                 text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
-           ) 
+                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
         ],
     ]
     return buttons
