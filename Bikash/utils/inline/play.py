@@ -46,7 +46,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
         [           
@@ -96,7 +96,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
         [           
@@ -115,7 +115,7 @@ def stream_markup(_, videoid, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
         [           
@@ -134,7 +134,7 @@ def telegram_markup(_, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
         [           
@@ -279,7 +279,7 @@ def queue_markup(_, videoid, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
         [           
@@ -298,7 +298,7 @@ def telegram_markup(_, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
         [           
