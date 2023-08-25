@@ -140,7 +140,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/Dm0Ds_kAkaShI
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+ZRhHTR-_xu1kNjE5
+                text="❰𝙂𝙧𝙤𝙪𝙥❱ ", url=f"https://t.me/+ZRhHTR-_xu1kNjE5
             )
         ],
         [ 
@@ -156,7 +156,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                 text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/Dm0Ds_kAkaShI
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/Dm0Ds_kAkaShI
             ),
             InlineKeyboardButton(
                 text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+ZRhHTR-_xu1kNjE5
