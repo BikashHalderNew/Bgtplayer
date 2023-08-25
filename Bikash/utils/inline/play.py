@@ -90,7 +90,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
-        if 0 < bikash <= 10:
+     if 0 < bikash <= 10:
         bar = "◉—————————"
     elif 10 < bikash < 20:
         bar = "—◉————————"
