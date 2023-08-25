@@ -43,15 +43,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
@@ -93,15 +93,15 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
          [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
@@ -112,15 +112,15 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
@@ -131,15 +131,15 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
@@ -276,15 +276,15 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
@@ -295,15 +295,15 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓞𝓦𝓝𝓔𝓡❱", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❰𝓖𝓡𝓞𝓤𝓟❱", url=f"https://t.me/+qVzbWJXkPxE3M2Y9"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝘮𝘶𝘴𝘪𝘤★", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
