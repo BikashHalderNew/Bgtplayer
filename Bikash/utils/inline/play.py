@@ -49,11 +49,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
-        [           
-            InlineKeyboardButton(
-                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
-            )
-        ],
     ]
     return buttons
 
@@ -99,11 +94,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
             )
         ],
-        [           
-            InlineKeyboardButton(
-                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
-            )
-        ],
     ]
     return buttons
 
@@ -116,11 +106,6 @@ def stream_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
