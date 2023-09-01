@@ -46,7 +46,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
