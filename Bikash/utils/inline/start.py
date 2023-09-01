@@ -20,7 +20,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                 text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
+                 text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
             ),
             InlineKeyboardButton(
                 text="★𝐆𝐑𝐎𝐔𝐏★", url=config.SUPPORT_GROUP
@@ -45,7 +45,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                 text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
+                 text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
             ),
             InlineKeyboardButton(
                 text="★𝐆𝐑𝐎𝐔𝐏★", url=config.SUPPORT_GROUP
