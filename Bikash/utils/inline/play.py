@@ -91,7 +91,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
@@ -105,7 +105,7 @@ def stream_markup(_, videoid, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
     ]
@@ -119,12 +119,12 @@ def telegram_markup(_, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
+                text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
             )
         ],
     ]
@@ -264,12 +264,12 @@ def queue_markup(_, videoid, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
+                text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
             )
         ],
     ]
@@ -283,12 +283,12 @@ def telegram_markup(_, chat_id):
                 text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/+GmxC-vUmrQRmNzU1"
+                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="★𝐌𝐔𝐒𝚰𝐂★", url=f"https://t.me/hindi_chattings_zone"
+                text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
             )
         ],
     ]
