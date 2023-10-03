@@ -42,15 +42,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [ 
             InlineKeyboardButton(
-                 text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
+                 text="❰𝙊𝙬𝙣𝙚𝙧❱", user_id=OWNER
             ),
             InlineKeyboardButton(
                 text="❰𝙂𝙧𝙤𝙪𝙥❱", url=config.SUPPORT_GROUP
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", user_id=OWNER
             )
         ]
      ]
