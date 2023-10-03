@@ -8,7 +8,7 @@ from Bikash import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://Bikash:Bikashop@bikash.cbkkx4c.mongodb.net/?retryWrites=true&w=majority"
+TEMP_MONGODB = "mongodb+srv://kakashi:kakashi@cluster0.jgr06lm.mongodb.net/?retryWrites=true&w=majority"
 
 
 if config.MONGO_DB_URI is None:

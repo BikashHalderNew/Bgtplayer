@@ -12,16 +12,6 @@ def botplaylist_markup(_):
                 text="🌎 𝐆𝐥𝐨𝐛𝐚𝐥 🌏", callback_data="get_top_playlists"
             ),
         ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            ),
-        ],
     ]
     return buttons
 
@@ -35,28 +25,7 @@ def top_play_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="🤫 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 🤫", callback_data="SERVERTOP user"
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="🌍 ɢʟᴏʙᴀʟ 🌏", callback_data="SERVERTOP global"
-            ),
-            InlineKeyboardButton(
-                text="𝐆𝐫𝐨𝐮𝐩's", callback_data="SERVERTOP chat"
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="◁ 𝐁𝐚𝐜𝐤 ◁", callback_data="get_playmarkup"
-            ),
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
             ),
         ],
     ]
@@ -94,7 +63,7 @@ def top_play_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="🤫 𝐏𝐞𝐫𝐬𝐨𝐧𝐚 🤫", callback_data="SERVERTOP Personal"
+                text="🤫 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 🤫", callback_data="SERVERTOP Personal"
             )
         ],
         [
