@@ -16,13 +16,6 @@ from youtubesearchpython.__future__ import VideosSearch
 from Bikash.config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 
-themes = [
-    "bik",
-    "bik2",
-    "bik3",
-    "bik4",
-]
-
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
     heightRatio = maxHeight / image.size[1]
