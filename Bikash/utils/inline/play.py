@@ -43,10 +43,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/IND_K4K4SHI"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+An4yRwJGNq5mZWFl"
             )
         ],
     ]
@@ -88,10 +88,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
          [           
             InlineKeyboardButton(
-                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/IND_K4K4SHI"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+An4yRwJGNq5mZWFl"
             )
         ],
     ]
@@ -102,10 +102,10 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/IND_K4K4SHI"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+An4yRwJGNq5mZWFl"
             )
         ],
     ]
@@ -116,15 +116,10 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/IND_K4K4SHI"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+An4yRwJGNq5mZWFl"
             )
         ],
     ]
@@ -261,15 +256,10 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/IND_K4K4SHI"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+An4yRwJGNq5mZWFl"
             )
         ],
     ]
@@ -280,15 +270,10 @@ def telegram_markup(_, chat_id):
     buttons = [
          [           
             InlineKeyboardButton(
-                text="★𝐎𝐖𝐍𝐄𝐑★", url=f"https://t.me/Mr_pr0feSser"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/IND_K4K4SHI"
             ),
             InlineKeyboardButton(
-                text="★𝐆𝐑𝐎𝐔𝐏★", url=f"https://t.me/hindi_chattings_zone"
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
+                text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+An4yRwJGNq5mZWFl"
             )
         ],
     ]
