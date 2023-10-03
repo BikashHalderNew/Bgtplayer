@@ -40,7 +40,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="❰𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎❱", callback_data="settings_back_helper"
             )
         ],
-        [
+        [ 
+            InlineKeyboardButton(
+                 text="★𝐔𝐏𝐃𝐀𝐓𝐄★", url=f"https://t.me/kittu_support"
+            ),
             InlineKeyboardButton(
                 text="❰𝙂𝙧𝙤𝙪𝙥❱", url=config.SUPPORT_GROUP
             )
