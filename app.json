@@ -1,5 +1,5 @@
 {
-    "name": "Bgt Music Bot",
+    "name": "Cocktail",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg",
     "keywords": [
@@ -29,27 +29,27 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
-        "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority",
+        "value": "",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters",
-        "value": "🌟⃝🌸𓆩🇧𝗚𝗧🎸🇲𝗨𝗦𝗜𝗖🎸🇧𝗢𝗧𓆪💫⃟👑 ",
+        "value": "𝐂𝐨𝐜𝐤𝐭𝐚𝐢𝐥 𝐗 𝐌𝐮𝐬𝐢𝐜",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "1439222689",
+        "value": "6432226618",
         "required": true
       },
       "SUPPORT_GROUP": {
         "description": "Input Your Support Group with Full Link like https://t.me/Bgt_Chat",
-        "value": "https://t.me/BGT_CHAT",
+        "value": "https://t.me/venom_world_chatting_club",
         "required": true
       },
       "SUPPORT_CHANNEL": {
         "description": "Input Your Support Channel full link ",
-        "value": "https://t.me/BIKASHGADGETSTECH",
+        "value": "https://t.me/darkk_diary",
         "required": true
       },
       "STRING_SESSION": {
