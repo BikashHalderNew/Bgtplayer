@@ -22,7 +22,6 @@ SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
 @app.on_message(
     filters.command(SHUFFLE_COMMAND)
     & filters.group
-    & ~filters.edited
     & ~BANNED_USERS
 )
 @AdminRightsCheck
