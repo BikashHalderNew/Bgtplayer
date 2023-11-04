@@ -18,6 +18,7 @@ requests
 spotipy
 tgcrypto
 numpy
+yt-dlp
 git+https://github.com/pyrogram/pyrogram
 git+https://github.com/pytgcalls/pytgcalls
 git+https://github.com/KaalOS/downloader
