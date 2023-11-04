@@ -16,7 +16,7 @@ if config.MONGO_DB_URI is None:
         "No MONGO DB URL found.. Your Bot will work on Bikash's Database"
     )
     temp_client = Client(
-        "Bikash",
+        name="Bikash",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
