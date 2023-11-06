@@ -63,7 +63,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="♕ 𝐎𝐰𝐧𝐞𝐫 ♕", user_id=OWNER
+                text="♕ 𝐎𝐰𝐧𝐞𝐫 ♕", user_id=config.OWNER_ID
             )
         ]
      ]
