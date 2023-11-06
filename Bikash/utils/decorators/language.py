@@ -1,4 +1,4 @@
-from Bikash import app
+from Bikash import Bikashh
 from Bikash.Bgt import get_string
 from Bikash.misc import SUDOERS
 from Bikash.utils.database import (get_lang, is_commanddelete_on,
