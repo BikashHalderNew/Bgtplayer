@@ -6,16 +6,19 @@ from random import randint
 from typing import Union
 
 from pyrogram.types import InlineKeyboardMarkup
-from Bikash.utils.inline.play import stream_markup, queue_markup,
-                                          telegram_markup
-from Bikash.utils.inline.playlist import close_markup
+
 from Bikash import config
 from Bikash import Carbon, YouTube, app
 from Bikash.core.call import Bikashh
 from Bikash.misc import db
-from Bikash.utils.database import add_active_video_chat, is_active_chat                                   
+from Bikash.utils.database import (add_active_chat,
+                                       add_active_video_chat,
+                                       is_active_chat,
+                                       is_video_allowed, music_on)
 from Bikash.utils.exceptions import AssistantErr
-from Bikash.utils.inline import aq_markup, close_markup, stream_markup
+from Bikash.utils.inline.play import (stream_markup, queue_markup,
+                                          telegram_markup)
+from Bikash.utils.inline.playlist import close_markup
 from Bikash.utils.pastebin import Bikashhbin
 from Bikash.utils.stream.queue import put_queue, put_queue_index
 from Bikash.utils.thumbnails import gen_thumb, gen_qthumb
@@ -110,7 +113,9 @@ async def stream(
                     original_chat_id,
                     photo=img,
                     caption=_["stream_1"].format(
+                        title[:27],
                         f"https://t.me/{app.username}?start=info_{vidid}",
+                        duration_min,
                         user_name,
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
@@ -196,8 +201,10 @@ async def stream(
                 run = await app.send_photo(
                     original_chat_id,
                     photo=img,
-                    caption=_["stream_1"].format(                      
-                        f"https://t.me/{app.username}?start=info_{vidid}",                    
+                    caption=_["stream_1"].format(
+                        title[:27],
+                        f"https://t.me/{app.username}?start=info_{vidid}",
+                        duration_min,
                         user_name,
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
@@ -369,7 +376,9 @@ async def stream(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
-                    f"https://t.me/{app.username}?start=info_{vidid}",                
+                    title[:27],
+                    f"https://t.me/{app.username}?start=info_{vidid}",
+                    duration_min,
                     user_name,
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
