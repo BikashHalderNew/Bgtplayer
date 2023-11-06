@@ -7,10 +7,10 @@ ffmpeg-python
 gitpython
 hachoir
 heroku3
-motor
-pillow
+motor==3.3.1
+pillow==9.5.0
 psutil
-py-tgcalls==0.9.7
+py-tgcalls==1.0.1
 pykeyboard
 pyrogram==2.0.106
 python-dotenv
