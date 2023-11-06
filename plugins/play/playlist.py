@@ -18,7 +18,6 @@ from Bikash.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
 from Bikash.utils.pastebin import Bikashhbin
-from Bikash.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
