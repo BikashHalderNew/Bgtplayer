@@ -5,7 +5,7 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
-from Bikash.utils.stream.stream import stream
+
 from Bikash.config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from Bikash.Bgt import get_command
 from Bikash import Carbon, YouTube, app
@@ -18,6 +18,7 @@ from Bikash.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
 from Bikash.utils.pastebin import Bikashhbin
+from Bikash.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
@@ -26,6 +27,7 @@ DELETEPLAYLIST_COMMAND = get_command("DELETEPLAYLIST_COMMAND")
 
 @app.on_message(
     filters.command(PLAYLIST_COMMAND)
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @language
@@ -61,6 +63,7 @@ async def check_playlist(client, message: Message, _):
 @app.on_message(
     filters.command(DELETEPLAYLIST_COMMAND)
     & filters.group
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @language
@@ -107,6 +110,7 @@ async def get_keyboard(_, user_id):
 @app.on_message(
     filters.command(DELETEPLAYLIST_COMMAND)
     & filters.private
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @language
@@ -327,4 +331,4 @@ async def del_back_playlist(client, CallbackQuery, _):
     keyboard, count = await get_keyboard(_, user_id)
     return await CallbackQuery.edit_message_text(
         _["playlist_7"].format(count), reply_markup=keyboard
-    )
+)
