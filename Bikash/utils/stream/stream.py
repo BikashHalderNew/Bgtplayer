@@ -11,14 +11,9 @@ from Bikash import config
 from Bikash import Carbon, YouTube, app
 from Bikash.core.call import Bikashh
 from Bikash.misc import db
-from Bikash.utils.database import (add_active_chat,
-                                       add_active_video_chat,
-                                       is_active_chat,
-                                       is_video_allowed, music_on)
+from Bikash.utils.database import add_active_video_chat, is_active_chat                                   
 from Bikash.utils.exceptions import AssistantErr
-from Bikash.utils.inline.play import (stream_markup, queue_markup,
-                                          telegram_markup)
-from Bikash.utils.inline.playlist import close_markup
+from Bikash.utils.inline import aq_markup, close_markup, stream_markup
 from Bikash.utils.pastebin import Bikashhbin
 from Bikash.utils.stream.queue import put_queue, put_queue_index
 from Bikash.utils.thumbnails import gen_thumb, gen_qthumb
