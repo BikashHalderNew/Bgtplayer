@@ -10,7 +10,7 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text="🥀 ❰ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ❱ 💥",
-                url=f"https://t.me/TT093Bot?start=help",
+                url=f"https://t.me/{BOT_USERNAME}?start=help",
             )
         ],
         [
@@ -40,7 +40,7 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text="➕ ❰ 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕",
-                url=f"https://t.me/TT093Bot?startgroup=true",
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
@@ -63,7 +63,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="♕ 𝐎𝐰𝐧𝐞𝐫 ♕", user_id=config.OWNER_ID
+                text="♕ 𝐎𝐰𝐧𝐞𝐫 ♕", user_id=OWNER
             )
         ]
      ]
