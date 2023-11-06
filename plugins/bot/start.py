@@ -5,7 +5,7 @@
 
 import asyncio
 import time
-
+from pyrogram.enums import ChatType
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
@@ -202,7 +202,7 @@ async def start_comm(client, message: Message, _):
             OWNER = OWNER_ID[0]
         except:
             OWNER = None
-        out = private_panel(_, app.username, OWNER)
+        out = private_panel(_)
         if config.START_IMG_URL:
             try:
                 await message.reply_photo(
