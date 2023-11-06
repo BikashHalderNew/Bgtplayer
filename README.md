@@ -17,7 +17,7 @@
 🌷 You can Deploy Easily Fork repo and Give Start 🌷
 
 ## ⚠️ Bot Deploy On Workflow 
-Temparory disabled the deployment on github workflow we don't want you get banned from this source.
+We remove the button of github workflow. we don't want you get banned from this source.
 
 ## 🥀 Kaali Linux Tutorial
 
@@ -36,13 +36,16 @@ Temparory disabled the deployment on github workflow we don't want you get banne
 
 [YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
 
-### Deploy To Heroku
+### 🔗 Deploy To Heroku
 
-<h4>Click the button below to deploy Yukki on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-orange?style=for-the-badge&logo=heroku" width="150""/></a></p>
+<h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
+<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-orange?style=for-the-badge&logo=heroku" width="250""/></a></p>
 
-## VPS DEPLOYMENT :                                                   ### NOTE :- THIS IS MANDATORY                            
+## VPS DEPLOYMENT                   
+NOTE :- THIS IS MANDATORY          
+
 💥 COMMAND'S WHICH HAVE TO RUN ON FRESH (𝐕𝐏𝐒) 💞
+
 1) ``sudo apt update && sudo apt install git curl python3-pip ffmpeg -y``
 
 2) ``curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``
