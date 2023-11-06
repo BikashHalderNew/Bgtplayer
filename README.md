@@ -16,8 +16,8 @@
 ## Deploy
 🌷 You can Deploy Easily Fork repo and Give Start 🌷
 
-## 🥀 Bot Deploy On Workflow / (KAALI LINUX)
- At 1st Import This Repo Then Input All Value In Internal File || Then Proceed Kaali Linux Value Or Ect.
+## ⚠️ Bot Deploy On Workflow 
+Temparory disabled the deployment on github workflow we don't want you get banned from this source.
 
 ## 🥀 Kaali Linux Tutorial
 
@@ -38,11 +38,11 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BikashHalderNew/Bgtplayer)
+<h4>Click the button below to deploy Yukki on Heroku!</h4>    
+<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-orange?style=for-the-badge&logo=heroku" width="150""/></a></p>
 
-## VPS DEPLOY                                                                                          
-💥 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 (𝐕𝐏𝐒) 💞
-
+## VPS DEPLOYMENT :                                                   ### NOTE :- THIS IS MANDATORY                            
+💥 COMMAND'S WHICH HAVE TO RUN ON FRESH (𝐕𝐏𝐒) 💞
 1) ``sudo apt update && sudo apt install git curl python3-pip ffmpeg -y``
 
 2) ``curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``
