@@ -10,41 +10,41 @@
 ### Powered By [@BikashHalder](https://t.me/Bikashhalder)
 
 
-### ABOUT THIS BOT
+### ABOUT THIS BOT :
 🥀 Best Smart Voice Chat Music Bot 📢 For All Telegram Groups or Channels ✅ This Bot Support Video play Or Audio Play Both ||
 
-## Deploy
+## Deploy :
 🌷 You can Deploy Easily Fork repo and Give Start 🌷
 
-## ⚠️ Bot Deploy On Workflow 
+## ⚠️ Bot Deploy On Workflow :
 We remove the button of github workflow. we don't want you get banned from this source.
 
-## 🥀 Kaali Linux Tutorial
+## 🥀 Kaali Linux Tutorial :
 
 [Kaali Linux](https://youtu.be/_nZT5lhcL8U)
 
-## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭
+## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭 :
 [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
 
-## Telegram 🏪
+## Telegram 🏪 :
 
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
 
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgadgetstech)
 
-## YouTube 📺
+## YouTube 📺 :
 
 [YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
 
-### 🔗 Deploy To Heroku
+### 🔗 Deploy To Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 <p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-orange?style=for-the-badge&logo=heroku" width="250""/></a></p>
 
-## VPS DEPLOYMENT                   
+## VPS DEPLOYMENT :                  
 NOTE :- THIS IS MANDATORY          
 
-💥 COMMAND'S WHICH HAVE TO RUN ON FRESH (𝐕𝐏𝐒) 💞
+💥 COMMAND'S WHICH YOU HAVE TO RUN ON FRESH (𝐕𝐏𝐒) 💞
 
 1) ``sudo apt update && sudo apt install git curl python3-pip ffmpeg -y``
 
