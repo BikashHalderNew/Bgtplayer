@@ -1,4 +1,5 @@
 ## Powered by Aditya & Bikash Halder 
+
 import random
 from Bikash import Bgt
 from ast import ExceptHandler
@@ -36,6 +37,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
 @app.on_message(
     command(PLAY_COMMAND)
     & filters.group
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @PlayWrapper
