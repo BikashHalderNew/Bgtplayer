@@ -21,6 +21,7 @@ RESUME_COMMAND = get_command("RESUME_COMMAND")
 @app.on_message(
     filters.command(RESUME_COMMAND)
     & filters.group
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @AdminRightsCheck

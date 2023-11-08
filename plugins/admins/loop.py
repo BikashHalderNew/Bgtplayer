@@ -21,6 +21,7 @@ LOOP_COMMAND = get_command("LOOP_COMMAND")
 @app.on_message(
     filters.command(LOOP_COMMAND)
     & filters.group
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @AdminRightsCheck
