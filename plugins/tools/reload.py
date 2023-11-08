@@ -21,6 +21,7 @@ RESTART_COMMAND = get_command("RESTART_COMMAND")
 @app.on_message(
     filters.command(RELOAD_COMMAND)
     & filters.group
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @language
@@ -41,13 +42,14 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["admin_20"])
     except:
         await message.reply_text(
-            "Admin cache reloaded"
+            "𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐑𝐞𝐟𝐫𝐞𝐬𝐡 𝐀𝐝𝐦𝐢𝐧𝐬 𝐋𝐢𝐬𝐭, 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐏𝐫𝐨𝐦𝐨𝐭𝐞𝐝 𝐓𝐡𝐞 𝐁𝐨𝐭."
         )
 
 
 @app.on_message(
     filters.command(RESTART_COMMAND)
     & filters.group
+    & ~filters.edited
     & ~BANNED_USERS
 )
 @AdminActual
