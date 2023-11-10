@@ -65,7 +65,7 @@ fill these vars
 <h4>Click below to deploy on scalingo platform</h4>
 
 <p
-href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Scalingo-neon?style=for-the-badge&logo=Scalingo" width="220" height="38.45"/>
+href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Scalingo-white?style=for-the-badge&logo=Scalingo" width="220" height="38.45"/>
 </p>
 
 
