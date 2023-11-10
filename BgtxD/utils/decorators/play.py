@@ -9,9 +9,8 @@
 #
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from BgtxD import config 
-from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
-from strings import get_string
+from BgtxD.config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
+from BgtxD.strings import get_string
 from BgtxD import YouTube, app
 from BgtxD.misc import SUDOERS
 from BgtxD.utils.database import (get_cmode, get_lang,
