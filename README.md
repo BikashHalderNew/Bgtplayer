@@ -50,6 +50,7 @@ First you have to fork this repo and star this repo for motivating us and withou
 - ``API_ID``
 - ``API_HASH``
 - ``BOT_TOKEN``
+- ``MUSIC_BOT_NAME``
 - ``MONGO_DB_URI``
 - ``OWNER_ID``
 - ``STRING_SESSION``
