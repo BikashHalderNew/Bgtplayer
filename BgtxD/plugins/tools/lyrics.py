@@ -16,9 +16,8 @@ import lyricsgenius as lg
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
-from BgtxD import config 
-from config import BANNED_USERS, lyrical
-from strings import get_command
+from BgtxD.config import BANNED_USERS, lyrical
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.utils.decorators.language import language
 
