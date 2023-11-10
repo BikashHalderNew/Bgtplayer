@@ -6,7 +6,7 @@ from typing import Union
 
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Voice)
-
+from BgtxD import config
 from BgtxD.config import MUSIC_BOT_NAME, lyrical
 from BgtxD import app
 
