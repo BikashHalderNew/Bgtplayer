@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 from BgtxD import config
 from config import BANNED_USERS
-from import LOGGER, app, userbot
+from BgtxD  import LOGGER, app, userbot
 from BgtxD.core.call import Bgt
 from BgtxD.plugins import ALL_MODULES
 from BgtxD.utils.database import get_banned_users, get_gbanned
