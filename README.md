@@ -18,6 +18,10 @@
 ## ⚠️ Bot Deploy On Workflow :
 We have remove the button of github workflow. we don't want you get banned from this source.
 
+### 🧪 Get `SESSION_NAME` from below:
+
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-grey-yellow)](https://github.com/AdityaHalder/PGV2-STRING) ``Pyrogram-v2``
+
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal), fill thess vars
 
