@@ -2,8 +2,7 @@ import random
 
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
-from BgtxD import config 
-from config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
+from BgtxD.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
 from BgtxD import YouTube, app
