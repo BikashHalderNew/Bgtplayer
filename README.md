@@ -8,7 +8,7 @@ First you have to fork this repo and star this repo for motivating us and withou
 
 - Pyrogram 2.0
 - Feel no lag while playing songs
-- zero downtime
+- Zero downtime
 - Fast Download Song From Server
 - Py-tgcalls Updated
 - Fastest vc bot
@@ -48,6 +48,7 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 ## ⚠️ Okteto Deployment :
 
 <h4>Click the button below to deploy on Okteto!</h4>
+
 <p
 href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-blue?style=for-the-badge&logo=Okteto" width="200""
 <p>
@@ -96,8 +97,8 @@ Press ``Ctrl + C``  once you are done with editing vars and type ``:wq`` to save
 - [BGT](https://github.com/BikashHalder): Dev
 - [Aditya-Halder](https://t.me/eSport_BOTs) For fixed some unknown errors
 - [YUKKI-MUSIC](https://github.com/TeamYukki) For Yukki Music Bot
-- [Laky](https://github.com/pyrogram) for pyrogram
-- [Dan](https://github.com/pytgcalls) for py-tgcalls
+- [Dan](https://github.com/pyrogram) for pyrogram
+- [Laky](https://github.com/pytgcalls) for py-tgcalls
 
 ### Support & Updates ⚡ :
 
