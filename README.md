@@ -61,7 +61,7 @@ fill these vars
 <a href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"><img src="https://railway.app/button.svg" alt="Deploy on Railway" /></a>
 
 
-### 🔗 Deploy To Scalingo :
+## 🔗 Deploy To Scalingo :
 <h4>Click below to deploy on scalingo platform</h4>
 
 <p
@@ -69,7 +69,7 @@ href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew
 </p>
 
 
-### 🔗 Deploy To Heroku :
+## 🔗 Deploy To Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 
@@ -118,7 +118,7 @@ Press ``Ctrl + C``  once you are done with editing vars and type ``:wq`` to save
 
 [![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
 
-## Also support  our youTube channel by subscribing it :
+## Also support  our youtube channel by subscribing it :
 
 <a href="https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg"><img src="https://img.shields.io/badge/Youtube%20Channel-red.svg?style=for-the-badge&logo=Youtube"></a>
 
