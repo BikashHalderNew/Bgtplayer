@@ -106,9 +106,8 @@ fill these vars
 <h4>Click On the below button to deploy on scalingo<h4>
 
 <p
-href="https://scalingo.com">
-       <img src="https://img.shields.io/badge/Deploy%20On%20Scalingo-silver?style=for-the-badge&logo=Scalingo" width="220""/>
-</p>
+href="https://scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"> <img src="https://img.shields.io/badge/Deploy%20On%20Scalingo-silver?style=for-the-badge&logo=Scalingo" width="220"
+hieght="38.30"/></p>a></p>
   
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
