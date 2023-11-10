@@ -49,7 +49,9 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 
 <h4>Click the button below to deploy on Okteto!</h4>
 
-href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""
+<p
+href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-blue?style=for-the-badge&logo=Okteto" width="200""
+<p>
 
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉 :
