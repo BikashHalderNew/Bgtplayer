@@ -40,7 +40,7 @@ We remove the button of github workflow. we don't want you get banned from this 
 ### 🔗 Deploy To Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-orange?style=for-the-badge&logo=heroku" width="250""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="250""/></a></p>
 
 ## VPS DEPLOYMENT :                  
 NOTE :- THIS IS MANDATORY          
