@@ -92,6 +92,7 @@ fill these vars
 
 ##  🔗 Deploy On Scalingo :
 <h4>Click On the below button to deploy on scalingo<h4>
+
 <p
 href="https://scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Scalingo-silver?style=for-the-badge&logo=Scalingo" width="220""/>
 </p>
@@ -100,6 +101,7 @@ href="https://scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bg
 
 ##  🔗 Deploy On Uffizzi :
 <h4>Click On the below button to deploy on uffizzi platform!<h4>
+
 <p
 href="https://uffizzi.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220""/>
 </p>
