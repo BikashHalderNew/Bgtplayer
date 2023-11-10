@@ -20,7 +20,7 @@ We have remove the button of github workflow. we don't want you get banned from 
 
 ### 🧪 Get `SESSION_NAME` from below:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellow)](https://github.com/AdityaHalder/PGV2-STRING) ``Pyrogram-v2``
+[![GenerateString](https://img.shields.io/badge/termux-TermuxString-yellow)](https://github.com/AdityaHalder/PGV2-STRING) ``Pyrogram-v2``
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal), fill thess vars
