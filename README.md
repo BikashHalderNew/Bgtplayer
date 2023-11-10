@@ -78,28 +78,34 @@ href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtp
 </p>
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :                  
-1) ``sudo apt update && sudo apt install git curl python3-pip ffmpeg -y``
+─ ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs ─
 
-2) ``curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``
 
-3) ``source ~/.bashrc``
-
-4) ``nvm install node``
-
-5. Clone the Repository :
-``git clone https://github.com/BikashhalderNew/BgtPlayer &&  cd Bgtplayer``
-
-6. Install Installer : 
-``pip3 install -r Installer``
-
-8. Editing Vars:
-``vi Internal``
-Edit Internal with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there.
-Press ``I`` button on keyboard to start editing.
-Press ``Ctrl + C``  once you are done with editing vars and type ``:wq`` to save Internal or ``:qa`` to exit editing.
-
-9. Finally Run BGT Music Bot :
-``python3 -m modules`` 
+- Get your [Necessary Variables](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
+- Upgrade and Update by :
+``sudo apt-get update && sudo apt-get upgrade -y``
+- Install Ffmpeg by :
+``sudo apt-get install python3-pip ffmpeg -y``
+- Install required packages by :
+``sudo apt-get install python3-pip -y``
+- Install pip by :
+``sudo pip3 install -U pip``
+- Install Node js by :
+``curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm``
+- Clone the repository by :
+``git clone https://github.com/BikashHalderNew/Bgtplayer && cd Bgtplayer``
+- Install requirements by :
+``pip3 install -U -r requirements.txt``
+- Fill your variables in the env by :
+vi.env<br>
+Press ``I`` on the keyboard for editing env<br>
+Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<br> and to exit press ``:qa``
+- Install tmux to keep running your bot when you close the terminal by :
+``sudo apt install tmux && tmux``
+- Finally run the bot by :
+``python3 -m Bikash``
+- For getting out from tmux session : Press | ``Ctrl+b`` | and then d<br>
+━━━━━━━━━━━━━━━━━━━━
 
 
 ### Now its time to give some credits :
