@@ -10,8 +10,8 @@
 
 import random
 
-from YukkiMusic import userbot
-from YukkiMusic.core.mongo import mongodb
+from BgtxD import userbot
+from BgtxD.core.mongo import mongodb
 
 db = mongodb.assistants
 
