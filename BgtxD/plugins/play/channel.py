@@ -11,9 +11,8 @@
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
-from BgtxD import config
-from config import BANNED_USERS
-from strings import get_command
+from BgtxD.config import BANNED_USERS
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.utils.database import set_cmode
 from BgtxD.utils.decorators.admins import AdminActual
