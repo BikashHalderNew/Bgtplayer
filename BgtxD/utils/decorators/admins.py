@@ -9,9 +9,8 @@
 #
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from BgtxD import config 
-from config import adminlist
-from strings import get_string
+from BgtxD.config import adminlist
+from BgtxD.strings import get_string
 from BgtxD import app
 from BgtxD.misc import SUDOERS
 from BgtxD.utils.database import (get_authuser_names, get_cmode,
