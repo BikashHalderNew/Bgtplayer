@@ -1,13 +1,3 @@
-#
-# Copyright (C) 2023-2024 by YukkiOwner@Github, < https://github.com/YukkiOwner >.
-#
-# This file is part of < https://github.com/YukkiOwner/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/YukkiOwner/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import asyncio
 import os
 import time
@@ -17,9 +7,9 @@ from typing import Union
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Voice)
 
-import config
+from BgtxD import config
 from config import MUSIC_BOT_NAME, lyrical
-from YukkiMusic import app
+from BgtxD import app
 
 from ..utils.formatters import (convert_bytes, get_readable_time,
                                 seconds_to_min)
