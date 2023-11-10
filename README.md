@@ -64,16 +64,19 @@ href="https://railway.app/new/template?template=https://github.com/BikashHalderN
 ### 🔗 Deploy To Scalingo :
 Click below to deploy on scalingo platform 
 
-<a href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"/></a>
+<p
+href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"/></a>
+</p>
 
 
 ### 🔗 Deploy To Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/></a></p>
+
+<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/></a>
+</p>
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :                  
-
 1) ``sudo apt update && sudo apt install git curl python3-pip ffmpeg -y``
 
 2) ``curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``
