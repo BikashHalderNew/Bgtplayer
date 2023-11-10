@@ -62,10 +62,10 @@ fill these vars
 href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
 
 ### 🔗 Deploy To Scalingo :
-Click below to deploy on scalingo platform 
+<h4>Click below to deploy on scalingo platform</h4>
 
 <p
-href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"/></a>
+href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"/>
 </p>
 
 
@@ -73,7 +73,8 @@ href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/></a>
+<p
+href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/>
 </p>
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :                  
