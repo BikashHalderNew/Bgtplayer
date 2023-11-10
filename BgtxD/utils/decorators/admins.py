@@ -9,12 +9,12 @@
 #
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
+from BgtxD import config 
 from config import adminlist
 from strings import get_string
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_authuser_names, get_cmode,
+from BgtxD import app
+from BgtxD.misc import SUDOERS
+from BgtxD.utils.database import (get_authuser_names, get_cmode,
                                        get_lang, is_active_chat,
                                        is_commanddelete_on,
                                        is_maintenance,
