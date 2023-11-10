@@ -11,11 +11,12 @@ First you have to fork this repo and star this repo for motivating us and withou
 - Zero downtime
 - Fast Download Song From Server
 - Py-tgcalls Updated
-- Fastest vc bot
+- Fastest vc bot on telegram
 
 ## Basic Commands :
 
 - `/play <song name>` - play song you requested
+- `/vplay <song name>` - play video you requested
 - `/song <song name>` - download songs you want quickly
 - `/ping` - Bot Online OR Offine
 - `/pause` - pause song play
