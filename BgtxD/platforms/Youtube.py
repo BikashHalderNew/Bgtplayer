@@ -1,13 +1,3 @@
-#
-# Copyright (C) 2023-2024 by YukkiOwner@Github, < https://github.com/YukkiOwner >.
-#
-# This file is part of < https://github.com/YukkiOwner/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/YukkiOwner/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import asyncio
 import os
 import re
@@ -18,9 +8,9 @@ import yt_dlp
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-import config
-from YukkiMusic.utils.database import is_on_off
-from YukkiMusic.utils.formatters import time_to_seconds
+from BgtxD import config
+from BgtxD.utils.database import is_on_off
+from BgtxD.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
