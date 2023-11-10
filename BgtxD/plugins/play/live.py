@@ -9,8 +9,7 @@
 #
 
 from pyrogram import filters
-from BgtxD import config 
-from config import BANNED_USERS
+from BgtxD.config import BANNED_USERS
 from BgtxD import YouTube, app
 from BgtxD.utils.channelplay import get_channeplayCB
 from BgtxD.utils.decorators.language import languageCB
