@@ -1,8 +1,36 @@
 ### What's the work of this bot :
 Best Smart Voice Chat Music Bot For All Telegram Groups or Channels This Bot Support Video play Or Audio Play Both ||
 
-## Multipe deployment options :
+## Multipe deployment options available :
 First you have to fork this repo and star this repo for motivating us and without forking it can occur an error while you deploying your apps so fork this first
+
+## 🔗 Features :
+
+- Pyrogram 2.0
+- Feel no lag while playing songs
+- zero downtime
+- Fast Download Song From Server
+- Py-tgcalls Updated
+- Fastest vc bot
+
+## Basic Commands :
+
+- `/play <song name>` - play song you requested
+- `/song <song name>` - download songs you want quickly
+- `/ping` - Bot Online OR Offine
+- `/pause` - pause song play
+- `/resume` - resume song play
+- `/skip` - play next song
+- `/end` - stop music play
+
+## Mandatory Vars : 
+
+- ``API_ID``
+- ``API_HASH``
+- ``BOT_TOKEN``
+- ``MONGO_DB_URI``
+- ``OWNER_ID``
+- ``STRING_SESSION``
 
 ## Tutorial for workflow deployment :
 
@@ -16,6 +44,13 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 ### Generate your string session through termux choose Pyrogram-2.0
 
 [![GenerateString](https://img.shields.io/badge/termux-stringsession-yellow)](https://github.com/AdityaHalder/PGV2-STRING)
+
+## ⚠️ Okteto Deployment
+
+<h4>Click the button below to deploy on Okteto!</h4>
+
+<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
+
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal), fill thess vars
