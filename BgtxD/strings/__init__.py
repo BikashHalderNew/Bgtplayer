@@ -23,14 +23,14 @@ for filename in os.listdir(r"./strings"):
     if filename.endswith(".yml"):
         language_name = filename[:-4]
         commands[language_name] = yaml.safe_load(
-            open(r"./strings/" + filename, encoding="utf8")
+            open(r"./BgtxD/strings/" + filename, encoding="utf8")
         )
 
 
 for filename in os.listdir(r"./strings/langs/"):
     if "en" not in languages:
         languages["en"] = yaml.safe_load(
-            open(r"./strings/langs/en.yml", encoding="utf8")
+            open(r"./BgtxD/strings/langs/en.yml", encoding="utf8")
         )
         languages_present["en"] = languages["en"]["name"]
     if filename.endswith(".yml"):
@@ -38,7 +38,7 @@ for filename in os.listdir(r"./strings/langs/"):
         if language_name == "en":
             continue
         languages[language_name] = yaml.safe_load(
-            open(r"./strings/langs/" + filename, encoding="utf8")
+            open(r"./BgtxD/strings/langs/" + filename, encoding="utf8")
         )
         for item in languages["en"]:
             if item not in languages[language_name]:
