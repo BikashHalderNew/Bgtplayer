@@ -8,8 +8,6 @@
 ### Join Our Chats @Bgt_Chat & @Adityadiscus 
 
 
-### Powered By [@BikashHalder](https://t.me/Bikashhalder)
-
 
 ### ABOUT THIS BOT :
 🥀 Best Smart Voice Chat Music Bot 📢 For All Telegram Groups or Channels ✅ This Bot Support Video play Or Audio Play Both ||
@@ -22,10 +20,11 @@ We remove the button of github workflow. we don't want you get banned from this 
 
 ## 🥀 Kaali Linux Tutorial :
 
-[Kaali Linux](https://youtu.be/_nZT5lhcL8U)
+[Kaali Linux]()
 
-## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭 :
-[𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
+<a href="https://youtu.be/_nZT5lhcL8U"><img src="https://img.shields.io/badg/Kaali-Linux%20Tutorial-red.svg?style=for-the-badge&logo=Youtube"></a>
+
+
 
 
 
