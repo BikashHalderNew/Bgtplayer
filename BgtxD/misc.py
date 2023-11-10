@@ -4,8 +4,8 @@ import time
 import heroku3
 from pyrogram import filters
 
-import config
-from YukkiMusic.core.mongo import pymongodb
+from BgtxD import config
+from BgtxD.core.mongo import pymongodb
 
 from .logging import LOGGER
 
