@@ -27,25 +27,15 @@ We remove the button of github workflow. we don't want you get banned from this 
 ## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭 :
 [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
 
-## Telegram 🏪 :
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgadgetstech)
-
-## YouTube 📺 :
-
-[YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
 
 ### 🔗 Deploy To Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 <p><a href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/></a></p>
 
-## VPS DEPLOYMENT :                  
-NOTE :- THIS IS MANDATORY          
-
-💥 COMMAND'S WHICH YOU HAVE TO RUN ON FRESH (𝐕𝐏𝐒) 💞
+## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :                  
 
 1) ``sudo apt update && sudo apt install git curl python3-pip ffmpeg -y``
 
@@ -71,22 +61,25 @@ Press ``Ctrl + C``  once you are done with editing vars and type ``:wq`` to save
 ``python3 -m modules`` 
 
 
-#### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
 
-### 🌷 Owner Of This Repository 🇮🇳
+#### Creator = [Bikash](https://t.me/BikashHalder)
+
+### Now its time to give some credits :
+- [BGT](https://github.com/BikashHalder): Dev
+- [Aditya-Halder](https://t.me/eSport_BOTs) For fixed some unknown errors
+- [YUKKI-MUSIC](https://github.com/TeamYukki) For Yukki Music Bot
+- [Laky](https://github.com/pyrogram) for pyrogram
+- [Dan](https://github.com/pytgcalls) for
+- py-tgcalls
+
+### Support & Updates ⚡
+<a href="https://t.me/bgt_chat"><img src="https://img.shields.io/badge/Join-Group%20Support-darkblue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BikashGadgetsTech"><img src="https://img.shields.io/badge/Join-Updates%20Channel-darkblue.svg?style=for-the-badge&logo=Telegram"></a>
+
+### 🖥️ Owner Of This Repository :
 [![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
 
+## Also support  our youTube channel by subscribing it :
 
-#### Main Developer = [Bikash](https://t.me/BikashHalder)
+<a href="https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg"><img src="https://img.shields.io/badge/Youtube%20Channel-red.svg?style=for-the-badge&logo=Youtube"></a>
 
-## 💕 Special Thanks
-
-✅ Aditya Halder Thanks For Fixed All Error Or Lovely Support 💕
-
-### 🥳 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐓𝐡𝐞𝐢𝐫 𝐒𝐨𝐮𝐫𝐜𝐞𝐬 🥳
-
-- [TeamYukki](https://github.com/teamyukki)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
-
-## 🥀 Powered By [BikashHalder](https://t.me/Bikashhalder) & [AdityaHalder](https://t.me/Adityahalder)
+#### Kang it with credits else u gay...
