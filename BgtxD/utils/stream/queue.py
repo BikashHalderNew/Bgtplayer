@@ -2,7 +2,7 @@ from typing import Union
 from BgtxD import config
 from config import autoclean, chatstats, userstats
 from config.config import time_to_seconds
-from YukkiMusic.misc import db
+from BgtxD.misc import db
 
 
 async def put_queue(
