@@ -93,7 +93,7 @@ href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtp
 - Clone the repository by :
 ``git clone https://github.com/BikashHalderNew/Bgtplayer && cd Bgtplayer``
 - Install requirements by :
-``pip3 install -U -r requirements.txt``
+``pip3 install -U -r Installer``
 - Fill your variables in the env by :
 vi.env<br>
 Press ``I`` on the keyboard for editing env<br>
