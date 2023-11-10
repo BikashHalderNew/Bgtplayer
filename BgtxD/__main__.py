@@ -4,7 +4,7 @@ import sys
 
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
-
+from BgtxD import config 
 from BgtxD.config import BANNED_USERS
 from BgtxD  import LOGGER, app, userbot
 from BgtxD.core.call import Bgt
@@ -44,12 +44,12 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("YukkiMusic.plugins" + all_module)
+        importlib.import_module("BgtxD.plugins" + all_module)
     LOGGER("BgtxD.plugins").info(
         "Successfully Imported Modules "
     )
     await userbot.start()
-    await Bgt.start()
+    await Bikashbot.start()
     try:
         await Bgt.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
@@ -62,10 +62,10 @@ async def init():
     except:
         pass
     await Bgt.decorators()
-    LOGGER("BgtxD").info("Yukki Music Bot Started Successfully")
+    LOGGER("BgtxD").info("Bgt Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("BgtxD").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("BgtxD").info("Stopping Music Bot! GoodBye")
