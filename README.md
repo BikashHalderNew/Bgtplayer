@@ -5,7 +5,7 @@ Best Smart Voice Chat Music Bot For All Telegram Groups or Channels This Bot Sup
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Multipe deployment options are available :
+## Multiple deployment options are available :
 First you have to fork this repo and star this repo for motivating us and without forking it can occur an error while you deploying your apps so fork this first 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -20,7 +20,7 @@ First you have to fork this repo and star this repo for motivating us and withou
 - Fastest vc bot on telegram
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Basic Commands :
+## Basic Bot Commands :
 
 - `/play <song name>` - play song you requested
 - `/vplay <song name>` - play video you requested
@@ -33,7 +33,7 @@ First you have to fork this repo and star this repo for motivating us and withou
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Mandatory Vars : 
+## Mandatory Bot Variable's: 
 
 - ``API_ID``
 - ``API_HASH``
