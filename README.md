@@ -16,7 +16,7 @@
 🌷 You can Deploy Easily Fork repo and Give Start 🌷
 
 ## ⚠️ Bot Deploy On Workflow :
-We remove the button of github workflow. we don't want you get banned from this source.
+We have remove the button of github workflow. we don't want you get banned from this source.
 
 ## 🥀 Kaali Linux Tutorial :
 
@@ -58,16 +58,12 @@ Press ``Ctrl + C``  once you are done with editing vars and type ``:wq`` to save
 ``python3 -m modules`` 
 
 
-
-#### Creator = [Bikash](https://t.me/BikashHalder)
-
 ### Now its time to give some credits :
 - [BGT](https://github.com/BikashHalder): Dev
 - [Aditya-Halder](https://t.me/eSport_BOTs) For fixed some unknown errors
 - [YUKKI-MUSIC](https://github.com/TeamYukki) For Yukki Music Bot
 - [Laky](https://github.com/pyrogram) for pyrogram
-- [Dan](https://github.com/pytgcalls) for
-- py-tgcalls
+- [Dan](https://github.com/pytgcalls) for py-tgcalls
 
 ### Support & Updates ⚡
 <a href="https://t.me/bgt_chat"><img src="https://img.shields.io/badge/Join-Group%20Support-darkblue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BikashGadgetsTech"><img src="https://img.shields.io/badge/Join-Updates%20Channel-darkblue.svg?style=for-the-badge&logo=Telegram"></a>
