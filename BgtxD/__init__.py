@@ -1,4 +1,4 @@
-from BgtxD.core.bot import BgtBot
+from BgtxD.core.bot import Bikashbot
 from BgtxD.core.dir import dirr
 from BgtxD.core.git import git
 from BgtxD.core.userbot import Userbot
@@ -22,7 +22,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = BikashBot()
+app = Bikashbot()
 
 # Assistant Client
 userbot = Userbot()
