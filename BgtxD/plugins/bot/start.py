@@ -7,8 +7,7 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from youtubesearchpython.__future__ import VideosSearch
 
-from BgtxD import config
-from config import BANNED_USERS
+from BgtxD.config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
 from BgtxD import Telegram, YouTube, app
