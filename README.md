@@ -77,9 +77,7 @@ fill these vars
 href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/>
 </p>
 
-## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :                  
-─ ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs ─
-
+## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :
 
 - Get your [Necessary Variables](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
 - Upgrade and Update by :
