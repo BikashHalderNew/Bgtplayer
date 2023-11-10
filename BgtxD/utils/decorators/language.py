@@ -10,8 +10,8 @@
 
 
 from strings import get_string
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_lang, is_commanddelete_on,
+from BgtxD.misc import SUDOERS
+from BgtxD.utils.database import (get_lang, is_commanddelete_on,
                                        is_maintenance)
 
 
