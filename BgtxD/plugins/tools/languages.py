@@ -11,9 +11,8 @@
 from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
-from BgtxD import config 
-from config import BANNED_USERS
-from strings import get_command, get_string, languages_present
+from BgtxD.config import BANNED_USERS
+from BgtxD.strings import get_command, get_string, languages_present
 from BgtxD import app
 from BgtxD.utils.database import get_lang, set_lang
 from BgtxD.utils.decorators import (ActualAdminCB, language,
