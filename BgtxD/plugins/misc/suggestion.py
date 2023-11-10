@@ -12,9 +12,8 @@ import asyncio
 import random
 from datetime import datetime, timedelta
 
-from BgtxD import config
-from config import clean
-from strings import get_string
+from BgtxD.config import clean
+from BgtxD.strings import get_string
 from BgtxD import app
 from BgtxD.utils.database import (get_lang,
                                        get_private_served_chats,
