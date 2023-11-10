@@ -61,14 +61,6 @@ fill these vars
 <a href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"><img src="https://railway.app/button.svg" alt="Deploy on Railway" /></a>
 
 
-## 🔗 Deploy To Scalingo :
-<h4>Click below to deploy on scalingo platform</h4>
-
-<p
-href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Scalingo-white?style=for-the-badge&logo=Scalingo" width="220" height="38.45"/>
-</p>
-
-
 ## 🔗 Deploy To Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
