@@ -12,8 +12,7 @@ import asyncio
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
-from BgtxD import config 
-from config import BANNED_USERS
+from BgtxD.config import BANNED_USERS
 from BgtxD import app
 from BgtxD.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
