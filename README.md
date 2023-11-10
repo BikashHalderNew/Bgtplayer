@@ -6,6 +6,13 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<p align="center">
+  <img src="https://telegra.ph/file/36be820a8775f0bfc773e.jpg">
+</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## What's the work of this bot ? :
 Best Smart Voice Chat Music Bot For All Telegram Groups or Channels This Bot Support Video play Or Audio Play Both ||
 
@@ -182,4 +189,4 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-#### ᴋᴀɴɢ ɪᴛ ᴡɪᴛʜ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛꜱ ᴇʟꜱᴇ ʏᴏᴜ ɢᴀʏ...
+#### ᴋᴀɴɢ ɪᴛ ᴡɪᴛʜ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛꜱ ᴇʟꜱᴇ ʏᴏᴜʀ ᴍᴜᴍ ᴍɪɴᴇ...
