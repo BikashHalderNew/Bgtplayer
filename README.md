@@ -132,6 +132,14 @@ hieght="38.30" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## Clever Cloud Deployment :
+
+<a
+href="https://www.clever-cloud.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20CleverCloud-seagreen?style=for-the-badge&logo=cloud" width="220"
+hieght="38.30" /></a>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :
 
 - Get your [Necessary Variables](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
