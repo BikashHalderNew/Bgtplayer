@@ -9,7 +9,7 @@
 #
 
 
-from strings import get_string
+from BgtxD.strings import get_string
 from BgtxD.misc import SUDOERS
 from BgtxD.utils.database import (get_lang, is_commanddelete_on,
                                        is_maintenance)
