@@ -5,8 +5,7 @@ from typing import Union
 
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
-from BgtxD import config
-from config import BANNED_USERS
+from BgtxD.config import BANNED_USERS
 from strings import get_command, get_string, helpers
 from BgtxD import app
 from BgtxD.misc import SUDOERS
