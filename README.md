@@ -18,9 +18,9 @@
 ## ⚠️ Bot Deploy On Workflow :
 We have remove the button of github workflow. we don't want you get banned from this source.
 
-### 🧪 Get `SESSION_NAME` from below:
+### Generate your string session through termux choose Pyrogram-2.0
 
-[![GenerateString](https://img.shields.io/badge/termux-TermuxString-yellow)](https://github.com/AdityaHalder/PGV2-STRING) ``Pyrogram-v2``
+[![GenerateString](https://img.shields.io/badge/termux-String-yellow)](https://github.com/AdityaHalder/PGV2-STRING) ``Pyrogram-v2``
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal), fill thess vars
