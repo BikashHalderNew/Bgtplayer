@@ -110,7 +110,7 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 ## Now its time to give some credits ✨ :
 
 - [BGT](https://github.com/BikashHalder) Dev
-- [Aditya-Halder](https://t.me/eSport_BOTs) For fixed some unknown errors
+- [Aditya-Halder](https://t.me/eSport_BOTs) For fixed errors
 - [YUKKI-MUSIC](https://github.com/TeamYukki) For Yukki Music Bot
 - [Dan](https://github.com/pyrogram) for pyrogram
 - [Laky](https://github.com/pytgcalls) for py-tgcalls
