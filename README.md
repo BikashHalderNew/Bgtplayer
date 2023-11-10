@@ -39,7 +39,7 @@ First you have to fork this repo and star this repo for motivating us and withou
 ## ⚠️ Deploy On Workflow :
 To deploy on workflow you need to import codes of that repository which u want to deploy on github workflow. for detailed process chcek Kaali-Linux tutorials given below of this repository.
 
-<b>Necessary Variables To Host On Workflow given below<b> :
+Necessary Variables To Host On Workflow given below :
 
 - ``GIT_EMAIL`` - Your github mail 
 - ``GIT_NAME``  - Your github username
@@ -57,7 +57,7 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 <h4>Click the button below to deploy on Okteto!</h4>
 
 <p
-href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-lightwhite?style=for-the-badge&logo=okteto" width="200""
+href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-lightblue?style=for-the-badge&logo=okteto" width="200""
 <p>
 
 
