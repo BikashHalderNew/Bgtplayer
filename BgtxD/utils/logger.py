@@ -1,5 +1,4 @@
-from BgtxD import config
-from config import LOG, LOG_GROUP_ID
+from BgtxD.config import LOG, LOG_GROUP_ID
 from BgtxD import app
 from BgtxD.utils.database import is_on_off
 
