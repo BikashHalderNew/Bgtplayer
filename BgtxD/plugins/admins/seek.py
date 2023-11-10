@@ -11,7 +11,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS
-from strings import get_command
+from BgtxD.strings import get_command
 from BgtxD import YouTube, app
 from BgtxD.core.call import Bikash
 from BgtxD.misc import db
