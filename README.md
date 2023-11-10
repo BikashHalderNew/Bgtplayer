@@ -2,10 +2,10 @@
 Best Smart Voice Chat Music Bot For All Telegram Groups or Channels This Bot Support Video play Or Audio Play Both ||
 
 ## Multipe deployment options are available :
-First you have to fork this repo and star this repo for motivating us and without forking it can occur an error while you deploying your apps so fork this first
+First you have to fork this repo and star this repo for motivating us and without forking it can occur an error while you deploying your apps so fork this first 
 
 ## 🔗 Features :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 - Pyrogram 2.0
 - Feel no lag while playing songs
 - Zero downtime
@@ -14,7 +14,7 @@ First you have to fork this repo and star this repo for motivating us and withou
 - Fastest vc bot on telegram
 
 ## Basic Commands :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 - `/play <song name>` - play song you requested
 - `/vplay <song name>` - play video you requested
 - `/song <song name>` - download songs you want quickly
@@ -24,8 +24,9 @@ First you have to fork this repo and star this repo for motivating us and withou
 - `/skip` - play next song
 - `/end` - stop music play
 
-## Mandatory Vars : 
 
+## Mandatory Vars : 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 - ``API_ID``
 - ``API_HASH``
 - ``BOT_TOKEN``
@@ -34,14 +35,14 @@ First you have to fork this repo and star this repo for motivating us and withou
 - ``STRING_SESSION``
 
 ## Tutorial for workflow deployment :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="https://youtu.be/_nZT5lhcL8U)"><img src="https://img.shields.io/badge/Kaali%20Linux-black.svg?style=for-the-badge&logo=Youtube"></a>
 
 ## ⚠️ Deploy On Workflow :
 To deploy on workflow you need to import codes of that repository which u want to deploy on github workflow. for detailed process checkout Kaali-Linux tutorial above of this repository.
 
 Necessary Variables To Host On Workflow given below :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 - ``GIT_EMAIL`` - Your github mail 
 - ``GIT_NAME``  - Your github username
 - ``BOT_REPO``  - Your bot repository which u want to deploy 
@@ -50,13 +51,13 @@ Necessary Variables To Host On Workflow given below :
 href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-orange?style=for-the-badge&logo=github" width="200""/></a>
 
 ### Generate your string session through termux choose always Pyrogram-2.0 :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="https://github.com/AdityaHalder/PGV2-STRING"> <img src="https://img.shields.io/badge/Termux%20Session-brown?style=for-the-badge&logo=github" width="220" height="38.45"/>
 
 ## ⚠️ Okteto Deployment :
 
 <h4>Click the button below to deploy on Okteto!</h4>
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer">
   <img
 src="https://img.shields.io/badge/Deploy%20To%20Okteto-lightpink?style=for-the-badge&logo=Okteto" width="220""/>
@@ -66,14 +67,14 @@ src="https://img.shields.io/badge/Deploy%20To%20Okteto-lightpink?style=for-the-b
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉 :
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
 fill these vars
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"><img src="https://railway.app/button.svg" alt="Deploy on Railway" /></a>
 
 
 ## 🔗 Deploy To Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <p
 href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/>
 </p>
@@ -81,6 +82,7 @@ href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtp
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :
 
 - Get your [Necessary Variables](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 - Upgrade and Update by :
 ``sudo apt-get update && sudo apt-get upgrade -y``
 - Install Ffmpeg by :
@@ -104,11 +106,11 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 - Finally run the bot by :
 ``python3 -m Bikash``
 - For getting out from tmux session : Press | ``Ctrl+b`` | and then d<br>
-━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 ## Now its time to give some credits ✨ :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 - [BGT](https://github.com/BikashHalder) For everything 
 - [Aditya-Halder](https://github.com/AdityaHalder) For fixed errors
 - [YUKKI-MUSIC](https://github.com/TeamYukki) For Yukki Music Bot
@@ -116,15 +118,15 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 - [Laky](https://github.com/pytgcalls) For py-tgcalls
 
 ## Support & Updates ⚡ :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="https://t.me/bgt_chat"><img src="https://img.shields.io/badge/Join-Group%20Support-darkblue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BikashGadgetsTech"><img src="https://img.shields.io/badge/Join-Updates%20Channel-darkblue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## 🖥️ Owner Of This Repository :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 [![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 ## Also support  our youtube channel by subscribing it :
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg"><img src="https://img.shields.io/badge/Youtube%20Channel-red.svg?style=for-the-badge&logo=Youtube"></a>
 
 #### Kang it with credits else u gay...
