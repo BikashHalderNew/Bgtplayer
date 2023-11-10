@@ -6,7 +6,7 @@ First you have to fork this repo and star this repo for motivating us and withou
 
 ## Tutorial for workflow deployment :
 
-<a href="https://youtu.be/_nZT5lhcL8U)"><img src="https://img.shields.io/badge/Youtube%20Channel-black.svg?style=for-the-badge&logo=Youtube"></a>
+<a href="https://youtu.be/_nZT5lhcL8U)"><img src="https://img.shields.io/badge/Kaali%20Linux-black.svg?style=for-the-badge&logo=Youtube"></a>
 
 ## ⚠️ Deploy On Workflow :
 
