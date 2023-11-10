@@ -107,7 +107,7 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 ━━━━━━━━━━━━━━━━━━━━
 
 
-## Now its time to give some credits :
+## Now its time to give some credits ✨ :
 
 - [BGT](https://github.com/BikashHalder) Dev
 - [Aditya-Halder](https://t.me/eSport_BOTs) For fixed some unknown errors
