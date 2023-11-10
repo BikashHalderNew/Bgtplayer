@@ -19,9 +19,8 @@ from pyrogram.errors import MessageIdInvalid
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
-from BgtxD import config
-from config import BANNED_USERS, MUSIC_BOT_NAME
-from strings import get_command
+from BgtxD.config import BANNED_USERS, MUSIC_BOT_NAME
+from BgtxD.strings import get_command
 from BgtxD import YouTube, app
 from BgtxD.core.userbot import assistants
 from BgtxD.misc import SUDOERS, pymongodb
