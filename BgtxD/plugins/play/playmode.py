@@ -2,9 +2,8 @@
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
-from BgtxD import config 
-from config import BANNED_USERS
-from strings import get_command
+from BgtxD.config import BANNED_USERS
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.utils.database import (get_playmode, get_playtype,
                                        is_nonadmin_chat)
