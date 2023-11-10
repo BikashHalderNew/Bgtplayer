@@ -105,18 +105,18 @@ fill these vars
 ##  🔗 Deploy On Scalingo :
 <h4>Click On the below button to deploy on scalingo<h4>
 
-<p
-href="https://scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"> <img src="https://img.shields.io/badge/Deploy%20On%20Scalingo-silver?style=for-the-badge&logo=Scalingo" width="220"
-hieght="38.30"/></p>
+<a
+href="https://scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Scalingo-silver?style=for-the-badge&logo=Scalingo" width="220"
+hieght="38.30" /></a>
   
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ##  🔗 Deploy On Uffizzi :
 <h4>Click On the below button to deploy on uffizzi platform!<h4>
 
-<p
+<a
 href="https://uffizzi.com">
-      <img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220""/>
+      <img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220"" /></a>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -125,9 +125,8 @@ href="https://uffizzi.com">
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 
-<p
-href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/>
-</p>
+<a
+href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220"" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
