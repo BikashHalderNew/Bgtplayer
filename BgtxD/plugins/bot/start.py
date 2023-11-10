@@ -8,8 +8,8 @@ from pyrogram.types import (InlineKeyboardButton,
 from youtubesearchpython.__future__ import VideosSearch
 
 from BgtxD.config import BANNED_USERS
-from config.config import OWNER_ID
-from strings import get_command, get_string
+from BgtxD.config import OWNER_ID
+from BgtxD.strings import get_command, get_string
 from BgtxD import Telegram, YouTube, app
 from BgtxD.misc import SUDOERS
 from BgtxD.plugins.play.playlist import del_plist_msg
