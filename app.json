@@ -1,7 +1,7 @@
 {
-    "name": "Bgt Music Bot",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg",
+    "name": "✶ ʙɢᴛ ᴘʟᴀʏᴇʀ ✶",
+    "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟꜱ."
+    "logo": "https://telegra.ph/file/4d7a997a6c8c4eb406829.jpg",
     "keywords": [
     "python3",
     "telegram",
