@@ -11,8 +11,8 @@
 from pyrogram import filters
 
 from BgtxD import config
-from strings import get_command
-from YukkiMusic import app
+from BgtxD.strings import get_command
+from BgtxD import app
 from BgtxD.misc import SUDOERS
 from BgtxD.utils.database import autoend_off, autoend_on
 from BgtxD.utils.decorators.language import language
