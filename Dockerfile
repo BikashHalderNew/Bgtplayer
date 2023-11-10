@@ -6,4 +6,4 @@ RUN apt-get update -y && apt-get upgrade -y \
 COPY . /Bikashh/
 WORKDIR /Bikashh/
 RUN pip3 install --no-cache-dir --upgrade --requirement Installer
-CMD python3 -m Bikash
+CMD python3 -m BgtxD
