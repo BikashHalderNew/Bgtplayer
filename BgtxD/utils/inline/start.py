@@ -11,8 +11,7 @@
 from typing import Union
 
 from pyrogram.types import InlineKeyboardButton
-from BgtxD import config 
-from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
+from BgtxD.config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 from BgtxD import app
 
 
