@@ -15,9 +15,8 @@ import time
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
-from BgtxD import config 
-from config import BANNED_USERS
-from strings import get_command
+from BgtxD.config import BANNED_USERS
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.misc import SUDOERS
 from BgtxD.utils import get_readable_time
