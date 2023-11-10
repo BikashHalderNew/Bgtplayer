@@ -37,7 +37,14 @@ First you have to fork this repo and star this repo for motivating us and withou
 <a href="https://youtu.be/_nZT5lhcL8U)"><img src="https://img.shields.io/badge/Kaali%20Linux-black.svg?style=for-the-badge&logo=Youtube"></a>
 
 ## ⚠️ Deploy On Workflow :
+To deploy on workflow you need to import codes of that repository which u want to deploy on github workflow. for detailed process chcek Kaali-Linux tutorials given below of this repository.
 
+<b>Necessary Variables To Host On Workflow given below<b> :
+
+- ``GIT_EMAIL`` - Your github mail 
+- ``GIT_NAME``  - Your github username
+- ``BOT_REPO``  - Your bot repository which u want to deploy 
+- ``GIT_TOKEN`` - your github access token it acts like a password for your github account
 <p
 href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-orange?style=for-the-badge&logo=github" width="200""/></a>
 
