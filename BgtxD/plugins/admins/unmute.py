@@ -1,8 +1,7 @@
 
 from pyrogram import filters
 from pyrogram.types import Message
-from BgtxD import config
-from config import BANNED_USERS
+from BgtxD.config import BANNED_USERS
 from strings import get_command
 from BgtxD import app
 from BgtxD.core.call import Bikash
