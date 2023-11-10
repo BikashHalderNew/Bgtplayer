@@ -18,7 +18,7 @@ from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.stream import StreamAudioEnded
 
 from BgtxD import config
-from strings import get_string
+from BgtxD.strings import get_string
 from BgtxD import LOGGER, YouTube, app
 from BgtxD.misc import db
 from BgtxD.utils.database import (add_active_chat,
