@@ -72,8 +72,10 @@ Necessary Variables To Host On Workflow given below :
 - ``GIT_NAME``  - Your github username
 - ``BOT_REPO``  - Your bot repository which u want to deploy 
 - ``GIT_TOKEN`` - your github access token it acts like a password for your github account
+
 <a
-href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-orange?style=for-the-badge&logo=github" width="200""/></a>
+href="https://github.com/new/import"><img src="https://img.shields.io/badge/Deploy%20On%20Workflow-black?style=for-the-badge&logo=Github" width="220"
+hieght="38.30" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -115,7 +117,8 @@ hieght="38.30" /></a>
 <h4>Click On the below button to deploy on uffizzi platform!<h4>
 
 <a
-href="https://uffizzi.com"><img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220"" /></a>
+href="https://uffizzi.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=Uffizzi" width="220"
+hieght="38.30" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -124,7 +127,8 @@ href="https://uffizzi.com"><img src="https://img.shields.io/badge/Deploy%20On%20
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 
 <a
-href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220"" /></a>
+href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-seagreen?style=for-the-badge&logo=Heroku" width="220"
+hieght="38.30" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
