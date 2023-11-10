@@ -43,7 +43,7 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 
 ### Generate your string session through termux choose always Pyrogram-2.0 :
 
-<a href="https://github.com/AdityaHalder/PGV2-STRING"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=termux" width="220" height="38.45"/>
+<a href="https://github.com/AdityaHalder/PGV2-STRING"> <img src="https://img.shields.io/badge/String%20Session-grey?style=for-the-badge&logo=termux" width="220" height="38.45"/>
 
 ## ⚠️ Okteto Deployment :
 
@@ -58,8 +58,8 @@ href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalder
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
 fill these vars
 
-<p 
-href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
+<a href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"><img src="https://railway.app/button.svg" alt="Deploy on Railway" /></a>
+
 
 ### 🔗 Deploy To Scalingo :
 <h4>Click below to deploy on scalingo platform</h4>
