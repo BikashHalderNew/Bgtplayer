@@ -1,5 +1,9 @@
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## What's the work of this bot ? :
 Best Smart Voice Chat Music Bot For All Telegram Groups or Channels This Bot Support Video play Or Audio Play Both ||
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## Multipe deployment options are available :
 First you have to fork this repo and star this repo for motivating us and without forking it can occur an error while you deploying your apps so fork this first 
@@ -151,5 +155,7 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 ## Also support  our youtube channel by subscribing it :
 
 <a href="https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg"><img src="https://img.shields.io/badge/Youtube%20Channel-red.svg?style=for-the-badge&logo=Youtube"></a>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 #### Kang it with credits else u gay...
