@@ -9,8 +9,7 @@
 #
 
 
-from BgtxD import config
-from config import PRIVATE_BOT_MODE
+from BgtxD.config import PRIVATE_BOT_MODE
 from BgtxD.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
