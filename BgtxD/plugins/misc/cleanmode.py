@@ -15,9 +15,9 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.raw import types
 
-from BgtxD import config
-from config import adminlist, chatstats, clean, userstats
-from strings import get_command
+
+from BgtxD.config import adminlist, chatstats, clean, userstats
+from BgtxD.strings import get_command
 from BgtxD import app, userbot
 from BgtxD.misc import SUDOERS
 from BgtxD.utils.database import (get_active_chats,
