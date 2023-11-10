@@ -7,9 +7,8 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
-from BgtxD import config
-from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from strings import get_command
+from BgtxD.config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
+from BgtxD.strings import get_command
 from BgtxD import Carbon, YouTube, app
 from BgtxD.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
