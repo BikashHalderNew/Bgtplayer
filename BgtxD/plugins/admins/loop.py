@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS
-from strings import get_command
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
