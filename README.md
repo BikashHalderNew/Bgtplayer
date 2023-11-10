@@ -51,7 +51,7 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 
 ### Generate your string session through termux choose always Pyrogram-2.0 :
 
-<a href="https://github.com/AdityaHalder/PGV2-STRING"> <img src="https://img.shields.io/badge/Termux%20Session-dark-brown?style=for-the-badge&logo=github" width="220" height="38.45"/>
+<a href="https://github.com/AdityaHalder/PGV2-STRING"> <img src="https://img.shields.io/badge/Termux%20Session-brown?style=for-the-badge&logo=github" width="220" height="38.45"/>
 
 ## ⚠️ Okteto Deployment :
 
