@@ -72,8 +72,8 @@ Necessary Variables To Host On Workflow given below :
 - ``GIT_NAME``  - Your github username
 - ``BOT_REPO``  - Your bot repository which u want to deploy 
 - ``GIT_TOKEN`` - your github access token it acts like a password for your github account
-<p
-href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-orange?style=for-the-badge&logo=github" width="200""/></a>
+<a
+href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-orange?style=for-the-badge&logo=github" width="200"" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -115,8 +115,7 @@ hieght="38.30" /></a>
 <h4>Click On the below button to deploy on uffizzi platform!<h4>
 
 <a
-href="https://uffizzi.com">
-      <img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220"" /></a>
+href="https://uffizzi.com"><img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220"" /></a>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
