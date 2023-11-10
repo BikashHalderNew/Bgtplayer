@@ -12,9 +12,8 @@ from datetime import datetime
 
 from pyrogram import filters
 from pyrogram.types import Message
-from BgtxD import config 
-from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
-from strings import get_command
+from BgtxD.config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.core.call import Bikash
 from BgtxD.utils import bot_sys_stats
