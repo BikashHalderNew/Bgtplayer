@@ -1,1 +1,1 @@
-worker: python3 -m Bikash
+worker: python3 -m BgtxD
