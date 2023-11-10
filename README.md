@@ -20,8 +20,6 @@ We remove the button of github workflow. we don't want you get banned from this 
 
 ## 🥀 Kaali Linux Tutorial :
 
-[Kaali Linux]()
-
 <a href="https://youtu.be/_nZT5lhcL8U"><img src="https://img.shields.io/badge/Kaali%20Linux-black.svg?style=for-the-badge&logo=kaali"></a>
 
 
