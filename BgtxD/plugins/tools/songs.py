@@ -17,10 +17,9 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaAudio,
                             InputMediaVideo, Message)
-from BgtxD import config 
-from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
+from BgtxD.config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from strings import get_command
+from BgtxD.strings import get_command
 from BgtxD import YouTube, app
 from BgtxD.utils.decorators.language import language, languageCB
 from BgtxD.utils.formatters import convert_bytes
