@@ -6,7 +6,8 @@ First you have to fork this repo and star this repo for motivating us and withou
 
 ## ⚠️ Deploy On Workflow :
 
-<a href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-violet?style=for-the-badge&logo=github" width="200""/></a>
+<p
+href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-violet?style=for-the-badge&logo=github" width="200""/></a>
 
 ### Generate your string session through termux choose Pyrogram-2.0
 
