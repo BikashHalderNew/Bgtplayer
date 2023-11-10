@@ -24,7 +24,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 from BgtxD import config
-from strings import get_command
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.misc import HAPP, SUDOERS, XCB
 from BgtxD.utils.database import (get_active_chats,
