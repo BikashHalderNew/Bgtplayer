@@ -22,7 +22,7 @@ We remove the button of github workflow. we don't want you get banned from this 
 
 [Kaali Linux]()
 
-<a href="https://youtu.be/_nZT5lhcL8U"><img src="https://img.shields.io/badg/Kaali%20Linux-red.svg?style=for-the-badge&logo=Youtube"></a>
+<a href="https://youtu.be/_nZT5lhcL8U"><img src="https://img.shields.io/badge/Kaali%20Linux-black.svg?style=for-the-badge&logo=kaali"></a>
 
 
 
