@@ -1,6 +1,6 @@
 import logging
 from logging.handlers import RotatingFileHandler
-
+from BgtxD import config
 from config import LOG_FILE_NAME
 
 logging.basicConfig(
