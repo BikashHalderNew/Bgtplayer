@@ -14,9 +14,8 @@ import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
-from BgtxD import config 
-from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
-from strings import get_command
+from BgtxD.config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.core.call import Bikash 
 from BgtxD.misc import db
