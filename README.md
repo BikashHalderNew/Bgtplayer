@@ -135,7 +135,7 @@ hieght="38.30" /></a>
 ## Clever Cloud Deployment :
 
 <a
-href="https://www.clever-cloud.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20CleverCloud-seagreen?style=for-the-badge&logo=cloud" width="220"
+href="https://www.clever-cloud.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Clever-Cloud-blue?style=for-the-badge&logo=cloud" width="220"
 hieght="38.30" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
