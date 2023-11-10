@@ -22,7 +22,7 @@ from BgtxD.misc import db
 from BgtxD.utils.database import get_authuser_names, get_cmode
 from BgtxD.utils.decorators import (ActualAdminCB, AdminActual,
                                          language)
-from YukkiMusic.utils.formatters import alpha_to_int
+from BgtxD.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
