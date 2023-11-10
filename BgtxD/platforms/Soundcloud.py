@@ -13,7 +13,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from YukkiMusic.utils.formatters import seconds_to_min
+from BgtxD.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
