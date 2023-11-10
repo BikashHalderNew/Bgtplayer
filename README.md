@@ -1,8 +1,12 @@
 ### What's the work of this bot :
 Best Smart Voice Chat Music Bot For All Telegram Groups or Channels This Bot Support Video play Or Audio Play Both ||
 
-## Multipe deployment option :
+## Multipe deployment options :
 First you have to fork this repo and star this repo for motivating us and without forking it can occur an error while you deploying your apps so fork this first
+
+## Tutorial for workflow deployment :
+
+<a href="https://youtu.be/_nZT5lhcL8U)"><img src="https://img.shields.io/badge/Youtube%20Channel-black.svg?style=for-the-badge&logo=Youtube"></a>
 
 ## ⚠️ Deploy On Workflow :
 
