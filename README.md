@@ -106,7 +106,7 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 ━━━━━━━━━━━━━━━━━━━━
 
 
-### Now its time to give some credits :
+## Now its time to give some credits :
 
 - [BGT](https://github.com/BikashHalder) Dev
 - [Aditya-Halder](https://t.me/eSport_BOTs) For fixed some unknown errors
@@ -114,15 +114,15 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 - [Dan](https://github.com/pyrogram) for pyrogram
 - [Laky](https://github.com/pytgcalls) for py-tgcalls
 
-### Support & Updates ⚡ :
+## Support & Updates ⚡ :
 
 <a href="https://t.me/bgt_chat"><img src="https://img.shields.io/badge/Join-Group%20Support-darkblue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BikashGadgetsTech"><img src="https://img.shields.io/badge/Join-Updates%20Channel-darkblue.svg?style=for-the-badge&logo=Telegram"></a>
 
-### 🖥️ Owner Of This Repository :
+## 🖥️ Owner Of This Repository :
 
 [![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
 
-### Also support  our youtube channel by subscribing it :
+## Also support  our youtube channel by subscribing it :
 
 <a href="https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg"><img src="https://img.shields.io/badge/Youtube%20Channel-red.svg?style=for-the-badge&logo=Youtube"></a>
 
