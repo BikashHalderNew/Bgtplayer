@@ -82,7 +82,7 @@ src="https://img.shields.io/badge/Deploy%20To%20Okteto-lightpink?style=for-the-b
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉 :
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚈 :
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
 fill these vars
 
