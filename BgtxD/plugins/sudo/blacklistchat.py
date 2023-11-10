@@ -9,10 +9,9 @@
 #
 
 from pyrogram import filters
-from pyrogram.types import Message
-from BgtxD import config 
-from config import BANNED_USERS
-from strings import get_command
+from pyrogram.types import Message 
+from BgtxD.config import BANNED_USERS
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.misc import SUDOERS
 from BgtxD.utils.database import (blacklist_chat,
