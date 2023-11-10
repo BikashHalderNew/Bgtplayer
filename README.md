@@ -39,11 +39,11 @@ First you have to fork this repo and star this repo for motivating us and withou
 ## ⚠️ Deploy On Workflow :
 
 <p
-href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-violet?style=for-the-badge&logo=github" width="200""/></a>
+href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-orange?style=for-the-badge&logo=github" width="200""/></a>
 
 ### Generate your string session through termux choose always Pyrogram-2.0 :
 
-[![GenerateString](https://img.shields.io/badge/termux-stringsession-yellow)](https://github.com/AdityaHalder/PGV2-STRING)
+<a href="https://github.com/AdityaHalder/PGV2-STRING"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=termux" width="220" height="38.45"/>
 
 ## ⚠️ Okteto Deployment :
 
@@ -59,7 +59,12 @@ Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplaye
 fill these vars
 
 <p 
-href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,LOG_GROUP_ID,OWNER_ID,API_ID,API_HASH,MONGO_DB_URI"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
+href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
+
+### 🔗 Deploy To Scalingo :
+
+<p
+href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"
 
 
 ### 🔗 Deploy To Heroku :
