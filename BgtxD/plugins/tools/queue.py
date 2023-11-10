@@ -16,9 +16,8 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
-from BgtxD import config
-from config import BANNED_USERS
-from strings import get_command
+from BgtxD.config import BANNED_USERS
+from BgtxD.strings import get_command
 from BgtxD import app
 from BgtxD.misc import db
 from BgtxD.utils import (Bikashbin, get_channeplayCB,
