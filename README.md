@@ -1,22 +1,12 @@
-# BGT-MUSIC V1
-### Powered By @BikashHalder & @AdityaHalder 
+### What's the work of this bot :
+Best Smart Voice Chat Music Bot For All Telegram Groups or Channels This Bot Support Video play Or Audio Play Both ||
 
-### Join @BikashGadgetsTech For More Update
+## multipe deployment option :
+First you have to fork this repo and star this repo for motivating us and without forking it can occur an error while you deploying your apps so fork this first
 
-### Join @AdityaCheats For Hack
+## ⚠️ Deploy On Workflow :
 
-### Join Our Chats @Bgt_Chat & @Adityadiscus 
-
-
-
-### ABOUT THIS BOT :
-🥀 Best Smart Voice Chat Music Bot 📢 For All Telegram Groups or Channels ✅ This Bot Support Video play Or Audio Play Both ||
-
-## Deploy :
-🌷 You can Deploy Easily Fork repo and Give Start 🌷
-
-## ⚠️ Bot Deploy On Workflow :
-We have remove the button of github workflow. we don't want you get banned from this source.
+href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-violet?style=for-the-badge&logo=github" width="200""/></a>
 
 ### Generate your string session through termux choose Pyrogram-2.0
 
