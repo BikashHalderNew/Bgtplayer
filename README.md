@@ -11,7 +11,7 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 
 ### Generate your string session through termux choose Pyrogram-2.0
 
-[![GenerateString](https://img.shields.io/badge/termux-String-yellow)](https://github.com/AdityaHalder/PGV2-STRING) ``Pyrogram-v2``
+[![GenerateString](https://img.shields.io/badge/termux-strring-session-yellow)](https://github.com/AdityaHalder/PGV2-STRING)
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉
 Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal), fill thess vars
