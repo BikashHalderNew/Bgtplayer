@@ -12,7 +12,7 @@ import asyncio
 
 from pyrogram.types import InlineKeyboardMarkup
 
-from strings import get_string
+from BgtxD.strings import get_string
 from BgtxD.misc import db
 from BgtxD.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
