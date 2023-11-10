@@ -63,8 +63,7 @@ href="https://railway.app/new/template?template=https://github.com/BikashHalderN
 
 ### 🔗 Deploy To Scalingo :
 
-<p
-href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"
+<a href="https://my.scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"/></a>
 
 
 ### 🔗 Deploy To Heroku :
