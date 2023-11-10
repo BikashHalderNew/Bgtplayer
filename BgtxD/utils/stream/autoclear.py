@@ -1,6 +1,5 @@
 import os
-from BgtxD import config
-from config import autoclean
+from BgtxD.config import autoclean
 
 
 async def auto_clean(popped):
