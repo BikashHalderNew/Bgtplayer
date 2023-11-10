@@ -5,8 +5,7 @@ import sys
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
-from BgtxD import config
-from config import BANNED_USERS
+from BgtxD.config import BANNED_USERS
 from BgtxD  import LOGGER, app, userbot
 from BgtxD.core.call import Bgt
 from BgtxD.plugins import ALL_MODULES
