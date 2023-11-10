@@ -1,6 +1,6 @@
 
 
-
+import yt_dlp
 import random
 import string
 from ast import ExceptHandler
@@ -10,9 +10,8 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto,
                             Message)
 from pytgcalls.exceptions import NoActiveGroupCall
 
-from BgtxD import config
-from config import BANNED_USERS, lyrical
-from strings import get_command
+from BgtxD.config import BANNED_USERS, lyrical
+from BgtxD.strings import get_command
 from BgtxD import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
 from BgtxD.core.call import Bikash
