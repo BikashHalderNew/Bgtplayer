@@ -12,8 +12,7 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,
                             InlineQueryResultPhoto)
 from youtubesearchpython.__future__ import VideosSearch
-from BgtxD import config
-from config import BANNED_USERS, MUSIC_BOT_NAME
+from BgtxD.config import BANNED_USERS, MUSIC_BOT_NAME
 from BgtxD import app
 from BgtxD.utils.inlinequery import answer
 
