@@ -101,17 +101,17 @@ href="https://scalingo.com/deploy?template=https://github.com/BikashHalderNew/Bg
 ##  🔗 Deploy On Uffizzi :
 <h4>Click On the below button to deploy on uffizzi platform!<h4>
 <p
-href="https://uffizzi.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20Ono%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220""/>
+href="https://uffizzi.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=uffizzi" width="220""/>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🔗 Deploy To Heroku :
+## 🔗 Deploy On Heroku :
 
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 
 <p
-href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20Ono%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/>
+href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-seagreen?style=for-the-badge&logo=heroku" width="220""/>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
