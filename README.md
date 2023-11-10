@@ -59,7 +59,7 @@ href="https://github.com/new/import"><img src="https://img.shields.io/badge/Work
 
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer">
   <img
-src="https://img.shields.io/badge/Deploy%20To%20Okteto-black?style=for-the-badge&logo=okteto" width="220""/>
+src="https://img.shields.io/badge/Deploy%20To%20Okteto-black?style=for-the-badge&logo=deploy" width="220""/>
 </a>
 
 
