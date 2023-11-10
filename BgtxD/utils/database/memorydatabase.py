@@ -9,9 +9,9 @@
 #
 
 
-import config
+from BgtxD import config
 from config import PRIVATE_BOT_MODE
-from YukkiMusic.core.mongo import mongodb
+from BgtxD.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
