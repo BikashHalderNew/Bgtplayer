@@ -41,19 +41,20 @@ First you have to fork this repo and star this repo for motivating us and withou
 <p
 href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-violet?style=for-the-badge&logo=github" width="200""/></a>
 
-### Generate your string session through termux choose Pyrogram-2.0
+### Generate your string session through termux choose always Pyrogram-2.0 :
 
 [![GenerateString](https://img.shields.io/badge/termux-stringsession-yellow)](https://github.com/AdityaHalder/PGV2-STRING)
 
-## ⚠️ Okteto Deployment
+## ⚠️ Okteto Deployment :
 
 <h4>Click the button below to deploy on Okteto!</h4>
 
-<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
+href="https://cloud.okteto.com/deploy?repository=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""
 
 
-## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉
-Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal), fill thess vars
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚉 :
+Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
+fill these vars
 
 <p 
 href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,LOG_GROUP_ID,OWNER_ID,API_ID,API_HASH,MONGO_DB_URI"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
@@ -97,10 +98,12 @@ Press ``Ctrl + C``  once you are done with editing vars and type ``:wq`` to save
 - [Laky](https://github.com/pyrogram) for pyrogram
 - [Dan](https://github.com/pytgcalls) for py-tgcalls
 
-### Support & Updates ⚡
+### Support & Updates ⚡ :
+
 <a href="https://t.me/bgt_chat"><img src="https://img.shields.io/badge/Join-Group%20Support-darkblue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BikashGadgetsTech"><img src="https://img.shields.io/badge/Join-Updates%20Channel-darkblue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ### 🖥️ Owner Of This Repository :
+
 [![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
 
 ## Also support  our youTube channel by subscribing it :
