@@ -18,13 +18,11 @@
 ## ⚠️ Bot Deploy On Workflow :
 We have remove the button of github workflow. we don't want you get banned from this source.
 
-## 🥀 Kaali Linux Tutorial :
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
+ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/Internal), ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.
 
-<a href="https://youtu.be/_nZT5lhcL8U"><img src="https://img.shields.io/badge/Kaali%20Linux-black.svg?style=for-the-badge&logo=kaali"></a>
-
-
-
-
+<p 
+href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,LOG_GROUP_ID,OWNER_ID,API_ID,API_HASH,DURATION_LIMIT"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-purple?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
 
 
 ### 🔗 Deploy To Heroku :
