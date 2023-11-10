@@ -1,8 +1,7 @@
 
 from pyrogram import filters
 from pyrogram.types import Message
-from BgtxD import config
-from config import BANNED_USERS, adminlist
+from BgtxD.config import BANNED_USERS, adminlist
 from strings import get_command
 from BgtxD import app
 from BgtxD.utils.database import (delete_authuser, get_authuser,
