@@ -9,7 +9,7 @@
 #
 
 from datetime import datetime
-
+from BgtxD import config
 from pyrogram import filters
 from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
