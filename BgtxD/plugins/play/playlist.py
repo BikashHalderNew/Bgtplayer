@@ -17,7 +17,7 @@ from BgtxD.utils.decorators.language import language, languageCB
 from BgtxD.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from BgtxD.utils.pastebin import Yukkibin
+from BgtxD.utils.pastebin import Bikashbin
 from BgtxD.utils.stream.stream import stream
 
 # Command
