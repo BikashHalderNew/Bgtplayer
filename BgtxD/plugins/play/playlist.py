@@ -1,5 +1,5 @@
 
-
+from BgtxD import config
 import os
 from random import randint
 from BgtxD import config 
