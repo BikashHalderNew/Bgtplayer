@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS
 from BgtxD.strings import get_command
 from BgtxD import YouTube, app
-from BgtxD.core.call import Bikash
+from BgtxD.core.call import Bgt
 from BgtxD.misc import db
 from BgtxD.utils import AdminRightsCheck, seconds_to_min
 
@@ -69,7 +69,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
         if n == 0:
             return await message.reply_text(_["admin_30"])
     try:
-        await Bikash.seek_stream(
+        await Bgt.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
