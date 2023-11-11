@@ -17,7 +17,7 @@ from pyrogram.types import CallbackQuery, Message
 from BgtxD.config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from BgtxD.strings import get_command
 from BgtxD import app
-from BgtxD.core.call import Bikash 
+from BgtxD.core.call import Bgt
 from BgtxD.misc import db
 from BgtxD.utils.database import get_authuser_names, get_cmode
 from BgtxD.utils.decorators import (ActualAdminCB, AdminActual,
@@ -73,7 +73,7 @@ async def restartbot(client, message: Message, _):
     await asyncio.sleep(1)
     try:
         db[message.chat.id] = []
-        await Bikash.stop_stream(message.chat.id)
+        await Bgt.stop_stream(message.chat.id)
     except:
         pass
     chat_id = await get_cmode(message.chat.id)
