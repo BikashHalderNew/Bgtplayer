@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS
 from BgtxD.strings import get_command
 from BgtxD import app
-from BgtxD.core.call import Bikash
+from BgtxD.core.call import Bgt
 from BgtxD.utils.database import is_music_playing, music_off
 from BgtxD.utils.decorators import AdminRightsCheck
 
@@ -25,7 +25,7 @@ async def pause_admin(cli, message: Message, _, chat_id):
     if not await is_music_playing(chat_id):
         return await message.reply_text(_["admin_1"])
     await music_off(chat_id)
-    await Bikash.pause_stream(chat_id)
+    await Bgt.pause_stream(chat_id)
     await message.reply_text(
         _["admin_2"].format(message.from_user.mention)
     )
