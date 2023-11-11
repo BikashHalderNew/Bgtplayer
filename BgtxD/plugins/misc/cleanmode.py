@@ -10,7 +10,7 @@
 
 import asyncio
 from datetime import datetime, timedelta
-
+from BgtxD import config
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.raw import types
