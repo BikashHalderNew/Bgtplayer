@@ -1,7 +1,7 @@
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
-
+from BgtxD import config
 from BgtxD.config import BANNED_USERS
 from BgtxD.strings import get_command
 from BgtxD import YouTube, app
