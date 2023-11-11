@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 from BgtxD.config import BANNED_USERS
 from BgtxD.strings import get_command
 from BgtxD import YouTube, app
-from BgtxD.core.call import Bikash
+from BgtxD.core.call import Bgt
 from BgtxD.misc import db
 from BgtxD.utils.database import get_loop
 from BgtxD.utils.decorators import AdminRightsCheck
@@ -139,7 +139,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             return await mystic.edit_text(_["call_9"])
         try:
-            await Bikash.skip_stream(chat_id, file_path, video=status)
+            await Bgt.skip_stream(chat_id, file_path, video=status)
         except Exception:
             return await mystic.edit_text(_["call_9"])
         button = stream_markup(_, videoid, chat_id)
@@ -157,7 +157,7 @@ async def skip(cli, message: Message, _, chat_id):
         await mystic.delete()
     elif "index_" in queued:
         try:
-            await Bikash.skip_stream(chat_id, videoid, video=status)
+            await Bgt.skip_stream(chat_id, videoid, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
@@ -170,7 +170,7 @@ async def skip(cli, message: Message, _, chat_id):
         db[chat_id][0]["markup"] = "tg"
     else:
         try:
-            await Bikash.skip_stream(chat_id, queued, video=status)
+            await Bgt.skip_stream(chat_id, queued, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         if videoid == "telegram":
