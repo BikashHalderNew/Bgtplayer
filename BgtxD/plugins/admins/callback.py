@@ -1,5 +1,5 @@
 import random
-
+from BgtxD import config 
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from BgtxD.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
