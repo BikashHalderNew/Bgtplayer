@@ -1,4 +1,4 @@
-
+from BgtxD import config
 
 import yt_dlp
 import random
