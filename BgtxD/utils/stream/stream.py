@@ -16,7 +16,7 @@ from BgtxD.utils.exceptions import AssistantErr
 from BgtxD.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from BgtxD.utils.inline.playlist import close_markup
-from BgtxD.utils.pastebin import Yukkibin
+from BgtxD.utils.pastebin import Bikashbin
 from BgtxD.utils.stream.queue import put_queue, put_queue_index
 from BgtxD.utils.thumbnails import gen_thumb
 
