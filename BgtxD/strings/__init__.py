@@ -19,7 +19,7 @@ def get_string(lang: str):
     return languages[lang]
 
 
-for filename in os.listdir(r"./strings"):
+for filename in os.listdir(r"./BgtxD/strings"):
     if filename.endswith(".yml"):
         language_name = filename[:-4]
         commands[language_name] = yaml.safe_load(
@@ -27,7 +27,7 @@ for filename in os.listdir(r"./strings"):
         )
 
 
-for filename in os.listdir(r"./strings/langs/"):
+for filename in os.listdir(r"./BgtxD/strings/langs/"):
     if "en" not in languages:
         languages["en"] = yaml.safe_load(
             open(r"./BgtxD/strings/langs/en.yml", encoding="utf8")
