@@ -100,7 +100,7 @@ src="https://img.shields.io/badge/Deploy%20On%20Okteto-lightpink?style=for-the-b
 
 <h4>Click the button below to deploy on Mogenius!</h4>
 
-<a href="https://mogenius/deploy?template=https://github.com/BikashHalderNew/Bgtplayer">
+<a href="https://mogenius/deploy? repository=https://github.com/BikashHalderNew/Bgtplayer">
   <img
 src="https://img.shields.io/badge/Deploy%20On%20Mogenius-grey?style=for-the-badge&logo=Mogenius" width="220""/>
 </a>
