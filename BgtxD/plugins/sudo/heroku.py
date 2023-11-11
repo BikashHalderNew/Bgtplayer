@@ -31,7 +31,7 @@ from BgtxD.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
 from BgtxD.utils.decorators.language import language
-from BgtxD.utils.pastebin import Yukkibin
+from BgtxD.utils.pastebin import Bikashbin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
