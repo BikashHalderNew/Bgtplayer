@@ -2,7 +2,7 @@
 
 import os
 from random import randint
-
+from BgtxD import config 
 from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
