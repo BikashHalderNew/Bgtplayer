@@ -94,6 +94,16 @@ hieght="38.30" /></a>
   <img
 src="https://img.shields.io/badge/Deploy%20On%20Okteto-lightpink?style=for-the-badge&logo=Okteto" width="220""/>
 </a>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+##  Mogenius Deployment :
+
+<h4>Click the button below to deploy on Mogenius!</h4>
+
+<a href="https://mogenius/deploy?template=https://github.com/BikashHalderNew/Bgtplayer">
+  <img
+src="https://img.shields.io/badge/Deploy%20On%20Mogenius-grey?style=for-the-badge&logo=Mogenius" width="220""/>
+</a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
