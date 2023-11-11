@@ -13,7 +13,7 @@ from datetime import datetime
 
 from BgtxD import config
 from BgtxD import app
-from BgtxD.core.call import Bikash, autoend
+from BgtxD.core.call import Bgt, autoend
 from BgtxD.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
@@ -74,7 +74,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Bikash.stop_stream(chat_id)
+                    await Bgt.stop_stream(chat_id)
                 except:
                     continue
                 try:
