@@ -14,7 +14,7 @@ from BgtxD.config import BANNED_USERS, lyrical
 from BgtxD.strings import get_command
 from BgtxD import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from BgtxD.core.call import Bikash
+from BgtxD.core.call import Bgt
 from BgtxD.utils import seconds_to_min, time_to_seconds
 from BgtxD.utils.channelplay import get_channeplayCB
 from BgtxD.utils.database import is_video_allowed
@@ -331,7 +331,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Bikash.stream_call(url)
+                await Bgt.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(
                     "There's an issue with the bot. Please report it to my owner and ask them to check logger group."
