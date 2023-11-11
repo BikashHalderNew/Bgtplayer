@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS
 from BgtxD.strings import get_command
 from BgtxD import app
-from BgtxD.core.call import Bikash
+from BgtxD.core.call import Bgt
 from BgtxD.utils.database import is_muted, mute_off
 from BgtxD.utils.decorators import AdminRightsCheck
 
@@ -24,7 +24,7 @@ async def unmute_admin(Client, message: Message, _, chat_id):
     if not await is_muted(chat_id):
         return await message.reply_text(_["admin_7"])
     await mute_off(chat_id)
-    await Bikash.unmute_stream(chat_id)
+    await Bgt.unmute_stream(chat_id)
     await message.reply_text(
         _["admin_8"].format(message.from_user.mention)
     )
