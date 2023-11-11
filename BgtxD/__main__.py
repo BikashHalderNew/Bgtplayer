@@ -49,7 +49,7 @@ async def init():
         "Successfully Imported Modules "
     )
     await userbot.start()
-    await Bikashbot.start()
+    await bikashbot.start()
     try:
         await Bgt.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
