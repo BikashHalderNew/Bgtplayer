@@ -10,7 +10,7 @@
 
 
 import asyncio
-
+from BgtxD import config
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
