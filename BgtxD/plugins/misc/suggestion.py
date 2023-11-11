@@ -11,7 +11,7 @@
 import asyncio
 import random
 from datetime import datetime, timedelta
-
+from BgtxD import config
 from BgtxD.config import clean
 from BgtxD.strings import get_string
 from BgtxD import app
