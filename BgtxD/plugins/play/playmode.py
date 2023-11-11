@@ -1,4 +1,4 @@
-
+from BgtxD import config
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
