@@ -6,7 +6,7 @@ from BgtxD.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
 from BgtxD import YouTube, app
-from BgtxD.core.call import Bikash
+from BgtxD.core.call import Bgt
 from BgtxD.misc import SUDOERS, db
 from BgtxD.utils.database import (is_active_chat,
                                        is_music_playing, is_muted,
@@ -138,7 +138,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await music_off(chat_id)
-        await Bikash.pause_stream(chat_id)
+        await Bgt.pause_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_2"].format(mention)
         )
@@ -149,13 +149,13 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await music_on(chat_id)
-        await Bikash.resume_stream(chat_id)
+        await Bgt.resume_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_4"].format(mention)
         )
     elif command == "Stop" or command == "End":
         await CallbackQuery.answer()
-        await Bikash.stop_stream(chat_id)
+        await Bgt.stop_stream(chat_id)
         await set_loop(chat_id, 0)
         await CallbackQuery.message.reply_text(
             _["admin_9"].format(mention)
@@ -167,7 +167,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await mute_on(chat_id)
-        await Bikash.mute_stream(chat_id)
+        await Bgt.mute_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_6"].format(mention)
         )
@@ -178,7 +178,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await mute_off(chat_id)
-        await Bikash.unmute_stream(chat_id)
+        await Bgt.unmute_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_8"].format(mention)
         )
@@ -290,7 +290,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             except:
                 return await mystic.edit_text(_["call_9"])
             try:
-                await Bikash.skip_stream(
+                await Bgt.skip_stream(
                     chat_id, file_path, video=status
                 )
             except Exception:
@@ -311,7 +311,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await mystic.delete()
         elif "index_" in queued:
             try:
-                await Bikash.skip_stream(
+                await Bgt.skip_stream(
                     chat_id, videoid, video=status
                 )
             except Exception:
@@ -329,7 +329,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await CallbackQuery.edit_message_text(txt)
         else:
             try:
-                await Bikash.skip_stream(chat_id, queued, video=status)
+                await Bgt.skip_stream(chat_id, queued, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
