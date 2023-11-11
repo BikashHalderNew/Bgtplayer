@@ -15,7 +15,7 @@ from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from BgtxD.strings import get_command
 from BgtxD import app
-from BgtxD.core.call import Bikash
+from BgtxD.core.call import Bgt
 from BgtxD.utils import bot_sys_stats
 from BgtxD.utils.decorators.language import language
 
@@ -35,7 +35,7 @@ async def ping_com(client, message: Message, _):
         caption=_["ping_1"],
     )
     start = datetime.now()
-    pytgping = await Bikash.ping()
+    pytgping = await Bgt.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
