@@ -1,5 +1,5 @@
 
-
+from BgtxD import config
 from pyrogram import filters
 from pyrogram.types import Message
 from BgtxD.config import BANNED_USERS
