@@ -22,7 +22,6 @@ PAUSE_COMMAND = get_command("PAUSE_COMMAND")
 @app.on_message(
     filters.command(PAUSE_COMMAND)
     & filters.group
-    & ~filters.edited
     & ~BANNED_USERS
 )
 @AdminRightsCheck
