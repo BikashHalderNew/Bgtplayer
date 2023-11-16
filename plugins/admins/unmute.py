@@ -17,7 +17,6 @@ from Bikash.utils.decorators import AdminRightsCheck
 @app.on_message(
     filters.command(["unmute", "cunmute"])
     & filters.group
-    & ~filters.edited
     & ~BANNED_USERS
 )
 @AdminRightsCheck
