@@ -3,7 +3,6 @@ from Bikash.core.dir import dirr
 from Bikash.core.git import git
 from Bikash.core.userbot import Userbot
 from Bikash.misc import dbb, heroku, sudo
-from aiohttp import ClientSession
 
 from .logging import LOGGER
 
@@ -31,5 +30,3 @@ Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
-
-aiohttpsession = ClientSession()
