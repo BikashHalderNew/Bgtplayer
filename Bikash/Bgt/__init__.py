@@ -21,15 +21,15 @@ def get_string(lang: str):
     return languages[lang]
 
 
-for filename in os.listdir(r"./Bikash/Bgt/langs/en.yml"):
+for filename in os.listdir(r"./Bikash"):
     if filename.endswith(".yml"):
         language_name = filename[:-4]
         commands[language_name] = yaml.safe_load(
-            open(r"./Bikash/Bgt/langs/en.yml" + filename, encoding="utf8")
+            open(r"./Bikash" + filename, encoding="utf8")
         )
 
 
-for filename in os.listdir(r"./Bikash/Bgt/langs/en.yml"):
+for filename in os.listdir(r"./Bikash/Bgt/langs/"):
     if "en" not in languages:
         languages["en"] = yaml.safe_load(
             open(r"./Bikash/Bgt/langs/en.yml", encoding="utf8")
@@ -40,7 +40,7 @@ for filename in os.listdir(r"./Bikash/Bgt/langs/en.yml"):
         if language_name == "en":
             continue
         languages[language_name] = yaml.safe_load(
-            open(r"./Bikash/Bgt/langs/en.yml/" + filename, encoding="utf8")
+            open(r"./Bikash/Bgt/langs/" + filename, encoding="utf8")
         )
         for item in languages["en"]:
             if item not in languages[language_name]:
