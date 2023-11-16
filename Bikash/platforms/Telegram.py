@@ -34,10 +34,10 @@ class TeleAPI:
 
     async def get_link(self, message):
         if message.chat.username:
-            link = f"https://t.me/{message.chat.username}/{message.reply_to_message.message_id}"
+            link = f"https://t.me/{message.chat.username}/{message.reply_to_message.id}"
         else:
             xf = str((message.chat.id))[4:]
-            link = f"https://t.me/c/{xf}/{message.reply_to_message.message_id}"
+            link = f"https://t.me/c/{xf}/{message.reply_to_message.id}"
         return link
 
     async def get_filename(
@@ -47,16 +47,16 @@ class TeleAPI:
             file_name = file.file_name
             if file_name is None:
                 file_name = (
-                    "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴅɪᴏ"
+                    "Telegram Audio File"
                     if audio
-                    else "ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ"
+                    else "Telegram Video File"
                 )
 
         except:
             file_name = (
-                "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴅɪᴏ"
+                "Telegram Audio File"
                 if audio
-                else "ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ"
+                else "Telegram Video File"
             )
         return file_name
 
@@ -113,24 +113,24 @@ class TeleAPI:
                 if current == total:
                     return
                 current_time = time.time()
-                start_time = speed_counter.get(message.message_id)
+                start_time = speed_counter.get(message.id)
                 check_time = current_time - start_time
                 upl = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="↻ ᴄᴀɴᴄᴇʟ ↺",
+                                text="🚦 Cancel Downloading",
                                 callback_data="stop_downloading",
                             ),
                         ]
                     ]
                 )
-                if datetime.now() > left_time.get(message.message_id):
+                if datetime.now() > left_time.get(message.id):
                     percentage = current * 100 / total
                     percentage = str(round(percentage, 2))
                     speed = current / check_time
                     eta = int((total - current) / speed)
-                    downloader[message.message_id] = eta
+                    downloader[message.id] = eta
                     eta = get_readable_time(eta)
                     if not eta:
                         eta = "0 sec"
@@ -138,24 +138,24 @@ class TeleAPI:
                     completed_size = convert_bytes(current)
                     speed = convert_bytes(speed)
                     text = f"""
-**{MUSIC_BOT_NAME} ᴍᴇᴅɪᴀ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**
+**{MUSIC_BOT_NAME} Telegram Media Downloader**
 
-**sɪᴢᴇ :** {total_size}
-**ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ :** {completed_size} 
-**ᴩᴇʀᴄᴇɴᴛᴀɢᴇ :** {percentage[:5]}%
+**Total FileSize:** {total_size}
+**Completed:** {completed_size} 
+**Percentage:** {percentage[:5]}%
 
-**sᴩᴇᴇᴅ :** {speed}/s
-**ᴇᴛᴀ :** {eta}"""
+**Speed:** {speed}/s
+**ETA:** {eta}"""
                     try:
                         await mystic.edit_text(text, reply_markup=upl)
                     except:
                         pass
                     left_time[
-                        message.message_id
+                        message.id
                     ] = datetime.now() + timedelta(seconds=self.sleep)
 
-            speed_counter[message.message_id] = time.time()
-            left_time[message.message_id] = datetime.now()
+            speed_counter[message.id] = time.time()
+            left_time[message.id] = datetime.now()
 
             try:
                 await app.download_media(
@@ -164,9 +164,9 @@ class TeleAPI:
                     progress=progress,
                 )
                 await mystic.edit_text(
-                    "**ғɪʟᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ.\n\n ᴩʀᴏᴄᴇssɪɴɢ...**"
+                    "Successfully Downloaded.. Processing file now"
                 )
-                downloader.pop(message.message_id)
+                downloader.pop(message.id)
             except:
                 await mystic.edit_text(_["tg_2"])
 
@@ -183,14 +183,14 @@ class TeleAPI:
             return False
 
         task = asyncio.create_task(down_load())
-        lyrical[mystic.message_id] = task
+        lyrical[mystic.id] = task
         await task
-        downloaded = downloader.get(message.message_id)
+        downloaded = downloader.get(message.id)
         if downloaded:
-            downloader.pop(message.message_id)
+            downloader.pop(message.id)
             return False
-        verify = lyrical.get(mystic.message_id)
+        verify = lyrical.get(mystic.id)
         if not verify:
             return False
-        lyrical.pop(mystic.message_id)
+        lyrical.pop(mystic.id)
         return True
