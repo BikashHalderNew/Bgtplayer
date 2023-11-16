@@ -54,7 +54,7 @@ def updater():
     return bool(changelog)
 
 
-@app.on_message(filters.command(["bgtboot"]) & filters.user(OWNER_ID) & ~filters.edited)
+@app.on_message(filters.command(["bgtboot"]) & filters.user(OWNER_ID))
 async def update_bot(_, message: Message):
     chat_id = message.chat.id
     msg = await message.reply_text("**🥀 𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ✨ ...**")
