@@ -14,7 +14,7 @@ from Bikash.config import BANNED_USERS, MUSIC_BOT_NAME
 from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.core.userbot import assistants
-from Bikash.misc import SUDOERS, pymongodb
+from Bikash.misc import SUDOERS, mongodb
 from plugins import ALL_MODULES
 from Bikash.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
