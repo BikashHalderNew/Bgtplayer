@@ -20,11 +20,33 @@ from Bikash.utils.inline.song import song_markup
 SONG_COMMAND = get_command("SONG_COMMAND")
 
 
+@app.on_message(
+    filters.command(SONG_COMMAND)
+    & filters.group
+    & ~BANNED_USERS
+)
+@language
+async def song_commad_group(client, message: Message, _):
+    upl = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text=_["SG_B_1"],
+                    url=f"https://t.me/{app.username}?start=song",
+                ),
+            ]
+        ]
+    )
+    await message.reply_text(_["song_1"], reply_markup=upl)
+
+
 # Song Module
 
 
 @app.on_message(
     filters.command(SONG_COMMAND)
+    & filters.private
+    & ~BANNED_USERS
 )
 @language
 async def song_commad_private(client, message: Message, _):
@@ -160,6 +182,7 @@ async def song_helper_cb(client, CallbackQuery, _):
             print(e)
             return await CallbackQuery.edit_message_text(_["song_7"])
         keyboard = InlineKeyboard()
+        # AVC Formats Only [ YUKKI MUSIC BOT ]
         done = [160, 133, 134, 135, 136, 137, 298, 299, 264, 304, 266]
         for x in formats_available:
             check = x["format"]
@@ -199,7 +222,7 @@ async def song_helper_cb(client, CallbackQuery, _):
 @languageCB
 async def song_download_cb(client, CallbackQuery, _):
     try:
-        await CallbackQuery.answer("ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...")
+        await CallbackQuery.answer("Downloading")
     except:
         pass
     callback_data = CallbackQuery.data.strip()
@@ -239,7 +262,7 @@ async def song_download_cb(client, CallbackQuery, _):
         await mystic.edit_text(_["song_11"])
         await app.send_chat_action(
             chat_id=CallbackQuery.message.chat.id,
-            action="upload_video",
+            action=enums.ChatAction.UPLOAD_VIDEO,
         )
         try:
             await CallbackQuery.edit_message_media(media=med)
@@ -268,7 +291,7 @@ async def song_download_cb(client, CallbackQuery, _):
         await mystic.edit_text(_["song_11"])
         await app.send_chat_action(
             chat_id=CallbackQuery.message.chat.id,
-            action="upload_audio",
+            action=enums.ChatAction.UPLOAD_AUDIO,
         )
         try:
             await CallbackQuery.edit_message_media(media=med)
