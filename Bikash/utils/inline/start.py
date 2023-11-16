@@ -3,7 +3,7 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from Bikash import config
-from Bikash import Bikashh
+from Bikash import app
 
 
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
