@@ -304,6 +304,7 @@ async def play_commnd(
             try:
                 details, track_id = await Resso.track(url)
             except Exception as e:
+                print(e)
                 return await mystic.edit_text(_["play_3"])
             streamtype = "youtube"
             img = details["thumb"]
