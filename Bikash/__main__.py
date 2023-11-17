@@ -6,6 +6,7 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 from Bikash import config
+from Bikash.misc import sudo
 from Bikash.config import BANNED_USERS
 from Bikash import LOGGER, app, userbot
 from Bikash.core.call import Bikashh
@@ -34,6 +35,7 @@ async def init():
         LOGGER("Bikash").warning(
             "No Spotify Vars defined. Your bot won't be able to play spotify queries."
         )
+    await sudo()
     try:
         users = await get_gbanned()
         for user_id in users:
