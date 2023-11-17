@@ -22,12 +22,12 @@ class BikashBot(Client):
     async def start(self):
         await super().start()
         get_me = await self.get_me()
-        self.one.id = get_me.id
-        self.one.name = get_me.first_name
-        self.one.username = get_me.username                
+        self.id = get_me.id
+        self.name = get_me.first_name
+        self.username = get_me.username                
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "**» {config.MUSIC_BOT_NAME} 𝐁𝐨𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.one.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.one.name}\n💫 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.one.username}"
+                config.LOG_GROUP_ID, "**» {config.MUSIC_BOT_NAME} 𝐁𝐨𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.name}\n💫 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.username}"
             )
         except:
             LOGGER(__name__).error(
@@ -60,7 +60,7 @@ class BikashBot(Client):
             )
             sys.exit()
         if get_me.last_name:
-            self.one.name = get_me.first_name + " " + get_me.last_name
+            self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.one.name = get_me.first_name
-        LOGGER(__name__).info(f"MusicBot Started as {self.one.name}")
+        LOGGER(__name__).info(f"MusicBot Started as {self.name}")
