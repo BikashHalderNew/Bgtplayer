@@ -12,8 +12,7 @@ from ..logging import LOGGER
 class BikashBot(Client):
     def __init__(self):       
         LOGGER(__name__).info(f"Starting Bot")
-        super().__init__
-            self.one = Client(
+        super().__init__(
             name="BgtxD",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
@@ -23,8 +22,9 @@ class BikashBot(Client):
     async def start(self):
         await super().start()
         get_me = await self.get_me()
-        self.username = get_me.username
-        self.id = get_me.id
+        self.one.username = get_me.username
+        self.one.id = get_me.id
+        self.one.mention = get_me.mention
         try:
             await self.send_message(
                 config.LOG_GROUP_ID, "**» {config.MUSIC_BOT_NAME} 𝐁𝐨𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.one.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.one.name}\n💫 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.one.username}"
