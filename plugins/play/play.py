@@ -128,6 +128,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
+                print(e)
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -178,6 +179,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
+                print(e)
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -334,6 +336,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
+                print(e)
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -354,6 +357,7 @@ async def play_commnd(
                     "𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐮𝐫𝐧 𝐎𝐧 𝐕𝐜 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜.",
                 )
             except Exception as e:
+                print(e)
                 return await mystic.edit_text(
                     _["general_3"].format(type(e).__name__)
                 )
@@ -372,6 +376,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
+                print(e)
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -439,6 +444,7 @@ async def play_commnd(
                 forceplay=fplay,
             )
         except Exception as e:
+            print(e)
             ex_type = type(e).__name__
             err = (
                 e
@@ -584,6 +590,7 @@ async def play_music(client, CallbackQuery, _):
             forceplay=ffplay,
         )
     except Exception as e:
+        print(e)
         ex_type = type(e).__name__
         err = (
             e
@@ -694,6 +701,7 @@ async def play_playlists_command(client, CallbackQuery, _):
             forceplay=ffplay,
         )
     except Exception as e:
+        print(e)
         ex_type = type(e).__name__
         err = (
             e
