@@ -10,9 +10,10 @@ from ..logging import LOGGER
 
 
 class BikashBot(Client):
-    def __init__(self):
+    def __init__(self):       
         LOGGER(__name__).info(f"Starting Bot")
-        super().__init__(
+        super().__init__
+            self.one = Client(
             name="BgtxD",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
