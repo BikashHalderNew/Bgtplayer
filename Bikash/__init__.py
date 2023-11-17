@@ -6,6 +6,8 @@ from Bikash.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
+git()
+
 
 dirr()
 
