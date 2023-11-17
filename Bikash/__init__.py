@@ -2,7 +2,7 @@ from Bikash.core.bot import BikashBot
 from Bikash.core.dir import dirr
 from Bikash.core.git import git
 from Bikash.core.userbot import Userbot
-from Bikash.misc import dbb, heroku, sudo
+from Bikash.misc import dbb, heroku
 
 from .logging import LOGGER
 
@@ -14,8 +14,6 @@ dirr()
 dbb()
 
 heroku()
-
-sudo()
 
 # Clients
 app = BikashBot()
