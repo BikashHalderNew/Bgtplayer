@@ -35,7 +35,7 @@ from Bikash.utils.exceptions import AssistantErr
 from Bikash.utils.inline.play import stream_markup
 from Bikash.utils.stream.autoclear import auto_clean
 from Bikash.utils.thumbnails import gen_thumb
-from Bikash.Bgt.strings import get_string
+from Bikash.Bgt import get_string
 
 autoend = {}
 counter = {}
