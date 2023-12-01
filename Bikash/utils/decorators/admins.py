@@ -105,7 +105,7 @@ def AdminActual(mystic):
             try:
                 member = await app.get_chat_member(
                     message.chat.id, message.from_user.id
-                )
+                ).privileges
             except:
                 return
             if not member.can_manage_voice_chats:
