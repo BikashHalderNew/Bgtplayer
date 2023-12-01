@@ -1,6 +1,5 @@
 import sys
-
-from pyrogram import Client
+from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import BotCommand
 
@@ -17,6 +16,8 @@ class BikashBot(Client):
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
+            in_memory=True,        
+            max_concurrent_transmissions=7,
         )
 
     async def start(self):
