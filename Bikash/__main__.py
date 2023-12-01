@@ -1,16 +1,16 @@
 import asyncio
 import importlib
-import sys
+
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
+
 from Bikash import config
-from Bikash.config import BANNED_USERS
 from Bikash import LOGGER, app, userbot
 from Bikash.core.call import Bikashh
-from plugins import ALL_MODULES
+from Bikash.misc import sudo
+from Bikash.plugins import ALL_MODULES
 from Bikash.utils.database import get_banned_users, get_gbanned
-
-loop = asyncio.get_event_loop()
+from Bikash.config import BANNED_USERS
 
 
 async def init():
@@ -21,17 +21,9 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("Bikash").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
-        )
-        return
-    if (
-        not config.SPOTIFY_CLIENT_ID
-        and not config.SPOTIFY_CLIENT_SECRET
-    ):
-        LOGGER("Bikash").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
-        )
+        LOGGER(__name__).error("Assistant client variables not defined, exiting...")
+        exit()
+    await sudo()
     try:
         users = await get_gbanned()
         for user_id in users:
@@ -44,16 +36,18 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("plugins" + all_module)
-    LOGGER("plugins").info(
-        "Successfully Imported Modules "
-    )
+    LOGGER("plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Bikashh.start()
     await Bikashh.decorators()
-    LOGGER("Bikash").info("BgtxD Music Started Successfully")
+    LOGGER("Bikash").info(
+        "bot started"
+    )
     await idle()
+    await app.stop()
+    await userbot.stop()
+    LOGGER("Bikash").info("Stopping Music Bot...")
 
 
 if __name__ == "__main__":
-    loop.run_until_complete(init())
-    LOGGER("Bikash").info("Stopping BgtxD Music Bot! GoodBye")
+    asyncio.get_event_loop().run_until_complete(init())
