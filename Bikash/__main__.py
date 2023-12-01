@@ -43,8 +43,8 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("Bikash.plugins" + all_module)
-    LOGGER("Bikash.plugins").info(
+        importlib.import_module("plugins" + all_module)
+    LOGGER("plugins").info(
         "Successfully Imported Modules "
     )
     await userbot.start()
