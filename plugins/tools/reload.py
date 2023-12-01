@@ -37,10 +37,7 @@ async def reload_admin_cache(client, message: Message, _):
         for user in authusers:
             user_id = await alpha_to_int(user)           
         await message.reply_text(_["admin_20"])
-    except:
-        await message.reply_text(
-            "𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐑𝐞𝐟𝐫𝐞𝐬𝐡 𝐀𝐝𝐦𝐢𝐧𝐬 𝐋𝐢𝐬𝐭, 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐘𝐨𝐮 𝐏𝐫𝐨𝐦𝐨𝐭𝐞𝐝 𝐓𝐡𝐞 𝐁𝐨𝐭."
-        )
+    
 
 
 @app.on_message(
