@@ -1,3 +1,4 @@
+
 import asyncio
 
 from pyrogram import filters
@@ -28,16 +29,26 @@ RESTART_COMMAND = get_command("RESTART_COMMAND")
 async def reload_admin_cache(client, message: Message, _):
     try:
         chat_id = message.chat.id
-        admins = await app.get_chat_members(
-            chat_id
-        )
+        admins = []
+        async for m in app.get_chat_members(
+            chat_id, filter=ChatMembersFilter.ADMINISTRATORS
+        ):
+            admins.append(m)
         authusers = await get_authuser_names(chat_id)
-        
-                
+        adminlist[chat_id] = []
+        for user in admins:
+            if user.privileges.can_manage_video_chats:
+                adminlist[chat_id].append(user.user.id)
         for user in authusers:
-            user_id = await alpha_to_int(user)           
+            user_id = await alpha_to_int(user)
+            adminlist[chat_id].append(user_id)
         await message.reply_text(_["admin_20"])
-    
+    #except:
+    except Exception as e:
+        print(f"Error: {e}")
+        await message.reply_text(
+            "Failed to reload admincache. Make sure Bot is admin in your chat."
+        )
 
 
 @app.on_message(
@@ -48,7 +59,7 @@ async def reload_admin_cache(client, message: Message, _):
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(
-        f"𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐑𝐞𝐛𝐨𝐨𝐭𝐢𝐧𝐠 {MUSIC_BOT_NAME} 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭."
+        f"Please Wait.. Restarting {MUSIC_BOT_NAME} for your chat.."
     )
     await asyncio.sleep(1)
     try:
@@ -68,7 +79,7 @@ async def restartbot(client, message: Message, _):
         except:
             pass
     return await mystic.edit_text(
-        f"𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐑𝐞𝐛𝐨𝐨𝐭𝐞𝐝 {MUSIC_BOT_NAME} 𝐅𝐨𝐫 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭, 𝐍𝐨𝐰 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐒𝐭𝐚𝐫𝐭 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐀𝐠𝐚𝐢𝐧..."
+        "Successfully restarted. Try playing now.."
     )
 
 
@@ -99,11 +110,11 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
     task = lyrical.get(message_id)
     if not task:
         return await CallbackQuery.answer(
-            "𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝.", show_alert=True
+            "Downloading already Completed.", show_alert=True
         )
     if task.done() or task.cancelled():
         return await CallbackQuery.answer(
-            "𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝 𝐎𝐫 𝐂𝐚𝐧𝐜𝐞𝐥𝐥𝐞𝐝.",
+            "Downloading already Completed or Cancelled.",
             show_alert=True,
         )
     if not task.done():
@@ -114,15 +125,15 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
             except:
                 pass
             await CallbackQuery.answer(
-                "𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐂𝐚𝐧𝐜𝐞𝐥.", show_alert=True
+                "Downloading Cancelled", show_alert=True
             )
             return await CallbackQuery.edit_message_text(
-                f"𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 𝐂𝐚𝐧𝐜𝐞𝐥 𝐁𝐲 {CallbackQuery.from_user.mention}"
+                f"Download Cancelled by {CallbackQuery.from_user.mention}"
             )
         except:
             return await CallbackQuery.answer(
-                "𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐂𝐚𝐧𝐜𝐞𝐥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠...", show_alert=True
+                "Failed to stop the Downloading.", show_alert=True
             )
     await CallbackQuery.answer(
-        "𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐑𝐞𝐜𝐨𝐠𝐧𝐢𝐳𝐞 𝐓𝐡𝐞 𝐎𝐧 𝐆𝐨𝐢𝐧𝐠  𝐓𝐚𝐬𝐤.", show_alert=True
-    )
+        "Failed to recognize the running task", show_alert=True
+      )
