@@ -32,9 +32,8 @@ async def reload_admin_cache(client, message: Message, _):
             chat_id
         )
         authusers = await get_authuser_names(chat_id)
-        adminlist[chat_id] = []
-        for user in admins:
-                adminlist[chat_id].append(user.user.id)
+        
+                
         for user in authusers:
             user_id = await alpha_to_int(user)           
         await message.reply_text(_["admin_20"])
