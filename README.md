@@ -189,6 +189,8 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 - [Dan](https://github.com/pyrogram) For pyrogram
 - [Laky](https://github.com/pytgcalls) For py-tgcalls
 
+- Thanks For Vivan Fixed All Errors 
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## Support & Updates ⚡ :
