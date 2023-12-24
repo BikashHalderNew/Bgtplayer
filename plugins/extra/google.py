@@ -14,13 +14,6 @@ gsearch = GoogleSearch()
 stsearch = StackSearch()
 
 
-__MODULE__ = "Gᴏᴏɢʟᴇ"
-__HELP__ = """
-⊱ /google : Sᴇᴀʀᴄʜ Aɴʏ Tʜɪɴɢ ( Sᴇᴀʀᴄʜ Bʏ Gᴏᴏɢʟᴇ )
-
-⊱ /gle : Sᴇᴀʀᴄʜ Aɴʏ Tʜɪɴɢ ( Sᴇᴀʀᴄʜ Bʏ Gᴏᴏɢʟᴇ )
-"""
-
 def ikb(rows=None, back=False, todo="start_back"):
     """
     rows = pass the rows
