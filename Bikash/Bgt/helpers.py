@@ -71,6 +71,12 @@ HELP_5 = """✅<u>**Extra  Commands:**</u>
 
 /shuffle or /cshuffle- Randomly shuffles the queued playlist.
 
+/google - Search Anything Else By Google
+
+/image - Get Image
+
+/ask - ask Anything 
+
 /seek or /cseek - Forward Seek the music to your duration
 
 /seekback or /cseekback - Backward Seek the music to your duration
@@ -82,7 +88,7 @@ HELP_5 = """✅<u>**Extra  Commands:**</u>
 /owner - check who is creator of this repo
 
 /donate - donate for bot owner 🙂
-/id - This cmd For Generating user info
+/id or /info- This cmd For Generating user info
 
 /lyrics [Music Name] - Searches Lyrics for the particular Music on web.."""
 
