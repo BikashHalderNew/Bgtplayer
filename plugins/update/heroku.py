@@ -14,6 +14,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 from Bikash import config
+from Bikash.config import OWNER_ID
 from Bikash.Bgt import get_command
 from Bikash import app
 from Bikash.misc import HAPP, SUDOERS, XCB
