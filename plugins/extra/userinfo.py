@@ -1,7 +1,7 @@
 ## Bikash Halder & Aditya Halder
 
 import os
-from config import BANNED_USERS
+from Bikash.config import BANNED_USERS
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
