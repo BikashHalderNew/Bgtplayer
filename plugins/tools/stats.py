@@ -339,7 +339,7 @@ async def overall_stats(client, CallbackQuery, _):
     free = hdd.free / (1024.0**3)
     free = str(free)
     mod = len(ALL_MODULES)
-    db = pymongodb
+    db = mongodb
     call = db.command("dbstats")
     datasize = call["dataSize"] / 1024
     datasize = str(datasize)
