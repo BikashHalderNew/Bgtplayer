@@ -83,7 +83,7 @@ async def get_chat_info(chat, already=False):
     return [caption, photo_id]
 
 
-@app.on_message(filters.command(["info", "userinfo"]) & ~BANNED_USERS)
+@app.on_message(filters.command(["info", "id", "userinfo"]) & ~BANNED_USERS)
 async def info_func(_, message: Message):
     try:
         await message.delete()
