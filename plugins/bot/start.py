@@ -268,10 +268,6 @@ async def welcome(client, message: Message):
             language = await get_lang(message.chat.id)
             _ = get_string(language)
             if member.id == app.id:
-                chat_type = message.chat.type
-                if chat_type != "supergroup":
-                    await message.reply_text(_["start_6"])
-                    return await app.leave_chat(message.chat.id)
                 if chat_id in await blacklisted_chats():
                     await message.reply_text(
                         _["start_7"].format(
