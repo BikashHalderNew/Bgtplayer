@@ -250,8 +250,7 @@ class Call(PyTgCalls):
                 stream,
                 stream_type=StreamType().pulse_stream,
             )
-        except NoActiveGroupCall:
-            raise AssistantErr(_["call_8"])
+        
         except AlreadyJoinedError:
             raise AssistantErr(_["call_9"])
         except TelegramServerError:
