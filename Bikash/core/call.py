@@ -2,7 +2,6 @@ import asyncio
 import os
 from datetime import datetime, timedelta
 from typing import Union
-from pytgcalls.types import MediaStream
 from pytgcalls.types import (
     AudioParameters, 
     AudioQuality, 
