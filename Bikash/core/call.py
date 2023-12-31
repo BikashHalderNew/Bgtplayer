@@ -41,7 +41,7 @@ from Bikash.utils.formatters import check_duration, seconds_to_min, speed_conver
 from Bikash.utils.inline.play import stream_markup
 from Bikash.utils.stream.autoclear import auto_clean
 from Bikash.utils.thumbnails import gen_thumb
-from strings import get_string
+from Bikash.bgt import get_string
 
 autoend = {}
 counter = {}
