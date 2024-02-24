@@ -111,10 +111,8 @@ async def stream(
                     photo=img,
                     caption=_["stream_1"].format(
                         f"https://t.me/{app.username}?start=info_{vidid}",
-                        title[:23],
                         duration_min,
-                        user_name,
-                        link,
+                        user_name,       
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -194,11 +192,9 @@ async def stream(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
-                    f"https://t.me/{app.username}?start=info_{vidid}",
-                        title[:30],
+                        f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
-                        link,
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
@@ -366,11 +362,9 @@ async def stream(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
-                    f"https://t.me/{app.username}?start=info_{vidid}",
-                        title[:23],
+                        f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
-                        link,
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
