@@ -2,6 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-    worker: bash bikash.sh
-
-    
+  worker: bash bikash.sh
