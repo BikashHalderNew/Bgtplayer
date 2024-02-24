@@ -14,26 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "bgt════════"
+        bar = "─.•☆•─────────"
     elif 10 < bikash < 20:
-        bar = "═bgt═══════"
+        bar = "──.•☆•────────"
     elif 20 <= bikash < 30:
-        bar = "══bgt══════"
+        bar = "───.•☆•───────"
     elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
+        bar = "────.•☆•──────"
     elif 40 <= bikash < 50:
-        bar = "════bgt════"
+        bar = "─────.•☆•─────"
     elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
+        bar = "──────.•☆•────"
     elif 60 <= bikash < 70:
-        bar = "══════bgt══"
+        bar = "───────.•☆•───"
     elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
+        bar = "────────.•☆•──"
     elif 80 <= bikash < 95:
-        bar = "════════bgt"
+        bar = "─────────.•☆•─"
     else:
-        bar = "════════BGT"
-
+        bar = "──────────.•☆•"
     buttons = [
         [
             InlineKeyboardButton(
@@ -43,42 +42,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="▶️",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏸️",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏏️",
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="⏩",
-                callback_data=f"ADMIN Skip|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="⏹️",
-                callback_data=f"ADMIN Stop|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="💖 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💖", url=config.SUPPORT_CHANNEL
-            ),
-            InlineKeyboardButton(
-                text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
-            )
-        ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="🗑️ Close", callback_data="close"
             )
         ],
     ]
