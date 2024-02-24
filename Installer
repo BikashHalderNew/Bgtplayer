@@ -10,12 +10,11 @@ httpx
 lyricsgenius
 motor
 OpsAi
-pillow==9.5.0
+pillow
 psutil
-py-tgcalls==1.1.6
+py-tgcalls
 ntgcalls
 pykeyboard
-pyrogram==2.0.106
 python-dotenv
 pyyaml
 requests
@@ -25,4 +24,5 @@ spotipy
 tgcrypto
 youtube-search
 youtube-search-python
-yt-dlp
+git+https://github.com/KurimuzonAkuma/pyrogram@dev
+git+https://github.com/yt-dlp/yt-dlp
