@@ -1,3 +1,7 @@
 build:
   docker:
     worker: Dockerfile
+run:
+    worker: bash bikash.sh
+
+    
