@@ -62,10 +62,10 @@ async def gen_thumb(videoid):
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(1.0)
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("resources/font2.ttf", 1)
-        font2 = ImageFont.truetype("resources/font2.ttf", 1)
-        arial = ImageFont.truetype("resources/font2.ttf", 1)
-        name_font = ImageFont.truetype("resources/font.ttf", 1)
+        font = ImageFont.truetype("resources/font.otf", 1)
+        font2 = ImageFont.truetype("resources/font.otf", 1)
+        arial = ImageFont.truetype("resources/font.otf", 1)
+        name_font = ImageFont.truetype("resources/font.otf", 1)
         para = textwrap.wrap(title, width=2)
         j = 0
         draw.text(
