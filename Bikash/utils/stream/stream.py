@@ -1,5 +1,3 @@
-
-
 import os
 from random import randint
 from typing import Union
@@ -18,7 +16,7 @@ from Bikash.utils.exceptions import AssistantErr
 from Bikash.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from Bikash.utils.inline.playlist import close_markup
-from Bikash.utils.pastebin import Bikashbin
+from Bikash.utils.pastebin import Bikashhbin
 from Bikash.utils.stream.queue import put_queue, put_queue_index
 from Bikash.utils.thumbnails import gen_thumb
 
@@ -124,7 +122,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await Bikashbin(msg)
+            link = await Bikashhbin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
