@@ -1,5 +1,5 @@
 {
-    "name": "BgtxD",
+    "name": "Bgt-V2",
     "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟꜱ.",
     "repository": "https://github.com/BikashHalderNew/Bgtplayer",
     "logo": "https://telegra.ph/file/4d7a997a6c8c4eb406829.jpg",
@@ -8,7 +8,7 @@
     "telegram",
     "bot",
     "Bikash",
-    "MusicBot",
+    "BgtMusicBot",
     "telegram-bot",
     "pyrogram"
     ],
@@ -45,7 +45,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "A Pyrogram v2 String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
       },
@@ -60,16 +60,13 @@
               "url": "heroku/python"
           },
           {
-              "url": "heroku/nodejs"
-          },
-          {
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
       "formation": {
           "worker": {
               "quantity": 1,
-              "size": "basic"
+              "size": "eco"
           }
       }
  }
