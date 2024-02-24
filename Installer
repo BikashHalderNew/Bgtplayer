@@ -12,8 +12,6 @@ motor
 OpsAi
 pillow
 psutil
-py-tgcalls
-ntgcalls
 pykeyboard
 python-dotenv
 pyyaml
@@ -25,5 +23,6 @@ tgcrypto
 youtube-search
 youtube-search-python
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
-git+https://github.com/yt-dlp/yt-dlp.git
+git+https://github.com/yt-dlp/yt-dlp@master
 git+https://github.com/pytgcalls/pytgcalls@master
+git+https://github.com/pytgcalls/ntgcalls@master
