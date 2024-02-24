@@ -233,7 +233,6 @@ async def song_download_cb(client, CallbackQuery, _):
     with yt_dlp.YoutubeDL({"quiet": True}) as ytdl:
         x = ytdl.extract_info(yturl, download=False)
     title = (x["title"]).title()
-    title = re.sub("\W+", " ", title)
     thumb_image_path = await CallbackQuery.message.download()
     duration = x["duration"]
     if stype == "video":
