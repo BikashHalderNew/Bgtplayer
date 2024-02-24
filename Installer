@@ -25,4 +25,4 @@ tgcrypto
 youtube-search
 youtube-search-python
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
-git+https://github.com/yt-dlp/yt-dlp
+git+https://github.com/yt-dlp/yt-dlp.git
