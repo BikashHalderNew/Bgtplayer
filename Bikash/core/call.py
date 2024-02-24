@@ -9,7 +9,7 @@ from pytgcalls.exceptions import AlreadyJoinedError, NoActiveGroupCall
 from ntgcalls import TelegramServerError
 from pytgcalls.types import Update
 from pytgcalls.types import MediaStream
-from pytgcalls.types import  AudioQuality, VideoQuality,
+from pytgcalls.types import  AudioQuality, VideoQuality
 from pytgcalls.types.stream import StreamAudioEnded
 from Bikash import config
 from Bikash import LOGGER, YouTube, app
