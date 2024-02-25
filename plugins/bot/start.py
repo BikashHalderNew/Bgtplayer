@@ -10,7 +10,7 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from youtubesearchpython.__future__ import VideosSearch
-
+from pyrogram.enums import ChatType, ParseMode
 from Bikash import config
 from Bikash.config import BANNED_USERS
 from Bikash.config import OWNER_ID
@@ -186,7 +186,7 @@ async def start_comm(client, message: Message, _):
                 message.chat.id,
                 photo=thumbnail,
                 caption=searched_text,
-                parse_mode="markdown",
+                parse_mode=ParseMode.MARKDOWN,
                 reply_markup=key,
             )
             if await is_on_off(config.LOG):
@@ -258,7 +258,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭**\n\n𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐓𝐡𝐞 𝐂𝐡𝐚𝐭𝐬 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐞𝐬 𝐁𝐲 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫, 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐈𝐧 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 𝐏𝐦 𝐓𝐨 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐞𝐬 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 & 𝐈𝐟 𝐘𝐨𝐮 𝐃𝐨𝐧'𝐭 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐃𝐨 𝐓𝐡𝐞𝐍 𝐋𝐞𝐚𝐯𝐞 𝐂𝐡𝐚𝐭."
+                "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
             )
             return await app.leave_chat(message.chat.id)
     else:
@@ -268,6 +268,10 @@ async def welcome(client, message: Message):
             language = await get_lang(message.chat.id)
             _ = get_string(language)
             if member.id == app.id:
+                chat_type = message.chat.type
+                if chat_type != ChatType.SUPERGROUP:
+                    await message.reply_text(_["start_6"])
+                    return await app.leave_chat(message.chat.id)
                 if chat_id in await blacklisted_chats():
                     await message.reply_text(
                         _["start_7"].format(
@@ -276,11 +280,9 @@ async def welcome(client, message: Message):
                     )
                     return await app.leave_chat(chat_id)
                 userbot = await get_assistant(message.chat.id)
-                OWNER = OWNER_ID[0]
-                out = start_pannel(_, app.username, OWNER)
-                await message.reply_photo(
-                    photo=config.START_IMG_URL,
-                    caption=_["start_3"].format(
+                out = start_pannel(_)
+                await message.reply_text(
+                    _["start_3"].format(
                         config.MUSIC_BOT_NAME,
                         userbot.username,
                         userbot.id,
