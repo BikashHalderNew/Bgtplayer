@@ -6,11 +6,12 @@ from Bikash.config import BANNED_USERS
 from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.core.call import Bikashh
+from Bikash.utils.bgtmusic.bk import command
 from Bikash.misc import db
 from Bikash.utils.database import get_loop
 from Bikash.utils.decorators import AdminRightsCheck
 from Bikash.utils.inline.play import (stream_markup,
-                                          telegram_markup)
+                                          telegram_markup, close_keyboard)
 from Bikash.utils.stream.autoclear import auto_clean
 from Bikash.utils.thumbnails import gen_thumb
 
@@ -19,7 +20,7 @@ SKIP_COMMAND = get_command("SKIP_COMMAND")
 
 
 @app.on_message(
-    filters.command(SKIP_COMMAND)
+    command(SKIP_COMMAND)
     & filters.group
     & ~BANNED_USERS
 )
@@ -56,7 +57,8 @@ async def skip(cli, message: Message, _, chat_id):
                                 try:
                                     await message.reply_text(
                                         _["admin_10"].format(
-                                            message.from_user.first_name
+                                            message.from_user.first_name),
+                                            reply_markup=close_keyboard
                                         )
                                     )
                                     await Bikashh.stop_stream(chat_id)
@@ -83,7 +85,8 @@ async def skip(cli, message: Message, _, chat_id):
                     await auto_clean(popped)
             if not check:
                 await message.reply_text(
-                    _["admin_10"].format(message.from_user.first_name)
+                    _["admin_10"].format(message.from_user.first_name),
+                       reply_markup=close_keyboard
                 )
                 try:
                     return await Bikashh.stop_stream(chat_id)
@@ -92,7 +95,8 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             try:
                 await message.reply_text(
-                    _["admin_10"].format(message.from_user.first_name)
+                    _["admin_10"].format(message.from_user.first_name),
+                          reply_markup=close_keyboard
                 )
                 return await Bikashh.stop_stream(chat_id)
             except:
@@ -110,7 +114,7 @@ async def skip(cli, message: Message, _, chat_id):
                 _["admin_11"].format(title)
             )
         try:
-            await Yukki.skip_stream(chat_id, link, video=status)
+            await Bikashh.skip_stream(chat_id, link, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
