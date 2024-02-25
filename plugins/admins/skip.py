@@ -60,7 +60,7 @@ async def skip(cli, message: Message, _, chat_id):
                                             message.from_user.first_name),
                                             reply_markup=close_keyboard
                                         )
-                                    )
+                                    
                                     await Bikashh.stop_stream(chat_id)
                                 except:
                                     return
