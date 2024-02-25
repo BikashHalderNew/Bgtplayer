@@ -42,7 +42,20 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🗑️ Close", callback_data="close"
+                text=🔊 ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
+            ),
+            InlineKeyboardButton(
+                text="💞 ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
+            )
+        ],
+        [           
+            InlineKeyboardButton(
+                text="✿ ʏᴏᴜᴛᴜʙᴇ", url=f"https://youtube.com/@BikashGadgetsTech"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="🗑️ ᴄʟᴏꜱᴇ", callback_data="close"
             )
         ],
     ]
