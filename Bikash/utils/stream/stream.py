@@ -9,7 +9,7 @@ from Bikash.misc import db
 from Bikash.utils.database import add_active_video_chat, is_active_chat
 from Bikash.utils.exceptions import AssistantErr
 from Bikash.utils.inline import track_markup, close_markup, stream_markup
-from Bikash.utils.pastebin import BikashhBin
+from Bikash.utils.pastebin import Bikashhbin
 from Bikash.utils.stream.queue import put_queue, put_queue_index
 from Bikash.utils.thumbnails import gen_thumb
 
@@ -116,7 +116,7 @@ async def stream(
                 db[chat_id][0]["markup"] = "stream"
         if count == 0:
             return
-        link = await BikashhBin(msg)
+        link = await Bikashhbin(msg)
         lines = msg.count("\n")
         car = os.linesep.join(msg.split(os.linesep)[:17]) if lines >= 17 else msg
         carbon = await Carbon.generate(car, randint(100, 10000000))
