@@ -10,7 +10,7 @@ httpx
 lyricsgenius
 motor
 OpsAi
-pillow
+pillow==9.5.0
 psutil
 numpy
 pykeyboard
