@@ -25,6 +25,6 @@ youtube-search
 youtube-search-python
 yt-dlp
 ntgcalls
-py-tgcalls
+py-tgcalls==1.2.9
 unidecode
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
