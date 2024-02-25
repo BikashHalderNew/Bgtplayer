@@ -11,7 +11,7 @@ from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageEnhance, ImageFilte
 from youtubesearchpython.__future__ import VideosSearch
 
 from Bikash import app as bot
-from resource import thumbs, colors
+from resources import thumbs, colors
 from Bikash.config import YOUTUBE_IMG_URL
 
 
@@ -122,9 +122,9 @@ async def gen_thumb(videoid, user_id):
         img = ImageOps.expand(background, border=10, fill=f"{border}")
         draw = ImageDraw.Draw(img)
         font = ImageFont.truetype("resource/font2.ttf", 45)
-        ImageFont.truetype("resource/font2.ttf", 70)
-        arial = ImageFont.truetype("resource/font2.ttf", 30)
-        ImageFont.truetype("resource/font.ttf", 30)
+        ImageFont.truetype("resources/font2.ttf", 70)
+        arial = ImageFont.truetype("resources/font2.ttf", 30)
+        ImageFont.truetype("resources/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
