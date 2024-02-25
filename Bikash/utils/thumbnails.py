@@ -111,9 +111,9 @@ async def gen_thumb(videoid):
     enhancer = ImageEnhance.Brightness(background)
     background = enhancer.enhance(0.6)
     draw = ImageDraw.Draw(background)
-    arial = ImageFont.truetype("resource/font2.ttf", 30)
-    font = ImageFont.truetype("resource/font.ttf", 30)
-    title_font = ImageFont.truetype("resource/font2.ttf", 45)
+    arial = ImageFont.truetype("resources/font2.ttf", 30)
+    font = ImageFont.truetype("resources/font.ttf", 30)
+    title_font = ImageFont.truetype("resources/font2.ttf", 45)
 
 
     circle_thumbnail = crop_center_circle(youtube, 400, 20)
@@ -153,7 +153,7 @@ async def gen_thumb(videoid):
     draw.text((text_x_position, 400), "00:00", (255, 255, 255), font=arial)
     draw.text((1080, 400), duration, (255, 255, 255), font=arial)
 
-    play_icons = Image.open("resource/play_icons.png")
+    play_icons = Image.open("resources/play_icons.png")
     play_icons = play_icons.resize((580, 62))
     background.paste(play_icons, (text_x_position, 450), play_icons)
 
