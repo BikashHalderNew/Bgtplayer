@@ -64,17 +64,17 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="✿ ʏᴏᴜᴛᴜʙᴇ", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="✿ Yt Channel", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
         
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="🖥️ Maintainer",
+                url=f"https://t.me/bikashbikash",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🗑️ ᴄʟᴏꜱᴇ", callback_data="close"
+                text="🗑️ Close", callback_data="close"
             )
         ],
     ]
@@ -138,10 +138,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="✿ ʏᴏᴜᴛᴜʙᴇ", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="✿ Yt Channel", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text=_["PL_B_2"],
+                text="",
                 callback_data=f"add_playlist {videoid}",
             )
         ],
