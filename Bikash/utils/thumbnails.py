@@ -121,7 +121,7 @@ async def gen_thumb(videoid, user_id):
         background.paste(image3, (0, 0), mask=image3)
         img = ImageOps.expand(background, border=10, fill=f"{border}")
         draw = ImageDraw.Draw(img)
-        font = ImageFont.truetype("resource/font2.ttf", 45)
+        font = ImageFont.truetype("resources/font2.ttf", 45)
         ImageFont.truetype("resources/font2.ttf", 70)
         arial = ImageFont.truetype("resources/font2.ttf", 30)
         ImageFont.truetype("resources/font.ttf", 30)
