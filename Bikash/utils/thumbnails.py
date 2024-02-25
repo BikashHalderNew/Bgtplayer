@@ -168,9 +168,9 @@ async def gen_thumb(videoid, user_id):
             os.remove(f"cache/thumb{videoid}.png")
         except:
             pass
-        img.save(f"cache/{videoid}_{user_id}.png")
-        return f"cache/{videoid}_{user_id}.png"
-        background.save(f"cache/{videoid}.png")
-        return f"cache/{videoid}.png"
-    except Exception:
+        file = f"cache/que{videoid}_{user_id}.png"
+        img.save(f"cache/que{videoid}_{user_id}.png")
+        return f"cache/que{videoid}_{user_id}.png"
+    except Exception as e:
+        print(e)
         return YOUTUBE_IMG_URL
