@@ -19,6 +19,16 @@ selections = [
 ]
 
 
+close_keyboard = InlineKeyboardMarkup( 
+            [
+                [
+                    InlineKeyboardButton(
+                        text="🗑️ ᴄʟᴏꜱᴇ", callback_data="close"
+                    )
+                ]    
+            ]
+)
+
 ## After Edits with Timer Bar
 
 
