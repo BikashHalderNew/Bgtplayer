@@ -12,6 +12,7 @@ motor
 OpsAi
 pillow
 psutil
+numpy
 pykeyboard
 python-dotenv
 pyyaml
