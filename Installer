@@ -10,7 +10,7 @@ httpx
 lyricsgenius
 motor
 OpsAi
-pillow==9.5.0
+pillow
 psutil
 numpy
 pykeyboard
@@ -25,6 +25,6 @@ youtube-search
 youtube-search-python
 yt-dlp
 ntgcalls
-py-tgcalls==1.2.9
+py-tgcalls
 unidecode
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
