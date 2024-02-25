@@ -1,5 +1,5 @@
 import random
-
+from Bikash import config
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 selections = [
