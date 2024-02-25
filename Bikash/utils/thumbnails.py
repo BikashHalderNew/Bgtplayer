@@ -153,7 +153,7 @@ async def gen_thumb(videoid):
     draw.text((text_x_position, 400), "00:00", (255, 255, 255), font=arial)
     draw.text((1080, 400), duration, (255, 255, 255), font=arial)
 
-    play_icons = Image.open("InflexMusic/assets/play_icons.png")
+    play_icons = Image.open("resource/play_icons.png")
     play_icons = play_icons.resize((580, 62))
     background.paste(play_icons, (text_x_position, 450), play_icons)
 
