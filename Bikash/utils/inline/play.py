@@ -51,6 +51,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [           
             InlineKeyboardButton(
                 text="✿ ʏᴏᴜᴛᴜʙᴇ", url=f"https://youtube.com/@BikashGadgetsTech"
+            ),
+        
+            InlineKeyboardButton(
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
             )
         ],
         [
