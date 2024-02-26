@@ -64,17 +64,17 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="✿ Yt Channel", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="✿ 𝐘𝐭-𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
         
             InlineKeyboardButton(
-                text="🖥️ Maintainer",
+                text="🖥️ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐫",
                 url=f"https://t.me/bikashbikash",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🗑️ Close", callback_data="close"
+                text="❌ 𝐂𝐥𝐨𝐬𝐞", callback_data="close"
             )
         ],
     ]
@@ -138,16 +138,16 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="✿ Yt Channel", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="✿ 𝐘𝐭-𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="🖥️ Maintainer",
+                text="🖥️ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐫",
                 url=f"https://t.me/bikashbikash",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🗑️ ᴄʟᴏꜱᴇ", callback_data="close"
+                text="❌ 𝐂𝐥𝐨𝐬𝐞", callback_data="close"
             )
         ],
     ]
@@ -180,16 +180,16 @@ def stream_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="✿ Yt Channel", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="✿ 𝐘𝐭-𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="🖥️ Maintainer",
+                text="🖥️ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐫",
                 url=f"https://t.me/bikashbikash",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🗑️ Close", callback_data="close"
+                text="❌ 𝐂𝐥𝐨𝐬𝐞", callback_data="close"
             )
         ],
     ]
@@ -222,16 +222,16 @@ def telegram_markup(_, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="✿ Yt Channel", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="✿ 𝐘𝐭-𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://youtube.com/@BikashGadgetsTech"
             ),
             InlineKeyboardButton(
-                text="🖥️ Maintainer",
+                text="🖥️ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐫",
                 url=f"https://t.me/bikashbikash",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🗑️ Close", callback_data="close"
+                text="❌ 𝐂𝐥𝐨𝐬𝐞", callback_data="close"
             )
         ],
     ]
