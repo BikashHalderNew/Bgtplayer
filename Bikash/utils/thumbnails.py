@@ -169,4 +169,4 @@ async def gen_thumb(videoid, user_id):
         return f"cache/{videoid}_{user_id}.png"
     except Exception as e:
         LOGGER.error(e)
-        return FAILED
+        return YOUTUBE_IMG_URL
