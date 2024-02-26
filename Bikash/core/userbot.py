@@ -54,7 +54,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("BikashGadgetsTech")
-                await self.one.join_chat("BikashGadgetsTech")
+                await self.one.join_chat("BgtAds")
             except:
                 pass
             assistants.append(1)
@@ -70,11 +70,11 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.one.name}"
+                f"Assistant One Started As {self.one.name}"
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐨𝐧𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.one.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.one.name}\n💫 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.one.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Assistant One Started :**\n\nId : `{self.one.id}`\nName : {self.one.name}\nUserName : @{self.one.username}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -85,7 +85,7 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("BikashGadgetsTech")
-                await self.two.join_chat("BikashGadgetsTech")
+                await self.two.join_chat("Bgtads")
             except:
                 pass
             assistants.append(2)
@@ -102,7 +102,7 @@ class Userbot(Client):
                 self.two.name = get_me.first_name
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐰𝐨 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.two.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.two.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.two.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Assistant Two Started As :**\n\nId : `{self.two.id}`\nName : {self.two.name}\nUserName : @{self.two.username}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -110,13 +110,13 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐰𝐨 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.two.name}"
+                f"Assistant Two Started As {self.two.name}"
             )
         if config.STRING3:
             await self.three.start()
             try:
                 await self.three.join_chat("BikashGadgetsTech")
-                await self.three.join_chat("BikashGadgetsTech")
+                await self.three.join_chat("BgtAds")
             except:
                 pass
             assistants.append(3)
@@ -133,7 +133,7 @@ class Userbot(Client):
                 self.three.name = get_me.first_name
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐫𝐞𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.three.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.three.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.three.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Assistant Three Started :**\n\nId : `{self.three.id}`\nName : {self.three.name}\nUserName : @{self.three.username}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -141,13 +141,13 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐫𝐞𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.three.name}"
+                f"Assistant Three Started As {self.three.name}"
             )
         if config.STRING4:
             await self.four.start()
             try:
                 await self.four.join_chat("BikashGadgetsTech")
-                await self.four.join_chat("BikashGadgetsTech")
+                await self.four.join_chat("BgtAds")
             except:
                 pass
             assistants.append(4)
@@ -164,7 +164,7 @@ class Userbot(Client):
                 self.four.name = get_me.first_name
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐨𝐮𝐫 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.four.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.four.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.four.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Assistant Four Started :**\n\nId : `{self.four.id}`\nName : {self.four.name}\nUserName : @{self.four.username}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -172,13 +172,13 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐨𝐮𝐫 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.four.name}"
+                f"Assistant Four Started As {self.four.name}"
             )
         if config.STRING5:
             await self.five.start()
             try:
                 await self.five.join_chat("BikashGadgetsTech")
-                await self.five.join_chat("BikashGadgetsTech")
+                await self.five.join_chat("Bgtads")
             except:
                 pass
             assistants.append(5)
@@ -195,7 +195,7 @@ class Userbot(Client):
                 self.five.name = get_me.first_name
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐢𝐯𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.five.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.five.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.five.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Assistant Five Is Started :**\n\nId : `{self.five.id}`\nName : {self.five.name}\nUserName : @{self.five.username}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -203,5 +203,5 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐢𝐯𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.five.name}"
+                f"Assistant Five Started As {self.five.name}"
             )
