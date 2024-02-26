@@ -36,14 +36,14 @@ def add_corners(im):
     bigsize = (im.size[0] * 3, im.size[1] * 3)
     mask = Image.new("L", bigsize, 0)
     ImageDraw.Draw(mask).ellipse((0, 0) + bigsize, fill=255)
-    mask = mask.resize(im.size, Image.ANTIALIAS)
+    mask = mask.resize(im.size, Image.LANCZOS)
     mask = ImageChops.darker(mask, im.split()[-1])
     im.putalpha(mask)
 
 
 async def gen_thumb(videoid, user_id):
     try:
-        os.remove(f"cache/thumb{videoid}_{user_id}.png")
+        os.remove(f"cache/thumb{videoid}.png")
     except:
         pass
     url = f"https://www.youtube.com/watch?v={videoid}"
@@ -115,8 +115,8 @@ async def gen_thumb(videoid, user_id):
             os.remove(f"cache/temp.png")
         except:
             pass
-        background.save(f"cache/{videoid}_{user_id}.png")
-        return f"cache/{videoid}_{user_id}.png"
+        background.save(f"cache/{videoid}.png")
+        return f"cache/{videoid}.png"
     except Exception:
         return YOUTUBE_IMG_URL
         
