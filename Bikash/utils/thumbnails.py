@@ -32,15 +32,6 @@ def changeImageSize(maxWidth, maxHeight, image):
     return newImage
 
 
-def add_corners(im):
-    bigsize = (im.size[0] * 3, im.size[1] * 3)
-    mask = Image.new("L", bigsize, 0)
-    ImageDraw.Draw(mask).ellipse((0, 0) + bigsize, fill=255)
-    mask = mask.resize(im.size, Image.LANCZOS)
-    mask = ImageChops.darker(mask, im.split()[-1])
-    im.putalpha(mask)
-
-
 async def gen_thumb(videoid, user_id):
     try:
         os.remove(f"cache/thumb{videoid}.png")
@@ -52,6 +43,7 @@ async def gen_thumb(videoid, user_id):
         for result in (await results.next())["result"]:
             try:
                 title = result["title"]
+                title = re.sub("\W+", " ", title)
                 title = title.title()
             except:
                 title = "Unsupported Title"
@@ -86,41 +78,25 @@ async def gen_thumb(videoid, user_id):
         image5 = image3.convert("RGBA")
         image6 = image4.convert("RGBA")
         Image.alpha_composite(image5, image6).save("cache/temp.png")
-        Xcenter = youtube.width / 2
-        Ycenter = youtube.height / 2
-        x1 = Xcenter - 250
-        y1 = Ycenter - 250
-        x2 = Xcenter + 250
-        y2 = Ycenter + 250
-        logo = youtube.crop((x1, y1, x2, y2))
-        logo.thumbnail((520, 520), Image.LANCZOS)
-        logo.save(f"cache/chop{videoid}.png")
-        if not os.path.isfile(f"cache/cropped{videoid}.png"):
-            im = Image.open(f"cache/chop{videoid}.png").convert("RGBA")
-            add_corners(im)
-            im.save(f"cache/cropped{videoid}.png")
-
-        crop_img = Image.open(f"cache/cropped{videoid}.png")
-        logo = crop_img.convert("RGBA")
-        logo.thumbnail((365, 365), Image.LANCZOS)
-        width = int((1280 - 365) / 2)
-        background = Image.open(f"cache/temp{videoid}.png")
-        background.paste(logo, (width + 2, 138), mask=logo)
-        background.paste(x, (710, 427), mask=x)
-        background.paste(image3, (0, 0), mask=image3)
-
-        draw = ImageDraw.Draw(background)
+        img = Image.open("cache/temp.png")
+        draw = ImageDraw.Draw(img)
+        font = ImageFont.truetype("resources/font.otf", 32)
+        draw.text((190, 530), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
+        draw.text((190, 570), f"Duration: {duration}", (255, 255, 255), font=font)
+        draw.text((190, 610), f"Views: {views}", (255, 255, 255), font=font)
+        draw.text((190, 650), f"Powered By: Bikash & Aditya Halder (@BikashHalder @AdityaHalder)", (255, 255, 255), font=font)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
         except:
             pass
-        background.save(f"cache/{videoid}.png")
+        img.save(f"cache/{videoid}.png")
         return f"cache/{videoid}.png"
     except Exception:
         return YOUTUBE_IMG_URL
         
-        
+
+# Power By @BikashHalder & @AdityaHalder 
 # Join @BikashGadgetsTech For More Update
 # Join @AdityaCheats For Hack
 # Join Our Chats @Bgt_Chat & @Adityadiscus 
