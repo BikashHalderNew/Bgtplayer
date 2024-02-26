@@ -1,19 +1,55 @@
 import os
 import re
 import textwrap
-
+import random
 import aiofiles
 import aiohttp
 import numpy as np
-import random
-
-from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from youtubesearchpython.__future__ import VideosSearch
 
+from Bikash import config
 from Bikash import app
-from resource import thumbs, colors
-from Bikash.config import YOUTUBE_IMG_URL
+YOUTUBE_IMG_URL = [ 
 
+"https://graph.org/file/7ca0ae3fe2e327d3dcc86.jpg",
+"https://graph.org/file/ff0d966aee3123db6ae91.jpg",
+"https://graph.org/file/a39f6f364c34e724ef367.jpg",
+"https://graph.org/file/88fcdd5e044279c0d1747.jpg",
+"https://graph.org/file/fcc2837e0f83cd4d08765.jpg",
+"https://graph.org/file/1fcd0f7d5fdb7e700dca5.jpg",
+"https://graph.org/file/39c27bf76bf8742a148c4.jpg",
+"https://graph.org/file/2c5e6f38ca28687c8c3e8.jpg",
+"https://graph.org/file/71682c8fb277c84031c0f.jpg",
+"https://graph.org/file/c118207cef395ceb196ee.jpg",
+"https://graph.org/file/1b765cd3d9fcc99614a32.jpg",
+"https://graph.org/file/d935b6fbb2e3936b1850a.jpg",
+"https://graph.org/file/e94c4566b9a7cf7d23a4b.jpg",
+"https://graph.org/file/fd2196561ba6e8c4c46a9.jpg",
+"https://graph.org/file/17cbf7cedbc44b85c7bda.jpg",
+"https://graph.org/file/cd72a1c4c3b1d52070a90.jpg",
+"https://graph.org/file/8663d4f19f5d9c30f8ff9.jpg",
+"https://graph.org/file/255e5501d4f8b2e348d87.jpg",
+"https://graph.org/file/cf28d171b08e0590749c7.jpg",
+"https://graph.org/file/a1d7ccd85d58b076f8f88.jpg",
+"https://graph.org/file/aa10da451e1e263105516.jpg",
+"https://graph.org/file/cba9cd9f3fd1bcf841db2.jpg",
+"https://graph.org/file/a06eaee8e9070840947bd.jpg",
+"https://graph.org/file/83f5a1123580bd75f591e.jpg",
+"https://graph.org/file/2f4f60ba8405368505ba2.jpg",
+"https://graph.org/file/18da6db0b032a6c428471.jpg",
+"https://graph.org/file/cd0f7fd0dc68ce8dbe2d4.jpg",
+"https://graph.org/file/eabfa2836ec2e6fb41cd5.jpg",
+"https://graph.org/file/59fb7cd9ea2d1331e75ef.jpg",
+"https://graph.org/file/748e908aaa6cbb6c03402.jpg",
+"https://graph.org/file/a26d09d472ddce5532ca2.jpg",
+"https://graph.org/file/3fb4577387c3934eed027.jpg",
+"https://graph.org/file/e19ab57b45fe4c9765869.jpg",
+"https://graph.org/file/4b9b5d7b6e1a46c55dea1.jpg",
+"https://graph.org/file/d7f9dd74e37f3e4985075.jpg",
+"https://graph.org/file/8fd58648581a8f8d3f19b.jpg",
+    
+    ]
 
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -71,8 +107,8 @@ async def gen_thumb(videoid, user_id):
             wxyz = await app.get_profile_photos(user_id)
             wxy = await app.download_media(wxyz[0]['file_id'], file_name=f'{user_id}.jpg')
         except:
-            abc = await app.get_profile_photos(app.id)
-            wxy = await app.download_media(abc[0]['file_id'], file_name=f'{app.id}.jpg')
+            hehe = await app.get_profile_photos(app.id)
+            wxy = await app.download_media(hehe[0]['file_id'], file_name=f'{app.id}.jpg')
         xy = Image.open(wxy)
         a = Image.new('L', [640, 640], 0)
         b = ImageDraw.Draw(a)
@@ -83,15 +119,13 @@ async def gen_thumb(videoid, user_id):
         f = Image.fromarray(e)
         x = f.resize((107, 107))
 
-        images = random.choice(thumbs)
-        border = random.choice(colors)
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        bg = Image.open(f"resource/{images}.png")
+        bg = Image.open(f"resource/circle.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
         enhancer = ImageEnhance.Brightness(background)
-        background = enhancer.enhance(1.0)
+        background = enhancer.enhance(0.6)
 
         image3 = changeImageSize(1280, 720, bg)
         image5 = image3.convert("RGBA")
@@ -119,8 +153,8 @@ async def gen_thumb(videoid, user_id):
         background.paste(logo, (width + 2, 138), mask=logo)
         background.paste(x, (710, 427), mask=x)
         background.paste(image3, (0, 0), mask=image3)
-        img = ImageOps.expand(background, border=10, fill=f"{border}")
-        draw = ImageDraw.Draw(img)
+
+        draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("resource/font2.ttf", 45)
         ImageFont.truetype("resource/font2.ttf", 70)
         arial = ImageFont.truetype("resource/font2.ttf", 30)
@@ -128,17 +162,17 @@ async def gen_thumb(videoid, user_id):
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
-                (450, 35),
-                f"BGT PLAYING",
+                (450, 25),
+                f"FIND X MUSIC",
                 fill="white",
-                stroke_width=1,
-                stroke_fill="white",
+                stroke_width=3,
+                stroke_fill="grey",
                 font=font,
             )
             if para[0]:
                 text_w, text_h = draw.textsize(f"{para[0]}", font=font)
                 draw.text(
-                    ((1280 - text_w) / 2, 560),
+                    ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
                     fill="white",
                     stroke_width=1,
@@ -148,7 +182,7 @@ async def gen_thumb(videoid, user_id):
             if para[1]:
                 text_w, text_h = draw.textsize(f"{para[1]}", font=font)
                 draw.text(
-                    ((1280 - text_w) / 2, 610),
+                    ((1280 - text_w) / 2, 580),
                     f"{para[1]}",
                     fill="white",
                     stroke_width=1,
@@ -159,7 +193,7 @@ async def gen_thumb(videoid, user_id):
             pass
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
         draw.text(
-            ((1280 - text_w) / 2, 665),
+            ((1280 - text_w) / 2, 660),
             f"Duration: {duration} Mins",
             fill="white",
             font=arial,
@@ -168,7 +202,8 @@ async def gen_thumb(videoid, user_id):
             os.remove(f"cache/thumb{videoid}.png")
         except:
             pass
-        background.save(f"cache/{videoid}.png")
-        return f"cache/{videoid}.png"
-    except Exception:
-        return YOUTUBE_IMG_URL
+        background.save(f"cache/{videoid}_{user_id}.png")
+        return f"cache/{videoid}_{user_id}.png"
+    except Exception as e:
+        print(e)
+        return random.choice(YOUTUBE_IMG_URL)
