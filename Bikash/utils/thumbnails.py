@@ -10,7 +10,7 @@ import random
 from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from youtubesearchpython.__future__ import VideosSearch
 
-from Bikash import app as bot
+from Bikash import app
 from resource import thumbs, colors
 from Bikash.config import YOUTUBE_IMG_URL
 
@@ -43,7 +43,6 @@ async def gen_thumb(videoid, user_id):
         for result in (await results.next())["result"]:
             try:
                 title = result["title"]
-                title = re.sub("\W+", " ", title)
                 title = title.title()
             except:
                 title = "Unsupported Title"
@@ -69,11 +68,11 @@ async def gen_thumb(videoid, user_id):
                     await f.close()
 
         try:
-            wxyz = await bot.get_profile_photos(user_id)
-            wxy = await bot.download_media(wxyz[0]['file_id'], file_name=f'{user_id}.jpg')
+            wxyz = await app.get_profile_photos(user_id)
+            wxy = await app.download_media(wxyz[0]['file_id'], file_name=f'{user_id}.jpg')
         except:
-            abc = await bot.get_profile_photos(bot.id)
-            wxy = await bot.download_media(abc[0]['file_id'], file_name=f'{bot.id}.jpg')
+            abc = await app.get_profile_photos(app.id)
+            wxy = await app.download_media(abc[0]['file_id'], file_name=f'{app.id}.jpg')
         xy = Image.open(wxy)
         a = Image.new('L', [640, 640], 0)
         b = ImageDraw.Draw(a)
@@ -169,8 +168,7 @@ async def gen_thumb(videoid, user_id):
             os.remove(f"cache/thumb{videoid}.png")
         except:
             pass
-        img.save(f"cache/{videoid}_{user_id}.png")
-        return f"cache/{videoid}_{user_id}.png"
-    except Exception as e:
-        print(e)
+        background.save(f"cache/{videoid}.png")
+        return f"cache/{videoid}.png"
+    except Exception:
         return YOUTUBE_IMG_URL
