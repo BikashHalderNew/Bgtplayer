@@ -28,7 +28,7 @@ class BikashBot(Client):
         self.username = get_me.username                
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐁𝐨𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.name}\n💫 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 : @{self.username}"
+                config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Bot Started :**\n\nId : `{self.id}`\nName : {self.name}\nUserName : @{self.username}"
             )
         except:
             LOGGER(__name__).error(
