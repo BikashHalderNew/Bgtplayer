@@ -46,12 +46,12 @@ def help_pannel(_, START: Union[bool, int] = None):
                     callback_data="help_callback hb4",
                 ),
                 InlineKeyboardButton(
-                    text="Gban",
-                    callback_data="help_callback hb12",
-                ),
-                InlineKeyboardButton(
                     text="Extra",
                     callback_data="help_callback hb5",
+                ),
+                InlineKeyboardButton(
+                    text="Gban",
+                    callback_data="help_callback hb12",
                 ),
             ],
             [
@@ -70,16 +70,16 @@ def help_pannel(_, START: Union[bool, int] = None):
             ],
             [
                 InlineKeyboardButton(
-                    text="Video Chats",
-                    callback_data="help_callback hb10",
+                    text="Sudo",
+                    callback_data="help_callback hb9",
                 ),
                 InlineKeyboardButton(
                     text="Start",
                     callback_data="help_callback hb11",
                 ),
                 InlineKeyboardButton(
-                    text="Sudo",
-                    callback_data="help_callback hb9",
+                    text="VideoChats",
+                    callback_data="help_callback hb10",
                 ),
             ],
             mark,
