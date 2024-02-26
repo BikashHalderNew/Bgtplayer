@@ -10,6 +10,7 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 
 /unmute or /cunmute- Unmute the muted music.
 
+/shuffle or /cshuffle- Randomly shuffles the queued playlist.
 
 /skip or /cskip- Skip the current playing music.
 
@@ -68,27 +69,6 @@ HELP_5 = """✅<u>**Extra  Commands:**</u>
     - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
 
 /language or /langs : for change language English to Bangla 
-
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-
-/google - Search Anything Else By Google
-
-/image - Get Image
-
-/ask - ask Anything 
-
-/seek or /cseek - Forward Seek the music to your duration
-
-/seekback or /cseekback - Backward Seek the music to your duration
-
-/bikash - check who is Bikash
-
-/repo - for repo
-
-/owner - check who is creator of this repo
-
-/donate - donate for bot owner 🙂
-/id or /info- This cmd For Generating user info
 
 /lyrics [Music Name] - Searches Lyrics for the particular Music on web.."""
 
@@ -171,7 +151,7 @@ HELP_11 = """😅**<u> started with bot</u>**
 
 /settings - Get a complete group's settings with inline buttons.
 
-/sudolist - Check Sudo Users of Bikash Aditya Player Bot"""
+/sudolist - Check Sudo Users of Music Bot"""
 
 HELP_12 = """👤**<u>GBAN FUNCTION:</u>**
 
@@ -180,3 +160,37 @@ HELP_12 = """👤**<u>GBAN FUNCTION:</u>**
 /ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
 
 /gbannedusers - Check Gbanned Users Lists."""
+
+HELP_13 = """🆔**<u>ID/INFO FUNCTION:</u>**
+
+/id or /info- This cmd For Generating user info."""
+
+HELP_14 = """**<u>GOOGLE FUNCTION:</u>**
+
+/google - Search Anything Else By Google."""
+
+HELP_15 = """**<u>IMAGE FUNCTION:</u>**
+
+/image - Get Image """
+
+HELP_16 = """**<u>MORE FUNCTION:</u>**
+
+/ask - ask Anything 
+
+/bikash - check who is Bikash
+
+/owner - check who is creator of this repo
+
+/donate - donate for bot owner 🙂"""
+
+HELP_17 = """**<u>REPO FUNCTION:</u>**
+
+/repo - for repo """
+
+HELP_18 = """**<u>SEEK FUNCTION:</u>**
+
+/seek or /cseek - Forward Seek the music to your duration
+
+/seekback or /cseekback - Backward Seek the music to your duration."""
+
+
