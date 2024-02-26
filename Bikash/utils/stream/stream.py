@@ -110,7 +110,7 @@ async def stream(
                     original_chat_id,
                     photo=img,
                     caption=_["stream_1"].format(
-                      
+                        title[:30],
                         f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
@@ -193,6 +193,7 @@ async def stream(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
+                        title[:30],
                         f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
@@ -363,7 +364,7 @@ async def stream(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
-                      
+                        title[:30],
                         f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
