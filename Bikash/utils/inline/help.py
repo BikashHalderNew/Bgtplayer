@@ -56,16 +56,44 @@ def help_pannel(_, START: Union[bool, int] = None):
             ],
             [
                 InlineKeyboardButton(
-                    text="Ping",
-                    callback_data="help_callback hb7",
+                    text="Google",
+                    callback_data="help_callback hb14",
+                ),
+                InlineKeyboardButton(
+                    text="InFo",
+                    callback_data="help_callback hb13",
+                ),
+                InlineKeyboardButton(
+                    text="Image",
+                    callback_data="help_callback hb15",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="More",
+                    callback_data="help_callback hb16",
                 ),
                 InlineKeyboardButton(
                     text="Play",
                     callback_data="help_callback hb8",
                 ),
                 InlineKeyboardButton(
+                    text="Ping",
+                    callback_data="help_callback hb7",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
                     text="Playlist",
                     callback_data="help_callback hb6",
+                ),
+                InlineKeyboardButton(
+                    text="Repo",
+                    callback_data="help_callback hb17",
+                ),
+                InlineKeyboardButton(
+                    text="Seek",
+                    callback_data="help_callback hb18",
                 ),
             ],
             [
