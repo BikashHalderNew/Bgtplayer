@@ -156,7 +156,7 @@ HELP_9 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /authorized - Check all allowed chats of your bot.
 """
 
-HELP_10 = """🤑 **<u>ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs :</u>**
+HELP_10 = """🤑 **<u>Active Chats:</u>**
 
 /activevoice - Check active voice chats on bot.
 /activevideo - Check active video calls on bot.
