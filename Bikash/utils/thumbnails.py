@@ -6,8 +6,8 @@ import aiohttp
 import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from youtubesearchpython.__future__ import VideosSearch
-from Bikash.config import YOUTUBE_IMG_URL
-from Bikash import LOGGER, app, BOT_ID
+from Bikash.config import YOUTUBE_IMG_URL, MUSIC_BOT_NAME
+from Bikash import LOGGER, app
 
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -68,8 +68,8 @@ async def gen_thumb(videoid, user_id):
             )
         except:
             wxy = await app.download_media(
-                (await app.get_users(BOT_ID)).photo.big_file_id,
-                file_name=f"{BOT_ID}.jpg",
+                (await app.get_users(MUSIC_BOT_NAME)).photo.big_file_id,
+                file_name=f"{MUSIC_BOT_NAME}.jpg",
             )
 
         xy = Image.open(wxy)
