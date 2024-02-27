@@ -1,18 +1,10 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
-
-
 from pyrogram import filters
 from pyrogram.types import Message
-
 from Bikash.config import BANNED_USERS
 from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.core.call import Bikashh
 from Bikash.misc import db
-from Bikash.utils.bgtmusic.bk import command
 from Bikash.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
@@ -20,7 +12,7 @@ SEEK_COMMAND = get_command("SEEK_COMMAND")
 
 
 @app.on_message(
-    command(SEEK_COMMAND)
+    filters.command(SEEK_COMMAND)
     & filters.group
     & ~BANNED_USERS
 )
@@ -83,10 +75,3 @@ async def seek_comm(cli, message: Message, _, chat_id):
     await mystic.edit_text(
         _["admin_33"].format(seconds_to_min(to_seek))
     )
-
-
-
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
