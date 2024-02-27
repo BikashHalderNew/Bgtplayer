@@ -114,7 +114,6 @@ async def stream(
                         f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
-                        f"{message.from_user.mention}",
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -198,7 +197,6 @@ async def stream(
                         f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
-                        f"{message.from_user.mention}",
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
@@ -370,7 +368,6 @@ async def stream(
                         f"https://t.me/{app.username}?start=info_{vidid}",
                         duration_min,
                         user_name,
-                        f"{message.from_user.mention}",
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
