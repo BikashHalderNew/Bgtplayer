@@ -16,35 +16,15 @@ from Bikash.utils.database import (is_active_chat,
                                        set_loop)
 from Bikash.utils.decorators.language import languageCB
 from Bikash.utils.formatters import seconds_to_min
-from Bikash.utils.inline.play import (panel_markup_1,
-                                          panel_markup_2,
-                                          panel_markup_3,
-                                          stream_markup,
-                                          telegram_markup)
+from Bikash.utils.inline.play import (stream_markup,
+    stream_markup_timer,
+    telegram_markup,
+    telegram_markup_timer,
+    close_keyboard)
 from Bikash.utils.stream.autoclear import auto_clean
 from Bikash.utils.thumbnails import gen_thumb
 
 wrong = {}
-
-
-@app.on_callback_query(filters.regex("PanelMarkup") & ~BANNED_USERS)
-@languageCB
-async def markup_panel(client, CallbackQuery: CallbackQuery, _):
-    await CallbackQuery.answer()
-    callback_data = CallbackQuery.data.strip()
-    callback_request = callback_data.split(None, 1)[1]
-    videoid, chat_id = callback_request.split("|")
-    chat_id = CallbackQuery.message.chat.id
-    buttons = panel_markup_1(_, videoid, chat_id)
-    try:
-        await CallbackQuery.edit_message_reply_markup(
-            reply_markup=InlineKeyboardMarkup(buttons)
-        )
-    except:
-        return
-    if chat_id not in wrong:
-        wrong[chat_id] = {}
-    wrong[chat_id][CallbackQuery.message.id] = False
 
 
 @app.on_callback_query(filters.regex("MainMarkup") & ~BANNED_USERS)
