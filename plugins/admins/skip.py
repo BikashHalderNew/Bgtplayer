@@ -85,7 +85,7 @@ async def skip(cli, message: Message, _, chat_id):
                     await auto_clean(popped)
             if not check:
                 await message.reply_text(
-                    _["admin_10"].format(message.from_user.first_name),
+                    _["admin_10"].format(message.from_user.mention),
                        reply_markup=close_keyboard
                 )
                 try:
@@ -95,7 +95,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             try:
                 await message.reply_text(
-                    _["admin_10"].format(message.from_user.first_name),
+                    _["admin_10"].format(message.from_user.mention),
                           reply_markup=close_keyboard
                 )
                 return await Bikashh.stop_stream(chat_id)
