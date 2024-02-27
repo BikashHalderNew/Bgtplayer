@@ -163,8 +163,6 @@ hieght="38.30" /></a>
 ``sudo apt-get install python3-pip -y``
 - Install pip by :
 ``sudo pip3 install -U pip``
-- Install Node js by :
-``curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm``
 - Clone the repository by :
 ``git clone https://github.com/BikashHalderNew/Bgtplayer && cd Bgtplayer``
 - Install requirements by :
@@ -176,7 +174,7 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 - Install tmux to keep running your bot when you close the terminal by :
 ``sudo apt install tmux && tmux``
 - Finally run the bot by :
-``python3 -m Bikash``
+``bash bikash.sh``
 - For getting out from tmux session : Press | ``Ctrl+b`` | and then d<br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
