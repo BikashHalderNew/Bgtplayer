@@ -91,7 +91,8 @@ async def song_commad_private(client, message: Message, _):
             thumbnail,
             vidid,
         ) = await YouTube.details(query)
-    except:
+    except Expection as e:
+        print(e)
         return await mystic.edit_text(_["play_3"])
     if str(duration_min) == "None":
         return await mystic.edit_text(_["song_3"])
@@ -223,8 +224,8 @@ async def song_helper_cb(client, CallbackQuery, _):
 async def song_download_cb(client, CallbackQuery, _):
     try:
         await CallbackQuery.answer("Downloading")
-    except:
-        pass
+    except Expection as e:
+        print(e)
     callback_data = CallbackQuery.data.strip()
     callback_request = callback_data.split(None, 1)[1]
     stype, format_id, vidid = callback_request.split("|")
@@ -248,6 +249,7 @@ async def song_download_cb(client, CallbackQuery, _):
                 title=title,
             )
         except Exception as e:
+            print(e)
             return await mystic.edit_text(_["song_9"].format(e))
         med = InputMediaVideo(
             media=file_path,
@@ -279,6 +281,7 @@ async def song_download_cb(client, CallbackQuery, _):
                 title=title,
             )
         except Exception as e:
+            print(e)
             return await mystic.edit_text(_["song_9"].format(e))
         med = InputMediaAudio(
             media=filename,
