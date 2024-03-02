@@ -16,22 +16,22 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "༺ 𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 ༻")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1439222689").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "╰•★★ ʄơཞცıɖɖɛŋ ɱųʂıƈ ★★•╯")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1318826936").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BikashHalderNew/Bgtplayer")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/zenaku15/Bgtplayer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Bgt_Chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/seriousvs_version20")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/seriosvs_version10")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "150"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "1000")
 )
 
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
@@ -71,8 +71,8 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/3127b3484676bd2254e97.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/f6e1efa2d2197ceb4d63f.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/5b9a921204fe6c22dc463.jpg")
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
 GLOBAL_IMG_URL = "https://te.legra.ph/file/2e2741f5dfe9f62eed91d.png"
