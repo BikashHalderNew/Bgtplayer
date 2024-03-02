@@ -133,14 +133,15 @@ async def song_helper_cb(client, CallbackQuery, _):
     stype, vidid = callback_request.split("|")
     try:
         await CallbackQuery.answer(_["song_6"], show_alert=True)
-    except:
-        pass
+    except Expection as e:
+        print(e)
     if stype == "audio":
         try:
             formats_available, link = await YouTube.formats(
                 vidid, True
             )
-        except:
+        except Expection as e:
+            print(e)
             return await CallbackQuery.edit_message_text(_["song_7"])
         keyboard = InlineKeyboard()
         done = []
