@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/4d7a997a6c8c4eb406829.jpg">
+  <img src="https://telegra.ph/file/580b6e5c3cf77112ad7eb.jpg">
 </p>
 
 
@@ -108,10 +108,10 @@ src="https://img.shields.io/badge/Deploy%20On%20Mogenius-grey?style=for-the-badg
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚈 :
-Check Out [Necessary Variables Here](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
+Check Out [Necessary Variables Here](https://github.com/zenaku15/Bgtplayer/blob/bikash/Internal)
 fill these vars
 
-<a href="https://railway.app/new/template?template=https://github.com/BikashHalderNew/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"><img src="https://railway.app/button.svg" alt="Deploy on Railway" /></a>
+<a href="https://railway.app/new/template?template=https://github.com/zenaku15/Bgtplayer/Bgtplayer-Deploy&envs=STRING_SESSION,BOT_TOKEN,OWNER_ID,MONGO_DB_URI,API_ID,API_HASH"><img src="https://railway.app/button.svg" alt="Deploy on Railway" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -138,7 +138,7 @@ hieght="38.30" /></a>
 <h4>Click the button below to deploy Bikash Music Bot on Heroku!</h4>    
 
 <a
-href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-seagreen?style=for-the-badge&logo=Heroku" width="220"
+href="https://heroku.com/deploy?template=https://github.com/zenaku15/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-seagreen?style=for-the-badge&logo=Heroku" width="220"
 hieght="38.30" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -146,14 +146,14 @@ hieght="38.30" /></a>
 ## Clever Cloud Deployment :
 
 <a
-href="https://www.clever-cloud.com/deploy?template=https://github.com/BikashHalderNew/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20Clever%20Cloud-blue?style=for-the-badge&logo=Clever" width="220"
+href="https://www.clever-cloud.com/deploy?template=https://github.com/zenaku15/Bgtplayer"><img src="https://img.shields.io/badge/Deploy%20Clever%20Cloud-blue?style=for-the-badge&logo=Clever" width="220"
 hieght="38.30" /></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ 📡 :
 
-- Get your [Necessary Variables](https://github.com/BikashHalderNew/Bgtplayer/blob/bikash/Internal)
+- Get your [Necessary Variables](https://github.com/zenaku15/Bgtplayer/blob/bikash/Internal))
 
 - Upgrade and Update by :
 ``sudo apt-get update && sudo apt-get upgrade -y``
@@ -164,7 +164,7 @@ hieght="38.30" /></a>
 - Install pip by :
 ``sudo pip3 install -U pip``
 - Clone the repository by :
-``git clone https://github.com/BikashHalderNew/Bgtplayer && cd Bgtplayer``
+``git clone https://github.com/zenaku15/Bgtplayer && cd Bgtplayer``
 - Install requirements by :
 ``pip3 install -U -r Installer``
 - Fill your variables in the env by :
@@ -199,7 +199,7 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 
 ## 🖥️ Owner Of This Repository :
 
-[![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
+[![Bikash Halder](https://telegra.ph/file/a2ec0568ce966147af4be.jpg)](https://t.me/mamee_is_my_existence)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
