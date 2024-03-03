@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 
-from Bikash.config import MONGO_DB_URI
+from Zenakusn.config import MONGO_DB_URI
 
 from ..logging import LOGGER
 
