@@ -1,7 +1,3 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
 
 import asyncio
 import time
@@ -157,18 +153,18 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🌺**𝐓𝐫𝐚𝐜𝐤 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 **🌺
+**𝐓𝐫𝐚𝐜𝐤 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 **🌺
 
-🥀 **𝐓𝐢𝐭𝐥𝐞:** {title}
+**𝐓𝐢𝐭𝐥𝐞:** {title}
 
-⏳ **𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧:** {duration} ᴍɪɴᴜᴛᴇs
-👀 **𝐕𝐢𝐞𝐰𝐬:** `{views}`
-⏰ **𝐏𝐮𝐛𝐥𝐢𝐬𝐡𝐞𝐝 𝐎𝐧:** {published}
-🎥 **𝐂𝐡𝐚𝐧𝐧𝐞𝐥:** {channel}
-📎 **𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐋𝐢𝐧𝐤:** [𝐕𝐢𝐬𝐢𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥]({channellink})
-🔗 **𝐋𝐢𝐧𝐤:** [𝐖𝐚𝐭𝐜𝐡 𝐎𝐧 𝐘𝐨𝐮𝐭𝐮𝐛𝐞]({link})
+**𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧:** {duration} ᴍɪɴᴜᴛᴇs
+**𝐕𝐢𝐞𝐰𝐬:** `{views}`
+**𝐏𝐮𝐛𝐥𝐢𝐬𝐡𝐞𝐝 𝐎𝐧:** {published}
+**𝐂𝐡𝐚𝐧𝐧𝐞𝐥:** {channel}
+**𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐋𝐢𝐧𝐤:** [𝐕𝐢𝐬𝐢𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥]({channellink})
+**𝐋𝐢𝐧𝐤:** [𝐖𝐚𝐭𝐜𝐡 𝐎𝐧 𝐘𝐨𝐮𝐭𝐮𝐛𝐞]({link})
 
-💖 𝐒𝐞𝐚𝐫𝐜𝐡 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 {config.MUSIC_BOT_NAME}"""
+𝐒𝐞𝐚𝐫𝐜𝐡 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
                 [
                     [
@@ -176,7 +172,7 @@ async def start_comm(client, message: Message, _):
                             text="• 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🌿 𝐆𝐫𝐨𝐮𝐩 🌿", url=config.SUPPORT_GROUP
+                            text=" 𝐆𝐫𝐨𝐮𝐩 ", url=config.SUPPORT_GROUP
                         ),
                     ],
                 ]
@@ -305,9 +301,3 @@ async def welcome(client, message: Message):
         except:
             return
 
-
-
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
