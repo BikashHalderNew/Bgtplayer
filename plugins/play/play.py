@@ -243,7 +243,8 @@ async def play_commnd(
             elif "playlist" in url:
                 try:
                     details, plist_id = await Spotify.playlist(url)
-                except Exception:
+                except Exception as e:
+                    print(e)
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "playlist"
                 plist_type = "spplay"
@@ -254,7 +255,8 @@ async def play_commnd(
             elif "album" in url:
                 try:
                     details, plist_id = await Spotify.album(url)
-                except Exception:
+                except Exception as e:
+                    print(e)
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "playlist"
                 plist_type = "spalbum"
@@ -265,7 +267,8 @@ async def play_commnd(
             elif "artist" in url:
                 try:
                     details, plist_id = await Spotify.artist(url)
-                except Exception:
+                except Exception as e:
+                    print(e)
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "playlist"
                 plist_type = "spartist"
@@ -279,7 +282,8 @@ async def play_commnd(
             if "album" in url:
                 try:
                     details, track_id = await Apple.track(url)
-                except Exception:
+                except Exception as e:
+                    print(e)
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "youtube"
                 img = details["thumb"]
@@ -290,7 +294,8 @@ async def play_commnd(
                 spotify = True
                 try:
                     details, plist_id = await Apple.playlist(url)
-                except Exception:
+                except Exception as e:
+                    print(e)
                     return await mystic.edit_text(_["play_3"])
                 streamtype = "playlist"
                 plist_type = "apple"
@@ -314,7 +319,8 @@ async def play_commnd(
         elif await SoundCloud.valid(url):
             try:
                 details, track_path = await SoundCloud.download(url)
-            except Exception:
+            except Exception as e:
+                print(e)
                 return await mystic.edit_text(_["play_3"])
             duration_sec = details["duration_sec"]
             if duration_sec > config.DURATION_LIMIT:
@@ -355,7 +361,7 @@ async def play_commnd(
                 )
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    "𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐮𝐫𝐧 𝐎𝐧 𝐕𝐜 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜.",
+                    "Please Turn On Vc To Play Music.",
                 )
             except Exception as e:
                 print(e)
@@ -401,7 +407,8 @@ async def play_commnd(
             query = query.replace("-v", "")
         try:
             details, track_id = await YouTube.track(query)
-        except Exception:
+        except Exception as e:
+            print(e)
             return await mystic.edit_text(_["play_3"])
         streamtype = "youtube"
     if str(playmode) == "Direct":
@@ -533,26 +540,30 @@ async def play_music(client, CallbackQuery, _):
             return await CallbackQuery.answer(
                 _["playcb_1"], show_alert=True
             )
-        except:
+        except Exception as e:
+            print(e)
             return
     try:
         chat_id, channel = await get_channeplayCB(
             _, cplay, CallbackQuery
         )
-    except:
+    except Exception as e:
+        print(e)
         return
     user_name = CallbackQuery.from_user.first_name
     try:
         await CallbackQuery.message.delete()
         await CallbackQuery.answer()
-    except:
+    except Exception as e:
+        print(e)
         pass
     mystic = await CallbackQuery.message.reply_text(
         _["play_2"].format(channel) if channel else _["play_1"]
     )
     try:
         details, track_id = await YouTube.track(vidid, True)
-    except Exception:
+    except Exception as e:
+        print(e)
         return await mystic.edit_text(_["play_3"])
     if details["duration_min"]:
         duration_sec = time_to_seconds(details["duration_min"])
@@ -635,19 +646,22 @@ async def play_playlists_command(client, CallbackQuery, _):
             return await CallbackQuery.answer(
                 _["playcb_1"], show_alert=True
             )
-        except:
+        except Exception as e:
+            print(e)
             return
     try:
         chat_id, channel = await get_channeplayCB(
             _, cplay, CallbackQuery
         )
-    except:
+    except Exception as e:
+        print(e)
         return
     user_name = CallbackQuery.from_user.first_name
     await CallbackQuery.message.delete()
     try:
         await CallbackQuery.answer()
-    except:
+    except Exception as e:
+        print(e)
         pass
     mystic = await CallbackQuery.message.reply_text(
         _["play_2"].format(channel) if channel else _["play_1"]
@@ -665,27 +679,32 @@ async def play_playlists_command(client, CallbackQuery, _):
                 CallbackQuery.from_user.id,
                 True,
             )
-        except Exception:
+        except Exception as e:
+            print(e)
             return await mystic.edit_text(_["play_3"])
     if ptype == "spplay":
         try:
             result, spotify_id = await Spotify.playlist(videoid)
-        except Exception:
+        except Exception as e:
+            print(e)
             return await mystic.edit_text(_["play_3"])
     if ptype == "spalbum":
         try:
             result, spotify_id = await Spotify.album(videoid)
-        except Exception:
+        except Exception as e:
+            print(e)
             return await mystic.edit_text(_["play_3"])
     if ptype == "spartist":
         try:
             result, spotify_id = await Spotify.artist(videoid)
-        except Exception:
+        except Exception as e:
+            print(e)
             return await mystic.edit_text(_["play_3"])
     if ptype == "apple":
         try:
             result, apple_id = await Apple.playlist(videoid, True)
-        except Exception:
+        except Exception as e:
+            print(e)
             return await mystic.edit_text(_["play_3"])
     try:
         await stream(
