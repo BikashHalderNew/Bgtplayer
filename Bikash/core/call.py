@@ -16,11 +16,11 @@ from pytgcalls.types import (JoinedGroupCallParticipant,
                              MediaStream,
                              LeftGroupCallParticipant, Update, AudioQuality, VideoQuality)
 from pytgcalls.types.stream import StreamAudioEnded
-from Zenakusn import config
-from Zenakusn.Bgt import get_string
-from Zenakusn import LOGGER, YouTube, app
-from Zenakusn.misc import db
-from Zenakusn.utils.database import (add_active_chat,
+from Bikash import config
+from Bikash.Bgt import get_string
+from Bikash import LOGGER, YouTube, app
+from Bikash.misc import db
+from Bikash.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
                                        get_audio_bitrate, get_lang,
@@ -30,11 +30,11 @@ from Zenakusn.utils.database import (add_active_chat,
                                        remove_active_chat,
                                        remove_active_video_chat,
                                        set_loop)
-from Zenakusn.utils.exceptions import AssistantErr
-from Zenakusn.utils.inline.play import (stream_markup,
+from Bikash.utils.exceptions import AssistantErr
+from Bikash.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from Zenakusn.utils.stream.autoclear import auto_clean
-from Zenakusn.utils.thumbnails import gen_thumb
+from Bikash.utils.stream.autoclear import auto_clean
+from Bikash.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
@@ -622,4 +622,4 @@ class Call(PyTgCalls):
                 autoend[chat_id] = {}
 
 
-Zenakusnh = Call()
+Bikash = Call()
