@@ -276,7 +276,7 @@ async def del_whole_playlist(client, CallbackQuery, _):
 async def get_playlist_playmode_(client, CallbackQuery, _):
     try:
         await CallbackQuery.answer()
-except Exception as e:
+    except Exception as e:
         print(e)
         pass
     buttons = get_playlist_markup(_)
