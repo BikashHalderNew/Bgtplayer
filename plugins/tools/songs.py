@@ -13,7 +13,7 @@ from pyrogram.types import (
 )
 
 from Bikash.config import BANNED_USERS, SONG_DOWNLOAD_DURATION, SONG_DOWNLOAD_DURATION_LIMIT
-from Bikash.strings import get_command
+from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.utils.decorators.language import language, languageCB
 from Bikash.utils.formatters import convert_bytes
