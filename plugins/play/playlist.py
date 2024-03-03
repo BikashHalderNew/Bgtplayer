@@ -3,6 +3,7 @@ from random import randint
 
 from pykeyboard import InlineKeyboard
 from pyrogram import filters
+from pyrogram.errors import RPCError
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
@@ -38,8 +39,8 @@ async def check_playlist(client, message: Message, _):
         return await message.reply_text(_["playlist_3"])
     msg = _["playlist_4"]
     count = 0
-    for shikhar in _playlist:
-        _note = await get_playlist(message.from_user.id, shikhar)
+    for bk in _playlist:
+        _note = await get_playlist(message.from_user.id, bk)
         title = _note["title"]
         title = title.title()
         duration = _note["duration"]
@@ -136,7 +137,8 @@ async def play_playlist(client, CallbackQuery, _):
                 _["playlist_3"],
                 show_alert=True,
             )
-        except:
+        except Exception as e:
+            print(e)
             return
     chat_id = CallbackQuery.message.chat.id
     user_name = CallbackQuery.from_user.first_name
@@ -144,7 +146,8 @@ async def play_playlist(client, CallbackQuery, _):
     result = []
     try:
         await CallbackQuery.answer()
-    except:
+    except Exception as e:
+        print(e)
         pass
     video = True if mode == "v" else None
     mystic = await CallbackQuery.message.reply_text(_["play_1"])
@@ -185,7 +188,8 @@ async def add_playlist(client, CallbackQuery, _):
             return await CallbackQuery.answer(
                 _["playlist_8"], show_alert=True
             )
-        except:
+        except Exception as e:
+            print(e)
             return
     _count = await get_playlist_names(user_id)
     count = len(_count)
@@ -195,7 +199,8 @@ async def add_playlist(client, CallbackQuery, _):
                 _["playlist_9"].format(SERVER_PLAYLIST_LIMIT),
                 show_alert=True,
             )
-        except:
+        except Exception as e:
+            print(e)
             return
     (
         title,
@@ -217,7 +222,8 @@ async def add_playlist(client, CallbackQuery, _):
             text="☘ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 𝐀𝐝𝐝𝐞𝐝.\n │\n └𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲 : {0} \n\n 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashGadGetsTech)".format(CallbackQuery.from_user.mention),
             reply_markup=close_keyboard,
         )
-    except:
+    except Exception as e:
+        print(e)
         return
 
 
@@ -235,14 +241,16 @@ async def del_plist(client, CallbackQuery, _):
             await CallbackQuery.answer(
                 _["playlist_11"], show_alert=True
             )
-        except:
+        except Exception as e:
+            print(e)
             pass
     else:
         try:
             return await CallbackQuery.answer(
                 _["playlist_12"], show_alert=True
             )
-        except:
+        except Exception as e:
+            print(e)
             return
     keyboard, count = await get_keyboard(_, user_id)
     return await CallbackQuery.edit_message_reply_markup(
@@ -268,7 +276,8 @@ async def del_whole_playlist(client, CallbackQuery, _):
 async def get_playlist_playmode_(client, CallbackQuery, _):
     try:
         await CallbackQuery.answer()
-    except:
+except Exception as e:
+        print(e)
         pass
     buttons = get_playlist_markup(_)
     return await CallbackQuery.edit_message_reply_markup(
@@ -283,7 +292,8 @@ async def get_playlist_playmode_(client, CallbackQuery, _):
 async def delete_warning_message(client, CallbackQuery, _):
     try:
         await CallbackQuery.answer()
-    except:
+    except Exception as e:
+        print(e)
         pass
     upl = warning_markup(_)
     return await CallbackQuery.edit_message_text(
@@ -296,7 +306,8 @@ async def delete_warning_message(client, CallbackQuery, _):
 async def home_play_(client, CallbackQuery, _):
     try:
         await CallbackQuery.answer()
-    except:
+    except Exception as e:
+        print(e)
         pass
     buttons = botplaylist_markup(_)
     return await CallbackQuery.edit_message_reply_markup(
@@ -316,14 +327,16 @@ async def del_back_playlist(client, CallbackQuery, _):
             await CallbackQuery.answer(
                 _["playlist_2"], show_alert=True
             )
-        except:
+        except Exception as e:
+            print(e)
             pass
     else:
         try:
             return await CallbackQuery.answer(
                 _["playlist_3"], show_alert=True
             )
-        except:
+        except Exception as e:
+            print(e)
             return
     keyboard, count = await get_keyboard(_, user_id)
     return await CallbackQuery.edit_message_text(
