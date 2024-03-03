@@ -16,18 +16,14 @@ async def bikash(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🥀 𝐁𝐢𝐤𝐚𝐬𝐡 🥀", url=f"https://t.me/BikashHalder")
+                        " 佐助⏤𝔣○ｒ𝐁ìժժҽղ • ", url=f"https://t.me/mamee_is_my_existence")
             ],          
-            [
-                    InlineKeyboardButton(
-                        "🥀 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧 🥀", url=f"https://t.me/BgtPromote")
-                ],
                 [
                     InlineKeyboardButton(
-                        "🥀 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🥀", url=f"https://t.me/Bgt_Chat"
+                        " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ", url=f"https://t.me/seriosvs_version10"
                     ),
                     InlineKeyboardButton(
-                        "🥀 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🥀", url=f"https://t.me/BikashGadgetsTech")
+                        " 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ", url=f"https://t.me/seriousvs_version20")
                 ]
             ]
         ),
