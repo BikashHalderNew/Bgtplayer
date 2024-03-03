@@ -3,12 +3,12 @@ from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import BotCommand
 
-from Zenakusn import config
+from Bikash import config
 
 from ..logging import LOGGER
 
 
-class ZenakusnBot(Client):
+class BikashBot(Client):
     def __init__(self):       
         LOGGER(__name__).info(f"Starting Bot")
         super().__init__(
