@@ -1,7 +1,3 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
 
 from pyrogram import filters
 from pyrogram.errors import MessageNotModified
@@ -529,9 +525,3 @@ async def cleanmode_mark(client, CallbackQuery, _):
     except MessageNotModified:
         return
 
-
-
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Updates
-# Join @AdityaCheats For Hacks
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
