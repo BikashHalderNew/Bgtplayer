@@ -5,7 +5,7 @@ from typing import Tuple
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 
-from Zenakusn import config
+from Bikash import config
 
 from ..logging import LOGGER
 
