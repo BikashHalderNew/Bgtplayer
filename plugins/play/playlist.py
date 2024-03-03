@@ -54,10 +54,7 @@ async def check_playlist(client, message: Message, _):
     else:
         car = msg
     await get.delete()
-    await message.reply_text(
-        caption=_["playlist_15"].format(link)
-    )
-
+    await message.reply_text(_["playlist_15"].format(link))
 
 @app.on_message(
     filters.command(DELETEPLAYLIST_COMMAND)
