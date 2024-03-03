@@ -4,28 +4,26 @@ import re
 import yt_dlp
 from pykeyboard import InlineKeyboard
 from pyrogram import enums, filters
-from pyrogram.errors import RPCError
-from pyrogram.types import (InlineKeyboardButton,
-                            InlineKeyboardMarkup, InputMediaAudio,
-                            InputMediaVideo, Message)
+from pyrogram.types import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    InputMediaAudio,
+    InputMediaVideo,
+    Message,
+)
 
-from Bikash.config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
-                    SONG_DOWNLOAD_DURATION_LIMIT)
-from Bikash.Bgt import get_command
-from Bikash import YouTube, app
-from Bikash.utils.decorators.language import language, languageCB
-from Bikash.utils.formatters import convert_bytes
-from Bikash.utils.inline.song import song_markup
+from config import BANNED_USERS, SONG_DOWNLOAD_DURATION, SONG_DOWNLOAD_DURATION_LIMIT
+from strings import get_command
+from YukkiMusic import YouTube, app
+from YukkiMusic.utils.decorators.language import language, languageCB
+from YukkiMusic.utils.formatters import convert_bytes
+from YukkiMusic.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")
 
 
-@app.on_message(
-    filters.command(SONG_COMMAND)
-    & filters.group
-    & ~BANNED_USERS
-)
+@app.on_message(filters.command(SONG_COMMAND) & filters.group & ~BANNED_USERS)
 @language
 async def song_commad_group(client, message: Message, _):
     upl = InlineKeyboardMarkup(
@@ -44,11 +42,7 @@ async def song_commad_group(client, message: Message, _):
 # Song Module
 
 
-@app.on_message(
-    filters.command(SONG_COMMAND)
-    & filters.private
-    & ~BANNED_USERS
-)
+@app.on_message(filters.command(SONG_COMMAND) & filters.private & ~BANNED_USERS)
 @language
 async def song_commad_private(client, message: Message, _):
     await message.delete()
@@ -68,9 +62,7 @@ async def song_commad_private(client, message: Message, _):
             return await mystic.edit_text(_["song_3"])
         if int(duration_sec) > SONG_DOWNLOAD_DURATION_LIMIT:
             return await mystic.edit_text(
-                _["play_4"].format(
-                    SONG_DOWNLOAD_DURATION, duration_min
-                )
+                _["play_4"].format(SONG_DOWNLOAD_DURATION, duration_min)
             )
         buttons = song_markup(_, vidid)
         await mystic.delete()
@@ -92,8 +84,7 @@ async def song_commad_private(client, message: Message, _):
             thumbnail,
             vidid,
         ) = await YouTube.details(query)
-    except Exception as e:
-        print(e)
+    except:
         return await mystic.edit_text(_["play_3"])
     if str(duration_min) == "None":
         return await mystic.edit_text(_["song_3"])
@@ -110,9 +101,7 @@ async def song_commad_private(client, message: Message, _):
     )
 
 
-@app.on_callback_query(
-    filters.regex(pattern=r"song_back") & ~BANNED_USERS
-)
+@app.on_callback_query(filters.regex(pattern=r"song_back") & ~BANNED_USERS)
 @languageCB
 async def songs_back_helper(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
@@ -124,9 +113,7 @@ async def songs_back_helper(client, CallbackQuery, _):
     )
 
 
-@app.on_callback_query(
-    filters.regex(pattern=r"song_helper") & ~BANNED_USERS
-)
+@app.on_callback_query(filters.regex(pattern=r"song_helper") & ~BANNED_USERS)
 @languageCB
 async def song_helper_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
@@ -134,15 +121,12 @@ async def song_helper_cb(client, CallbackQuery, _):
     stype, vidid = callback_request.split("|")
     try:
         await CallbackQuery.answer(_["song_6"], show_alert=True)
-    except Exception as e:
-        print(e)
+    except:
+        pass
     if stype == "audio":
         try:
-            formats_available, link = await YouTube.formats(
-                vidid, True
-            )
-        except Exception as e:
-            print(e)
+            formats_available, link = await YouTube.formats(vidid, True)
+        except:
             return await CallbackQuery.edit_message_text(_["song_7"])
         keyboard = InlineKeyboard()
         done = []
@@ -169,23 +153,17 @@ async def song_helper_cb(client, CallbackQuery, _):
                 text=_["BACK_BUTTON"],
                 callback_data=f"song_back {stype}|{vidid}",
             ),
-            InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data=f"close"
-            ),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=f"close"),
         )
-        return await CallbackQuery.edit_message_reply_markup(
-            reply_markup=keyboard
-        )
+        return await CallbackQuery.edit_message_reply_markup(reply_markup=keyboard)
     else:
         try:
-            formats_available, link = await YouTube.formats(
-                vidid, True
-            )
+            formats_available, link = await YouTube.formats(vidid, True)
         except Exception as e:
             print(e)
             return await CallbackQuery.edit_message_text(_["song_7"])
         keyboard = InlineKeyboard()
-        # AVC Formats Only [ YUKKI MUSIC BOT ]
+        # AVC Formats Only [ Alexa MUSIC BOT ]
         done = [160, 133, 134, 135, 136, 137, 298, 299, 264, 304, 266]
         for x in formats_available:
             check = x["format"]
@@ -207,27 +185,21 @@ async def song_helper_cb(client, CallbackQuery, _):
                 text=_["BACK_BUTTON"],
                 callback_data=f"song_back {stype}|{vidid}",
             ),
-            InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data=f"close"
-            ),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=f"close"),
         )
-        return await CallbackQuery.edit_message_reply_markup(
-            reply_markup=keyboard
-        )
+        return await CallbackQuery.edit_message_reply_markup(reply_markup=keyboard)
 
 
 # Downloading Songs Here
 
 
-@app.on_callback_query(
-    filters.regex(pattern=r"song_download") & ~BANNED_USERS
-)
+@app.on_callback_query(filters.regex(pattern=r"song_download") & ~BANNED_USERS)
 @languageCB
 async def song_download_cb(client, CallbackQuery, _):
     try:
-        await CallbackQuery.answer("Downloading")
-    except Exception as e:
-        print(e)
+        await CallbackQuery.answer("ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...")
+    except:
+        pass
     callback_data = CallbackQuery.data.strip()
     callback_request = callback_data.split(None, 1)[1]
     stype, format_id, vidid = callback_request.split("|")
@@ -236,6 +208,7 @@ async def song_download_cb(client, CallbackQuery, _):
     with yt_dlp.YoutubeDL({"quiet": True}) as ytdl:
         x = ytdl.extract_info(yturl, download=False)
     title = (x["title"]).title()
+    title = re.sub("\W+", " ", title)
     thumb_image_path = await CallbackQuery.message.download()
     duration = x["duration"]
     if stype == "video":
@@ -251,7 +224,6 @@ async def song_download_cb(client, CallbackQuery, _):
                 title=title,
             )
         except Exception as e:
-            print(e)
             return await mystic.edit_text(_["song_9"].format(e))
         med = InputMediaVideo(
             media=file_path,
@@ -283,7 +255,6 @@ async def song_download_cb(client, CallbackQuery, _):
                 title=title,
             )
         except Exception as e:
-            print(e)
             return await mystic.edit_text(_["song_9"].format(e))
         med = InputMediaAudio(
             media=filename,
