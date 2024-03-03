@@ -12,12 +12,12 @@ from pyrogram.types import (
     Message,
 )
 
-from config import BANNED_USERS, SONG_DOWNLOAD_DURATION, SONG_DOWNLOAD_DURATION_LIMIT
-from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.formatters import convert_bytes
-from YukkiMusic.utils.inline.song import song_markup
+from Bikash.config import BANNED_USERS, SONG_DOWNLOAD_DURATION, SONG_DOWNLOAD_DURATION_LIMIT
+from Bikash.strings import get_command
+from Bikash import YouTube, app
+from Bikash.utils.decorators.language import language, languageCB
+from Bikash.utils.formatters import convert_bytes
+from Bikash.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")
