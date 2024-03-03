@@ -1,4 +1,4 @@
-name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
+ name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
 
 # General Strings
 general_1 : "Reply to a user's message or give username/user_id."
@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups."
+start_2 : "🥀 Hello, My name is {0}.\n\nI'm a Telegram Superfast Vc Streaming Bot With Some Useful Features..\nFeel Lag Free Music 💖"
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -229,10 +229,10 @@ queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "📡 **Started Streaming** 💡\n\n🏷Title:** [{0}]({1})\n\n⌛️**Duration**: {2}\n\n👤**Requested By:** {3}"
-stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
-stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
-stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
+stream_1 : "📡 **Started Streaming** 💡\n🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
+stream_2 : "📡 **Started Streaming via URL ** 💡\n👤**Requested By:** {0}"
+stream_3 : "📡 **Started Streaming** 💡\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
+stream_4 : "📡 **Started Streaming** 💡\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
 
 # Inline Buttons
 
@@ -252,7 +252,7 @@ S_B_3 : "📨 Support"
 S_B_4 : "📨 Channel"
 S_B_5 : "✚ Add me to your Group"
 S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
+S_B_7 : "Bot Owner"
 S_B_8 : "🔎 How to Use? Commands Menu."
 
 #Help 
@@ -276,8 +276,8 @@ P_B_4 : "🎵 Play Playlist"
 
 #Playlist
 PL_B_1 : "🚀 Play Playlist"
-PL_B_2 : "✚ Playlists"
-PL_B_3 : "✚ CPanel"
+PL_B_2 : "✚ Playlists ✚"
+PL_B_3 : "✚ CPanel ✚"
 PL_B_4 : "📡 Play Mode"
 PL_B_5 : "🔄 Del Whole Playlist"
 PL_B_6 : "↗️ Delete Playlist"
@@ -293,7 +293,7 @@ ST_B_2 : "🎥 Vid Quality"
 ST_B_3 : "🎩 Auth Users"
 ST_B_4 : "📱 Dashboard"
 ST_B_5 : "▶️ Play Mode"
-ST_B_6 : "🏳️‍🌈 Language"
+ST_B_6 : "Language"
 ST_B_7 : "🔄 Clean Mode"
 ST_B_8 : "{0} Low Quality Audio"
 ST_B_9 : "{0} Medium Quality Audio"
@@ -301,18 +301,18 @@ ST_B_10 : "{0} High Quality Audio"
 ST_B_11 : "{0} Low Quality Video"
 ST_B_12 : "{0} Medium Quality Video"
 ST_B_13 : "{0} High Quality Video"
-ST_B_14 : "✅ Enabled"
-ST_B_15 : "❌ Disabled"
-ST_B_16 : "👤 Admins"
-ST_B_17 : "👥 Everyone"
-ST_B_18 : "📋 Authorized Users Lists"
+ST_B_14 : "Enabled"
+ST_B_15 : "Disabled"
+ST_B_16 : "Admins"
+ST_B_17 : "Everyone"
+ST_B_18 : "Authorized Users Lists"
 ST_B_19 : "🔎 Search Mode"
-ST_B_20 : "✅ Direct"
-ST_B_21 : "✅ Inline"
-ST_B_22 : "👨‍⚖️ Admin Commands"
-ST_B_23 : "🏘 Group"
-ST_B_24 : "🏷 Channel"
-ST_B_25 : "🫂 Play Type"
+ST_B_20 : "Direct"
+ST_B_21 : "Inline"
+ST_B_22 : "Admin Commands"
+ST_B_23 : "Group"
+ST_B_24 : "Channel"
+ST_B_25 : "Play Type"
 ST_B_26 : "🗑 Command Clean"
 ST_B_27 : "🧑‍🚀 Suggestion Mode"
 
@@ -322,17 +322,17 @@ SG_B_2 : "🔊 Audio"
 SG_B_3 : "🎥 Video"
 
 #Stats
-SA_B_1 : "📢 Top 10 Chat"
-SA_B_2 : "🔢 Top 10 Tracks"
-SA_B_3 : "🧛 Top 10 Users"
-SA_B_4 : "🏷 Top 10 Here"
-SA_B_5 : "💡 Overall Stats"
-SA_B_6 : "👤 User Stats"
-SA_B_7 : "🔢 Global Top 10 Stats"
-SA_B_8 : "🤖 Bot Stats"
+SA_B_1 : "Top 10 Chat"
+SA_B_2 : "Top 10 Tracks"
+SA_B_3 : "Top 10 Users"
+SA_B_4 : "Top 10 Here"
+SA_B_5 : "Overall Stats"
+SA_B_6 : "User Stats"
+SA_B_7 : "Global Top 10 Stats"
+SA_B_8 : "Bot Stats"
 
 #Queue
-QU_B_1 : "📑 Queued List"
+QU_B_1 : "Queued List"
 QU_B_2 : "Played {0} out of {1} Mins"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
@@ -442,7 +442,7 @@ gban_10 : "No Gbanned Users Found."
 gban_11 : "Please wait a while.. Fetching Gbanned users list"
 
 #Suggestions
-sug_0 : "❓**Do You Know?**\n\n✅ "
+sug_0 : "**Do You Know?**\n\n✅ "
 sug_1 : "You can play music in two **search modes** i.e. Direct Mode and Inline Mode.\n\nChange modes via /playmode"
 sug_2 : "You can play music in two **play types** i.e. Everyone Mode and Admins Mode.\n\nChange modes via /playmode"
 sug_3 : "You can play music in **channels** too.\n\nSet channel_id via /channelplay and play via /cplay "
