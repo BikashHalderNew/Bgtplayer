@@ -56,7 +56,7 @@ async def server_to_play(client, CallbackQuery, _):
     except:
         pass
     callback_data = CallbackQuery.data.strip()
-    what = callback_data.split(None, 1)[1]
+    what = callback_data.split(None, 0)[0]
     mystic = await CallbackQuery.edit_message_text(
         _["tracks_1"].format(
             what,
