@@ -193,7 +193,7 @@ Press ``Ctrl+C `` when you're done with editing env and ``:wq`` to save the env<
 
 ## Support & Updates ⚡ :
 
-<a href="https://t.me/bgt_chat"><img src="https://img.shields.io/badge/Join-Group%20Support-darkblue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BikashGadgetsTech"><img src="https://img.shields.io/badge/Join-Updates%20Channel-darkblue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://https://t.me/Friends_chatting_Group_Bestie0"><img src="https://img.shields.io/badge/Join-Group%20Support-darkblue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Friends_chatting_Group_Bestie0"><img src="https://img.shields.io/badge/Join-Updates%20Channel-darkblue.svg?style=for-the-badge&logo=Telegram"></a>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
