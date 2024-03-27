@@ -1,24 +1,18 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
 from Bikash.config import adminlist
 from Bikash.Bgt import get_string
 from Bikash import app
 from Bikash.misc import SUDOERS
-from Bikash.utils.database import (get_authuser_names, get_cmode,
-                                       get_lang, is_active_chat,
-                                       is_commanddelete_on,
-                                       is_maintenance,
-                                       is_nonadmin_chat)
-
+from Bikash.utils.database import (get_authuser_names, get_cmode, get_lang, is_active_chat,
+                                   is_commanddelete_on, is_maintenance, is_nonadmin_chat)
 from ..formatters import int_to_alpha
-
 
 def AdminRightsCheck(mystic):
     async def wrapper(client, message):
-        if await is_maintenance() is False:
+        if not await is_maintenance():
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "Bot is under maintenance. Please wait for some time Please Visit Our Support Chat....."
+                    "Bot is under maintenance. Please wait for some time. Please visit our support chat..."
                 )
         if await is_commanddelete_on(message.chat.id):
             try:
@@ -69,13 +63,12 @@ def AdminRightsCheck(mystic):
 
     return wrapper
 
-
 def AdminActual(mystic):
     async def wrapper(client, message):
-        if await is_maintenance() is False:
+        if not await is_maintenance():
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "Bot is under maintenance. Please wait for some time Please Visit Our Support Chat....."
+                    "Bot is under maintenance. Please wait for some time. Please visit our support chat..."
                 )
         if await is_commanddelete_on(message.chat.id):
             try:
@@ -105,9 +98,8 @@ def AdminActual(mystic):
             try:
                 member = await app.get_chat_member(
                     message.chat.id, message.from_user.id
-                ).privileges
-            except Exception as e:
-                print(e)
+                )
+            except:
                 return
             if not member.can_manage_voice_chats:
                 return await message.reply(_["general_5"])
@@ -115,13 +107,12 @@ def AdminActual(mystic):
 
     return wrapper
 
-
 def ActualAdminCB(mystic):
     async def wrapper(client, CallbackQuery):
-        if await is_maintenance() is False:
+        if not await is_maintenance():
             if CallbackQuery.from_user.id not in SUDOERS:
                 return await CallbackQuery.answer(
-                    "Bot is under maintenance. Please wait for some time Please Visit Our Support Chat.....",
+                    "Bot is under maintenance. Please wait for some time. Please visit our support chat...",
                     show_alert=True,
                 )
         try:
