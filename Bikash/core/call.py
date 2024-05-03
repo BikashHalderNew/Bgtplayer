@@ -160,24 +160,23 @@ class Call(PyTgCalls):
             stream,
         )
 
-    async def seek_stream(
-        self, chat_id, file_path, to_seek, duration, mode
-    ):
+    async def seek_stream(self, chat_id, file_path, to_seek, duration, mode):
         assistant = await group_assistant(self, chat_id)
         audio_stream_quality = await get_audio_bitrate(chat_id)
         video_stream_quality = await get_video_bitrate(chat_id)
         stream = (
             MediaStream(
                 file_path,
-                AudioQuality.STUDIO,
-                VideoQuality.SD_480p,
-                additional_ffmpeg_parameters=f"-ss {to_seek} -t {duration}",
+                audio_parameters=audio_stream_quality,
+                video_parameters=video_stream_quality,
+                ffmpeg_parameters=f"-ss {to_seek} -to {duration}",
             )
             if mode == "video"
             else MediaStream(
                 file_path,
-                AudioQuality.STUDIO,
-                additional_ffmpeg_parameters=f"-ss {to_seek} -t {duration}",
+                audio_parameters=audio_stream_quality,
+                ffmpeg_parameters=f"-ss {to_seek} -to {duration}",
+                video_flags=MediaStream.IGNORE,
             )
         )
         await assistant.change_stream(chat_id, stream)
