@@ -20,7 +20,7 @@ requests
 search-engine-parser
 speedtest-cli
 spotipy
-tgcrypto
+tgcrypto==1.2.5
 youtube-search
 youtube-search-python
 yt-dlp
