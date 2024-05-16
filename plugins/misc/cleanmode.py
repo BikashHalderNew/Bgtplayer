@@ -1,6 +1,6 @@
 import asyncio
 from datetime import datetime, timedelta
-
+from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.raw import types
@@ -62,7 +62,7 @@ async def clean_mode(client, update, users, chats):
 async def braodcast_message(client, message, _):
     global IS_BROADCASTING
     if message.reply_to_message:
-        x = message.reply_to_message.message.id
+        x = message.reply_to_message.id
         y = message.chat.id
     else:
         if len(message.command) < 2:
