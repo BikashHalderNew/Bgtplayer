@@ -1,5 +1,5 @@
-UPSTREAM_REPO=https://github.com/BikashHalderNew/Bgtplayer
-UPSTREAM_BRANCH=bikash
+UPSTREAM_REPO=https://github.com/Gokukhan1/Gokumusicbot
+UPSTREAM_BRANCH=goku
 AUTO_DOWNLOADS_CLEAR=True
 API_ID=25496841
 API_HASH=d7ed3ebb8f4323c37c5ffcac40e677d4
@@ -10,7 +10,7 @@ DURATION_LIMIT=1200
 LOG_GROUP_ID=-1001606877661
 MUSIC_BOT_NAME=BGT MUSIC BOT
 STRING_SESSION=
-SUPPORT_CHANNEL=https://t.me/bikashgadgetstech
-SUPPORT_GROUP=https://t.me/bgt_chat
+SUPPORT_CHANNEL=https://t.me/chiponly
+SUPPORT_GROUP=https://t.me/lolpagalokigc
 
 
