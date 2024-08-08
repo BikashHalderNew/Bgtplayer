@@ -24,6 +24,8 @@ tgcrypto==1.2.5
 youtube-search
 youtube-search-python
 yt-dlp
+#git+https://github.com/Badmunda98/yt-dp-fork
+OpsAi
 ntgcalls==1.1.2
 py-tgcalls==1.2.9
 unidecode
