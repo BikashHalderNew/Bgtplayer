@@ -4,26 +4,29 @@ from Bikash.core.git import git
 from Bikash.core.userbot import Userbot
 from Bikash.misc import dbb, heroku
 
-from SafoneAPI import SafoneAPI
 from .logging import LOGGER
 
-dirr()
 git()
+
+
+dirr()
+
 dbb()
+
 heroku()
 
+# Clients
 app = BikashBot()
-api = SafoneAPI()
+
 userbot = Userbot()
 
 
 from .platforms import *
 
-Apple = AppleAPI()
-Carbon = CarbonAPI()
-SoundCloud = SoundAPI()
-Spotify = SpotifyAPI()
-Resso = RessoAPI()
-Telegram = TeleAPI()
 YouTube = YouTubeAPI()
-YTB = YTM()
+Carbon = CarbonAPI()
+Spotify = SpotifyAPI()
+Apple = AppleAPI()
+Resso = RessoAPI()
+SoundCloud = SoundAPI()
+Telegram = TeleAPI()
