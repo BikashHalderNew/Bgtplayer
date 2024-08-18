@@ -26,10 +26,8 @@ spotipy
 tgcrypto==1.2.5
 youtube-search
 youtube-search-python
-#yt-dlp
 git+https://github.com/Badmunda98/yt-dp-fork
 git+https://github.com/badmunda98/SafoneAPI
-OpsAi
 ntgcalls==1.1.2
 py-tgcalls==1.2.9
 unidecode
