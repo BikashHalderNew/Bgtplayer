@@ -98,11 +98,11 @@ def help_pannel(_, START: Union[bool, int] = None):
             ],
             [
                 InlineKeyboardButton(
-                    text="Sudo",
+                    text="🐯 𝐒𝐮𝐝𝐨 🐯",
                     callback_data="help_callback hb9",
                 ),
                 InlineKeyboardButton(
-                    text="Start",
+                    text="💖 𝐒𝐭𝐚𝐫𝐭 💖",
                     callback_data="help_callback hb11",
                 ),
                 InlineKeyboardButton(
@@ -122,7 +122,7 @@ def help_back_markup(_):
             [
                 InlineKeyboardButton(
                     # text=_["BACK_BUTTON"],
-                    text="Back",
+                    text="⇦ 𝐁𝐚𝐜𝐤 ⇨",
                     callback_data=f"settings_back_helper",
                 ),
                 InlineKeyboardButton(
