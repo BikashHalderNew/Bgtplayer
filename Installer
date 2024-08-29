@@ -1,7 +1,7 @@
 aiofiles
 opencv-python-headless==4.9.0.80
 pytube
-aiohttp==3.9.3
+aiohttp
 asyncio
 dnspython
 ffmpeg-python
@@ -13,9 +13,11 @@ lyricsgenius
 motor
 pillow
 psutil
-pyrofork
 numpy
 telethon==1.33.1
+ntgcalls==1.1.2
+py-tgcalls==1.2.9
+unidecode
 pykeyboard
 python-dotenv
 pyyaml
@@ -23,12 +25,9 @@ requests
 search-engine-parser
 speedtest-cli
 spotipy
-tgcrypto==1.2.5
+tgcrypto
 youtube-search
 youtube-search-python
-git+https://github.com/Badmunda98/yt-dp-fork
+yt-dlp
 git+https://github.com/badmunda98/SafoneAPI
-git+https://github.com/PyrogramMod/PyrogramMod.git
-ntgcalls==1.1.2
-py-tgcalls==1.2.9
-unidecode
+git+https://github.com/KurimuzonAkuma/pyrogram@dev
