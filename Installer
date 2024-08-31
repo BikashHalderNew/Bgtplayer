@@ -28,6 +28,6 @@ spotipy
 tgcrypto
 youtube-search
 youtube-search-python
-yt-dlp
+git+https://github.com/badmunda98/yt-dp-fork
 git+https://github.com/badmunda98/SafoneAPI
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
