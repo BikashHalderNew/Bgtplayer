@@ -1,8 +1,8 @@
 aiofiles
 opencv-python-headless==4.9.0.80
 pytube
-aiohttp
-asyncio
+aiohttp==3.9.3
+asyncio==3.4.3
 dnspython
 ffmpeg-python
 gitpython
@@ -10,8 +10,8 @@ hachoir
 heroku3
 httpx
 lyricsgenius
-motor
-pillow
+motor==3.3.2
+pillow==9.5.0
 psutil
 numpy
 telethon==1.33.1
