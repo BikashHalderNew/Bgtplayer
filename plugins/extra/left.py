@@ -1,6 +1,6 @@
 from Bikash import app
 from pyrogram import Client, filters
-from Bikash import config
+from Bikash.config import config
 from pyrogram.types import ChatMemberUpdated
 
 
