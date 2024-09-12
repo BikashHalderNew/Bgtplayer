@@ -1,17 +1,28 @@
-from Bikash import app
 from pyrogram import Client, filters
-from Bikash.config import config
-from pyrogram.types import ChatMemberUpdated
+from pyrogram.enums import ChatType,  ChatAction
+from enum import Enum
+from Bikash import app
 
 
-# Define the group ID where you want to monitor members leaving
+# Define an enumeration for chat actions
+class ChatAction(Enum):
+    JOIN = "joined"
+    LEAVE = "left"
 
-@app.on_chat_member_updated(filters.chat(config.LOG_GROUP_ID) & filters.left_chat_member)
-def handle_left_member(client, update: ChatMemberUpdated):
-    left_user = update.left_chat_member
-    if left_user.is_self:
-        return  # Ignore if the bot itself left the chat
 
-    # Send a message to the group after a member leaves
-    message = f"Goodbye {left_user.first_name}! We'll miss you."
-    client.send_message(config.LOG_GROUP_ID, message)
+@app.on_message(filters.chat_type.group)
+async def handle_group_message(client, message):
+    # Check if the chat type is a supergroup or group
+    if message.chat.type in [ChatType.GROUP, ChatType.SUPERGROUP]:
+        # Detect user joining or leaving
+        if message.new_chat_members:
+            for user in message.new_chat_members:
+                action = ChatAction.JOIN
+                welcome_message = f"Welcome to the group, {user.mention}!"
+                await message.reply(welcome_message)
+        
+        if message.left_chat_member:
+            user = message.left_chat_member
+            action = ChatAction.LEAVE
+            goodbye_message = f"Goodbye, {user.mention}. We will miss you!"
+            await message.reply(goodbye_message)
