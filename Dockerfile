@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+FROM python:latest
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg aria2 \
