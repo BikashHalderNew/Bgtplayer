@@ -43,7 +43,7 @@ async def stats_global(client, message: Message, _):
     upl = stats_buttons(_, True if message.from_user.id in SUDOERS else False)
     await message.reply_photo(
         photo=config.STATS_IMG_URL,
-        caption=_["gstats_11"].format(app.mention),
+        caption=_["gstats_11"],
         reply_markup=upl,
     )
 
