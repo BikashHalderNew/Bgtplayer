@@ -329,3 +329,18 @@ def panel_markup_3(_, videoid, chat_id):
         ],
     ]
     return buttons
+
+
+
+
+## Extra Shit
+
+close_keyboard = InlineKeyboardMarkup( 
+            [
+                [
+                    InlineKeyboardButton(
+                        text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                    )
+                ]    
+            ]
+    )
