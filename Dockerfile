@@ -7,4 +7,4 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install -U pip
 RUN pip3 install -U -r Installer
-CMD Bikash.sh
+CMD bash bikash.sh
