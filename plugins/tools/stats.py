@@ -302,9 +302,7 @@ async def overall_stats(client, CallbackQuery, _):
 @languageCB
 async def overall_stats(client, CallbackQuery, _):
     if CallbackQuery.from_user.id not in SUDOERS:
-        return await CallbackQuery.answer(
-            "Only for Sudo Users", show_alert=True
-        )
+        return await CallbackQuery.answer("ᴏɴʟʏ ғᴏʀ sᴜᴅᴏ ᴜsᴇʀ's", show_alert=True)
     callback_data = CallbackQuery.data.strip()
     what = callback_data.split(None, 1)[1]
     if what != "s":
@@ -319,16 +317,13 @@ async def overall_stats(client, CallbackQuery, _):
     sc = platform.system()
     p_core = psutil.cpu_count(logical=False)
     t_core = psutil.cpu_count(logical=True)
-    ram = (
-        str(round(psutil.virtual_memory().total / (1024.0**3)))
-        + " 𝐆β"
-    )
+    ram = str(round(psutil.virtual_memory().total / (1024.0**3))) + " GB"
     try:
         cpu_freq = psutil.cpu_freq().current
         if cpu_freq >= 1000:
-            cpu_freq = f"{round(cpu_freq / 1000, 2)}𝐆𝐇𝐳"
+            cpu_freq = f"{round(cpu_freq / 1000, 2)}GHz"
         else:
-            cpu_freq = f"{round(cpu_freq, 2)}𝐌𝐇𝐳"
+            cpu_freq = f"{round(cpu_freq, 2)}MHz"
     except:
         cpu_freq = "Unable to Fetch"
     hdd = psutil.disk_usage("/")
@@ -339,55 +334,53 @@ async def overall_stats(client, CallbackQuery, _):
     free = hdd.free / (1024.0**3)
     free = str(free)
     mod = len(ALL_MODULES)
-    db = mongodb
+    db = pymongodb
     call = db.command("dbstats")
     datasize = call["dataSize"] / 1024
     datasize = str(datasize)
     storage = call["storageSize"] / 1024
     objects = call["objects"]
     collections = call["collections"]
+
     served_chats = len(await get_served_chats())
     served_users = len(await get_served_users())
     total_queries = await get_queries()
     blocked = len(BANNED_USERS)
     sudoers = len(await get_sudoers())
-    text = f""" **𝐁𝐨𝐭 𝐒𝐭𝐚𝐭𝐬 𝐀𝐧𝐝 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧:**
+    text = f""" **ʙᴏᴛ sᴛᴀᴛ's ᴀɴᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ:**
 
-**𝐈𝐦𝐩𝐨𝐫𝐭𝐞𝐝 𝐌𝐨𝐝𝐮𝐥𝐞𝐬:** {mod}
-**𝐏𝐥𝐚𝐭𝐟𝐫𝐨𝐦:** {sc}
-**𝐑𝐚𝐦:** {ram}
-**𝐏𝐡𝐲𝐬𝐢𝐜𝐚𝐥 𝐂𝐨𝐫𝐞𝐬:** {p_core}
-**𝐓𝐨𝐭𝐚𝐥 𝐂𝐨𝐫𝐞𝐬:** {t_core}
-**𝐂𝐩𝐮 𝐅𝐫𝐞𝐪𝐮𝐞𝐧𝐜𝐲 :** {cpu_freq}
+**ɪᴍᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs:** {mod}
+**ᴘʟᴀᴛғᴏʀᴍ:** {sc}
+**ʀᴀᴍ:** {ram}
+**ᴘʜʏsɪᴄᴀʟ ᴄᴏʀᴇs:** {p_core}
+**ᴛᴏᴛᴀʟ ᴄᴏʀᴇs:** {t_core}
+**ᴄᴘᴜ ғʀᴇǫᴜᴇɴᴄʏ:** {cpu_freq}
 
-**𝐏𝐲𝐭𝐡𝐨𝐧 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 :** {pyver.split()[0]}
-**𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 :** {pyrover}
-**𝐏𝐲-𝐭𝐠𝐜𝐚𝐥𝐥𝐬 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 :** {pytgver}
+**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** {pyver.split()[0]}
+**ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** {pyrover}
+**Pʏ-TɢCᴀʟʟs ᴠᴇʀsɪᴏɴ :** {pytgver}
+**N-Tɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ :** {ngtgver}
+**ᴀᴠᴀɪʟᴀʙʟᴇ sᴛᴏʀᴀɢᴇ :** {total[:4]} ɢiʙ
+**sᴛᴏʀᴀɢᴇ ᴜsᴇᴅ:** {used[:4]} ɢiʙ
+**sᴛᴏʀᴀɢᴇ ʟᴇғᴛ:** {free[:4]} ɢiʙ
 
-**𝐒𝐭𝐨𝐫𝐚𝐠𝐞 𝐀𝐯𝐚𝐢𝐥:** {total[:4]} 𝐆𝐢𝐁
-**𝐒𝐭𝐨𝐫𝐚𝐠𝐞 𝐔𝐬𝐞𝐝:** {used[:4]} 𝐆𝐢𝐁
-**𝐒𝐭𝐨𝐫𝐚𝐠𝐞 𝐋𝐞𝐟𝐭:** {free[:4]} 𝐆𝐢𝐁
+**sᴇʀᴠᴇᴅ ᴄʜᴀᴛs:** {served_chats} 
+**sᴇʀᴠᴇᴅ ᴜsᴇʀs:** {served_users} 
+**ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs:** {blocked} 
+**sᴜᴅᴏ ᴜsᴇʀs:** {sudoers} 
 
-**𝐒𝐞𝐫𝐯𝐞𝐝 𝐂𝐡𝐚𝐭𝐬:** {served_chats} 
-**𝐒𝐞𝐫𝐯𝐞𝐝 𝐔𝐬𝐞𝐫𝐬:** {served_users} 
-**𝐁𝐥𝐨𝐜𝐤𝐞𝐝 𝐔𝐬𝐞𝐫𝐬:** {blocked} 
-**𝐒𝐮𝐝ᴏ 𝐔𝐬𝐞𝐫𝐬:** {sudoers} 
-
-**𝐓𝐨𝐭𝐚𝐥 𝐃𝐛 𝐒𝐢𝐳𝐞:** {datasize[:6]} 𝐌β
-**𝐓𝐨𝐭𝐚𝐥 𝐃𝐛 𝐒𝐭𝐨𝐫𝐚𝐠𝐞:** {storage} 𝐌β
-**𝐓𝐨𝐭𝐚𝐥 𝐃𝐛 𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧𝐬:** {collections}
-**𝐓𝐨𝐭𝐚𝐥 𝐃𝐛 𝐊𝐞𝐲𝐬:** {objects}
-**𝐓𝐨𝐭𝐚𝐥 𝐁𝐨𝐭 𝐐𝐮𝐞𝐫𝐢𝐞𝐬:** `{total_queries} `
+**ᴛᴏᴛᴀʟ ᴅʙ sᴛᴏʀᴀɢᴇ:** {storage} ᴍʙ
+**ᴛᴏᴛᴀʟ ᴅʙ ᴄᴏʟʟᴇᴄᴛɪᴏɴs:** {collections}
+**ᴛᴏᴛᴀʟ ᴅʙ ᴋᴇʏs:** {objects}
+**ᴛᴏᴛᴀʟ ʙᴏᴛ ǫᴜᴇʀɪᴇs:** `{total_queries} `
     """
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
-        await CallbackQuery.edit_message_media(
-            media=med, reply_markup=upl
-        )
+        await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
     except MessageIdInvalid:
         await CallbackQuery.message.reply_photo(
             photo=config.STATS_IMG_URL, caption=text, reply_markup=upl
-        )
+  )
 
 
 @app.on_callback_query(
