@@ -8,7 +8,7 @@ from ..logging import LOGGER
 
 TEMP_MONGODB = "mongodb+srv://tomavey417:5NZlsU9uAD8V9frr@cluster0.z4f5a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-DB_NAME = "Bikashh"
+DB_NAME = "BgtOwner"
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
