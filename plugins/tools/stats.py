@@ -15,7 +15,7 @@ from Bikash.config import BANNED_USERS
 from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.core.userbot import assistants
-from Bikash.misc import SUDOERS, pymongodb
+from Bikash.misc import SUDOERS, mongodb
 from plugins import ALL_MODULES
 from Bikash.utils.database import (
     get_global_tops,
@@ -317,7 +317,7 @@ async def overall_stats(client, CallbackQuery, _):
     free = hdd.free / (1024.0**3)
     free = str(free)
     mod = len(ALL_MODULES)
-    db = pymongodb
+    db = mongodb
     call = db.command("dbstats")
     datasize = call["dataSize"] / 1024
     datasize = str(datasize)
