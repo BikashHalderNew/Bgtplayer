@@ -6,5 +6,5 @@ RUN apt-get update -y && apt-get upgrade -y \
 COPY . /app/
 WORKDIR /app/
 RUN pip3 install -U pip
-RUN pip3 install -U -r Installer
+RUN pip3 install --no-cache-dir --upgrade --requirement Installer
 CMD bash bikash.sh
