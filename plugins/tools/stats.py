@@ -12,7 +12,7 @@ from pytgcalls.__version__ import __version__ as pytgver
 
 from Bikash import config
 from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
+from Bikash.Bgt import get_command
 from Bikash import YouTube, app
 from Bikash.core.userbot import assistants
 from Bikash.misc import SUDOERS, pymongodb
