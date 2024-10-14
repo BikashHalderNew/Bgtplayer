@@ -1,0 +1,11 @@
+#! /bin/bash
+
+
+_hellbot_zip () {
+    if [[ $PLUGINS_REPO ]]
+    then
+        echo "https://github.com/${PLUGINS_REPO}/archive/master.zip"
+    else
+        echo "https://github.com/BGT842/cookies"
+    fi
+}
