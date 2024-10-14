@@ -24,11 +24,6 @@
         "value": "d7ed3ebb8f4323c37c5ffcac40e677d4",
         "required": true
       },
-      "PLUGINS_REPO": {
-            "description": "Fillup the username/reponame of the plugins repo.",
-            "value": "BGT842/cookies",
-            "required": true
-      },
       "BOT_TOKEN": {
         "description": "Put Your Bot token from Botfather",
         "value": "",
