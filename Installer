@@ -28,5 +28,6 @@ tgcrypto
 youtube-search
 yt-dlp
 opencv-python-headless==4.9.0.80
-git+https://github.com/KurimuzonAkuma/pyrogram@dev
-git+https://github.com/Kanha-XD/youtube-search-python@main
+kurigram
+richgram
+youtube-search-python
