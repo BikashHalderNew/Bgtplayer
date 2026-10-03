@@ -30,4 +30,4 @@ yt-dlp
 opencv-python-headless==4.9.0.80
 kurigram
 richgram
-youtube-search-python
+py-yt-search==0.6.2
