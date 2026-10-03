@@ -1,9 +1,9 @@
 {
-    "name": "Bgt-V2",
-    "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟꜱ.",
-    "repository": "https://github.com/BikashHalderNew/Bgtplayer",
-    "logo": "https://graph.org/file/d4bc06ada79821eb01025.jpg",
-    "keywords": [
+  "name": "Bgt-V2",
+  "description": "A Telegram music player bot, written in Python with Pyrogram and py-tgcalls.",
+  "repository": "https://github.com/BikashHalderNew/Bgtplayer",
+  "logo": "https://graph.org/file/d4bc06ada79821eb01025.jpg",
+  "keywords": [
     "python3",
     "telegram",
     "bot",
@@ -11,70 +11,67 @@
     "BgtMusicBot",
     "telegram-bot",
     "pyrogram"
-    ],
-    "stack": "container",
-    "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "25496841",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "d7ed3ebb8f4323c37c5ffcac40e677d4",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "Put Your Bot token from Botfather",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
-        "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority",
-        "required": true
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters",
-        "value": "🌟⃝🌸𓆩🇧𝗚𝗧🎸🇲𝗨𝗦𝗜𝗖🎸🇧𝗢𝗧𓆪💫⃟👑 ",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "1439222689",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session. One Assistant is Compulsory.",
-        "value": "",
-        "required": true
-      },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights !",
-        "value": "",
-        "required": true
-      },
-      "CHANNE_USERNAME": {
-        "description": "Your CHANNEL USERNAME WITHOUT @ , add your bot and promote as an admin !",
-        "value": "BGTADS",
-        "required": true
-      },
-      "CHANNEL_ID": {
-        "description": "Your CHANNEL ID, add your bot AND promote as an admin with full rights !",
-        "value": "",
-        "required": true 
+  ],
+  "stack": "heroku-22",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
     },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1              
-          }
-      }
- }
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Put your bot token from BotFather",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "Get a MongoDB URL from https://cloud.mongodb.com",
+      "value": "",
+      "required": true
+    },
+    "MUSIC_BOT_NAME": {
+      "description": "A name for your Music Bot. You can use special characters",
+      "value": "BGT MUSIC BOT",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "User id(s) of the owner(s). Separate multiple values with a space.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "A Pyrogram v2 String Session. One assistant is compulsory.",
+      "value": "",
+      "required": true
+    },
+    "LOG_GROUP_ID": {
+      "description": "Your log group ID. Add your bot and promote it as admin with full rights!",
+      "value": "",
+      "required": true
+    },
+    "CHANNE_USERNAME": {
+      "description": "Your channel username without @. Add your bot and promote it as admin!",
+      "value": "BGTADS",
+      "required": true
+    },
+    "CHANNEL_ID": {
+      "description": "Your channel ID. Add your bot and promote it as admin with full rights!",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/python" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git" }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  }
+}
